@@ -122,7 +122,7 @@ const Home = ({navigation}) => {
           icon={<Icon name="camera" size={20} color="#ffffff" />}
         /> */}
         {/* <ButtonComponent label={'Fetch data'} onPress={fetchData} /> */}
-        <ButtonComponent label={'Clear Data'} onPress={clearData} />
+        {/* <ButtonComponent label={'Clear Data'} onPress={clearData} /> */}
         {/* <View style={{marginTop: 10}}>
 
         <ButtonComponent label={'Send Notification'} onPress={showNotification} />
