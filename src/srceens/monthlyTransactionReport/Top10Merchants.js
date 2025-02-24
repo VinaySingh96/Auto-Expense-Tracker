@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { View, Text, FlatList, StyleSheet } from 'react-native';
+import { View, Text, ScrollView, StyleSheet } from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { roundToDecimal } from '../../utils/Amount';
 import { formatToIndianRupee } from '../../utils/helper';
@@ -37,11 +37,15 @@ const Top10Merchants = ({ expenses }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Top 10 Merchants</Text>
-      <FlatList
-        data={topMerchants}
-        keyExtractor={(item) => item.merchant}
-        renderItem={({ item, index }) => (
-          <View style={styles.merchantItem}>
+      {/* <ScrollView> */}
+        {topMerchants.map((item, index) => (
+          <View 
+            key={item.merchant} 
+            style={[
+              styles.merchantItem, 
+              index === topMerchants.length - 1 && styles.lastMerchant
+            ]}
+          >
             {/* Index Number + Icon + Merchant Name */}
             <View style={styles.merchantDetails}>
               <Text style={styles.index}>{index + 1}.</Text>
@@ -53,8 +57,8 @@ const Top10Merchants = ({ expenses }) => {
               <Text style={styles.amount}>{formatToIndianRupee(roundToDecimal(item.total))}</Text>
             </View>
           </View>
-        )}
-      />
+        ))}
+      {/* </ScrollView> */}
     </View>
   );
 };
@@ -69,6 +73,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.1,
     shadowRadius: 4,
     elevation: 3,
+    // maxHeight: 490, // Adjust this based on your UI needs
   },
   title: {
     fontSize: 18,
@@ -78,10 +83,15 @@ const styles = StyleSheet.create({
   merchantItem: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between', // Ensure amount is always visible
+    justifyContent: 'space-between',
     paddingVertical: 8,
     borderBottomWidth: 1,
     borderBottomColor: '#ddd',
+  },
+  lastMerchant: {
+    borderBottomWidth: 0,
+    paddingVertical: 0,
+    paddingTop: 8
   },
   merchantDetails: {
     flexDirection: 'row',

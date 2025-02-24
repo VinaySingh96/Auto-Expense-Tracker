@@ -1,15 +1,16 @@
 import React, {useState, useEffect} from 'react';
 import {View, Text, StyleSheet, ScrollView} from 'react-native';
-import { generateDateByMonthAndYear } from '../../utils/helper';
+import {generateDateByMonthAndYear} from '../../utils/helper';
 import DonutChart from '../charts/DonutChart';
 import DateSelector from '../../components/DateSelector';
 import BarChart from '../charts/CustomBarChart';
 import Statistics from '../charts/CustomBarChart';
-import { fetchExpensesBetweenDateRange } from '../../helper/SqlHelper';
-import { CategoryColors } from '../../constants/ExpenseCategories';
-import { DefaultStyle } from '../../utils/DefaultStyle';
+import {fetchExpensesBetweenDateRange} from '../../helper/SqlHelper';
+import {CategoryColors} from '../../constants/ExpenseCategories';
+import {DefaultStyle} from '../../utils/DefaultStyle';
 import SingleSelectChips from '../../components/SingleSelectChips';
 import Top10Merchants from './Top10Merchants';
+import {THEME_COLOR} from '../../constants/Colour';
 
 const MonthlyTransactionReport = () => {
   const currentDate = new Date();
@@ -23,7 +24,7 @@ const MonthlyTransactionReport = () => {
     generateSelectedMonthReport();
   }, [month, year]);
 
-  const prepareReportForChart = (expenses) => {
+  const prepareReportForChart = expenses => {
     const groupedExpenses = {};
     for (const expense of expenses) {
       if (!groupedExpenses[expense.category])
@@ -40,22 +41,19 @@ const MonthlyTransactionReport = () => {
         label: category || 'Others',
         value: totalAmount,
         color: CategoryColors[category] || 'gray',
-        text: category || 'Others672'
+        text: category || 'Others672',
       });
     }
-    
+
     return expenseData;
   };
 
   const fetchExpensesByMonthAndYear = async (month, year) => {
     // 1. generate startSate and endDate from month and year (format : 2024-01-01)
     const startDate = generateDateByMonthAndYear(month, year);
-    const endDate = generateDateByMonthAndYear(month+1, year);
+    const endDate = generateDateByMonthAndYear(month + 1, year);
 
-    const expenses = await fetchExpensesBetweenDateRange(
-      startDate,
-      endDate,
-    );
+    const expenses = await fetchExpensesBetweenDateRange(startDate, endDate);
     // const totalAmount = expenses.reduce((acc, expense) => {
     //   acc += expense.amount;
     //   return acc;
@@ -71,40 +69,43 @@ const MonthlyTransactionReport = () => {
     const expenses = await fetchExpensesByMonthAndYear(month, year);
     const expenseData = prepareReportForChart(expenses);
     setChartData(expenseData);
-  }
+  };
 
-  const handleDateChange = async ({ month, year }) => {
-    setMonth(month+1);
+  const handleDateChange = async ({month, year}) => {
+    setMonth(month + 1);
     setYear(year);
-  }
+  };
 
   return (
-    <View style={DefaultStyle.container}>
+    <>
       <View style={styles.header}>
         <Text style={styles.title}>Monthly Expense Report</Text>
-        <DateSelector onDateChange={handleDateChange} />
       </View>
-      {/* <ScrollView contentContainerStyle={styles.scrollContent}> */}
-        <DonutChart data={chartData} />
-        {/* <SingleSelectChips /> */}
-        {/* <BarChart /> */}
-        {/* <Statistics /> */}
-      {/* </ScrollView> */}
-        <Top10Merchants expenses={expenses} />
-    </View>
+      <ScrollView contentContainerStyle={{paddingBottom: 100}}>
+        <View style={DefaultStyle.container}>
+          <DateSelector onDateChange={handleDateChange} />
+          <DonutChart data={chartData} />
+          <Top10Merchants expenses={expenses} />
+        </View>
+      </ScrollView>
+    </>
   );
 };
 
 const styles = StyleSheet.create({
   title: {
     textAlign: 'center',
-    fontSize: 18,
-    fontWeight: '800',
-    marginVertical: 10
+    fontSize: 20,
+    fontWeight: 'bold',
+    height: 60,
+    lineHeight: 60,
+    backgroundColor: THEME_COLOR.primary,
+    color: THEME_COLOR.white,
   },
   header: {
-    marginBottom: 10
+    position: 'relative',
+    top: 0,
   },
-})
+});
 
 export default MonthlyTransactionReport;

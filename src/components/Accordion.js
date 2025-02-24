@@ -66,7 +66,9 @@ const Accordion = ({ title, children }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 10
+    marginTop: 10,
+    
+    // borderWidth: 1,
     // padding: 16,
     // width: '100%',
   },
@@ -80,6 +82,8 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 4,
+    borderWidth: 1,
+    borderColor: '#ddd',
   },
   header: {
     padding: 16,

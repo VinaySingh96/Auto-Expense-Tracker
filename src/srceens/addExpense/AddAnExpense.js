@@ -35,7 +35,8 @@ const AddAnExpense = () => {
 
   const onSelectPaymentMode = (mode) => {
     setFormData('paymentMode', mode.key);
-    setFormData('merchant', 'ZOMATO'); 
+    // TODO: Need to take input from user
+    setFormData('merchant', 'Unknown');
   };
   
   const onSelectCategory = (category) => {

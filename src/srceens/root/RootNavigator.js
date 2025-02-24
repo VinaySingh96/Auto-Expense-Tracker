@@ -11,15 +11,18 @@ import { UserContext } from '../../context/UserContext';
 import { fetchUserProfile } from '../../api/user';
 import TabNavigator from '../../navigator/TabNavigator';
 import 'react-native-gesture-handler';
-// import { notificationService } from '../../services/NotificationService';
+import NotificationService from '../../services/NotificationService';
 
 const Stack = createStackNavigator();
+
+let notificationService;
 
 const RootNavigator = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(true); // Manage authentication state
   const {setUser} = useContext(UserContext);
 
   useEffect(() => {
+    
     // const checkToken = async () => {
     //   try {
     //     const token = await getToken();
@@ -38,7 +41,8 @@ const RootNavigator = () => {
 
     // checkToken(); // Run the check when the app starts
 
-    // notificationService.configure();
+    notificationService = new NotificationService();
+    notificationService.configure();
   }, []);
 
   if (isAuthenticated === null) {

@@ -5,6 +5,7 @@ import { roundToDecimal } from '../../utils/Amount';
 import { formatToIndianRupee } from '../../utils/helper';
 import Accordion from '../../components/Accordion';
 import { THEME_COLOR } from '../../constants/Colour';
+import { DefaultStyle } from '../../utils/DefaultStyle';
 
 const DonutChart = ({ data }) => {
   const [chartData, setChartData] = useState([]);
@@ -107,6 +108,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingVertical: 10,
     backgroundColor: THEME_COLOR.light,
+    borderRadius: 8,
+    ...DefaultStyle.boxShadow
   },
   chartContainer: {
     width: '100%',

@@ -8,7 +8,7 @@ export const openDatabase = async () => {
     if (db) return db;
     db = await SQLite.openDatabase(
       {name: 'test.db', location: 'default'},
-      () => console.log('Database OPENED'),
+      () => {},
       error => console.error('Error opening database', error),
     );
     return db;
@@ -18,7 +18,7 @@ export const openDatabase = async () => {
 };
 
 export const createTable = async () => {
-  console.log('creating table', db)
+  // console.log('creating table', db)
   try {
     if (db) {
       await db.transaction(tx => {
@@ -33,7 +33,7 @@ export const createTable = async () => {
             'sub_category VARCHAR(22) COLLATE NOCASE);',
           [],
           () => {
-            console.log('Table created successfully');
+            
           },
           error => {
             console.error('Error creating table:', error);
@@ -46,16 +46,27 @@ export const createTable = async () => {
   }
 };
 
+
+/**
+ * Inserts an expense record into the database.
+ *
+ * @param {Object} expenseDetail - The details of the expense to be inserted.
+ * @param {string} expenseDetail.merchant - The merchant where the expense occurred.
+ * @param {number} expenseDetail.amount - The amount of the expense.
+ * @param {string} expenseDetail.date - The date of the expense in YYYY-MM-DD format.
+ * @param {string} expenseDetail.category - The category of the expense.
+ * @param {string} expenseDetail.sub_category - The sub-category of the expense.
+ * @returns {Promise<void>} A promise that resolves when the transaction is complete.
+ */
 export const insertExpense = async (expenseDetail) => {
   const { merchant, amount, date, category, sub_category } = expenseDetail;
-  console.log(expenseDetail);
 
   await db.transaction(tx => {
     tx.executeSql(
       'INSERT INTO expenses (merchant, amount, date, category, sub_category) VALUES (?, ?, ?, ?, ?)',
       [merchant, amount, date, category, sub_category],  // Removed `id`
       (tx, resultSet) => {
-        console.log('Inserted Expense', resultSet.insertId); // Correct way to get inserted ID
+        console.log('Inserted Expense with ID: ', resultSet.insertId); // Correct way to get inserted ID
       },
       error => {
         console.error('Error inserting data', error);
@@ -156,7 +167,8 @@ export const executeQuery = (query) => {
         query,
         [],
         (tx, resultSet) => {
-          resolve(resultSet);
+          // console.log('Query executed successfully', resultSet.rows.raw());
+          resolve(resultSet.rows.raw());
         },
         (error) => {
           console.error('Error executing SQL query', error);

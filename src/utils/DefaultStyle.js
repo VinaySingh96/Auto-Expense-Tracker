@@ -9,8 +9,10 @@ export const DefaultStyle = StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 10,
+    paddingVertical: 10,
     // paddingBottom: 10,
     backgroundColor: THEME_COLOR.background,
+    gap: 10
   },
   itemsCenter: {
     // flex: 1,
@@ -74,5 +76,21 @@ export const DefaultStyle = StyleSheet.create({
   flexRow: {
     flexDirection: 'row',
     gap: 10
+  },
+  boxShadow: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  headerTitle: {
+    textAlign: 'center',
+    fontSize: 20,
+    fontWeight: 'bold',
+    height: 60,
+    lineHeight: 60,
+    backgroundColor: THEME_COLOR.primary,
+    color: THEME_COLOR.white,
   }
 });
