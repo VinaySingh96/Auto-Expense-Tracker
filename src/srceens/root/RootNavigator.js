@@ -6,9 +6,12 @@ import SignInScreen from '../signIn/SignIn';
 import { getToken } from '../../helper/Storage';
 import OtpScreen from '../otp/OtpScreen';
 import SignUpScreen from '../signUp/SignUp';
-import PaymentScreen from '../payment/Payment';
+// import PaymentScreen from '../payment/Payment';
 import { UserContext } from '../../context/UserContext';
 import { fetchUserProfile } from '../../api/user';
+import TabNavigator from '../../navigator/TabNavigator';
+import 'react-native-gesture-handler';
+// import { notificationService } from '../../services/NotificationService';
 
 const Stack = createStackNavigator();
 
@@ -17,23 +20,25 @@ const RootNavigator = () => {
   const {setUser} = useContext(UserContext);
 
   useEffect(() => {
-    const checkToken = async () => {
-      try {
-        const token = await getToken();
-        console.log(token);
-        if (!token) setIsAuthenticated(false);
-        else {
-          const response = await fetchUserProfile(token);
-          setUser(response.user)
-          setIsAuthenticated(true);
-        }
-      } catch (error) {
-        console.error('Error checking token:', error);
-        setIsAuthenticated(false);
-      }
-    };
+    // const checkToken = async () => {
+    //   try {
+    //     const token = await getToken();
 
-    checkToken(); // Run the check when the app starts
+    //     if (!token) setIsAuthenticated(false);
+    //     else {
+    //       const response = await fetchUserProfile(token);
+    //       setUser(response.user)
+    //       setIsAuthenticated(true);
+    //     }
+    //   } catch (error) {
+    //     console.error('Error checking token:', error);
+    //     setIsAuthenticated(false);
+    //   }
+    // };
+
+    // checkToken(); // Run the check when the app starts
+
+    // notificationService.configure();
   }, []);
 
   if (isAuthenticated === null) {
@@ -42,7 +47,7 @@ const RootNavigator = () => {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator
+      {/* <Stack.Navigator
         screenOptions={{
           headerShown: false,
         }}
@@ -52,7 +57,9 @@ const RootNavigator = () => {
         <Stack.Screen name="SignUp" component={SignUpScreen} />
         <Stack.Screen name="Otp" component={OtpScreen} />
         <Stack.Screen name="Payment" component={PaymentScreen} />
-      </Stack.Navigator>
+      </Stack.Navigator> */}
+      <TabNavigator />
+      
     </NavigationContainer>
   );
 };

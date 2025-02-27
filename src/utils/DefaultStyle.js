@@ -1,5 +1,5 @@
 import { StyleSheet, Dimensions } from "react-native";
-import { textColor } from "../constants/Colour";
+import { textColor, THEME_COLOR } from "../constants/Colour";
 import { FONT_SIZES } from "../constants/Font";
 
 const deviceWidth = Dimensions.get('window').width;
@@ -8,8 +8,9 @@ const deviceHeight = Dimensions.get('window').height;
 export const DefaultStyle = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 2,
-    backgroundColor: '#f5f5f5',
+    paddingHorizontal: 10,
+    // paddingBottom: 10,
+    backgroundColor: THEME_COLOR.background,
   },
   itemsCenter: {
     // flex: 1,
@@ -69,5 +70,9 @@ export const DefaultStyle = StyleSheet.create({
 
   backgroundColor: {
     backgroundColor: '#FFFFFF'
+  },
+  flexRow: {
+    flexDirection: 'row',
+    gap: 10
   }
 });
