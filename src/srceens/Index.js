@@ -4,6 +4,7 @@ import {DimensionProvider} from '../context/DimensionContext';
 import {ThemeProvider} from '../context/ThemeContext';
 import {UserProvider} from '../context/UserContext';
 import Splash from './splash/Splash';
+import {ModalProvider} from '../context/ModalContext';
 
 const Index = () => {
   const [isSplashVisible, setSplashVisible] = useState(true);
@@ -16,11 +17,13 @@ const Index = () => {
     <UserProvider>
       <ThemeProvider>
         <DimensionProvider>
-          {isSplashVisible ? (
-            <Splash onFinish={handleSplashFinish} />
-          ) : (
-            <RootNavigator />
-          )}
+          <ModalProvider>
+            {isSplashVisible ? (
+              <Splash onFinish={handleSplashFinish} />
+            ) : (
+              <RootNavigator />
+            )}
+          </ModalProvider>
         </DimensionProvider>
       </ThemeProvider>
     </UserProvider>

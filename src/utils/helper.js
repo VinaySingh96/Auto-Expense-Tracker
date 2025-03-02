@@ -38,16 +38,16 @@ export function customAmountFormatter(number) {
 export const getEndOfMonthDate = () => {
   const now = new Date();
   const lastDay = new Date(now.getFullYear(), now.getMonth() + 1, 0); // Last day of current month
-  lastDay.setHours(10, 0, 0, 0); // Set time to 10:00 AM
-  // console.log(now.);
-  lastDay.setUTCHours(18, 10);
+  lastDay.setUTCHours(15, 0);
   return lastDay;
 };
 
 export const convertDate = (dateStr) => {
+  if(dateStr.split('-')?.[0]?.length === 4) return dateStr;
+  dateStr = dateStr.replaceAll('-', '');
   const months = {
-    Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06",
-    Jul: "07", Aug: "08", Sep: "09", Oct: "10", Nov: "11", Dec: "12"
+    jan: "01", feb: "02", mar: "03", apr: "04", may: "05", jun: "06",
+    jul: "07", aug: "08", sep: "09", oct: "10", nov: "11", dec: "12"
   };
 
   // Extract day, month, and year from the string
@@ -55,19 +55,18 @@ export const convertDate = (dateStr) => {
   const monthStr = dateStr.slice(2, 5);  // Next 3 characters (Jan)
   const year = "20" + dateStr.slice(5, 7); // Last 2 characters prefixed with "20" (25 -> 2025)
 
-  const month = months[monthStr]; // Get the month number
+  const month = months[monthStr.toLowerCase()]; // Get the month number
   return `${year}-${month}-${day}`; // Format YYYY-MM-DD
 };
 
 export const groupExpensesOnMerchants = (expenses) => {
-  const groupedExpenses = Object.values(
+  const data = Object.values(
     expenses.reduce((acc, expense) => {
-      acc[expense.merchant] = acc[expense.merchant] || { ...expense, count: 0 };
+      acc[expense.merchant] = acc[expense.merchant] || { ...expense, count: 0, amount: 0 };
       acc[expense.merchant].count++;
+      acc[expense.merchant].amount += expense.amount;
       return acc;
     }, {})
-  );
-
-  const sortedExpensedBasedOnMerchantCount = groupedExpenses.sort((a,b) => a.count > b.count);
-  return sortedExpensedBasedOnMerchantCount;
+  ).sort((a, b) => b.count - a.count);;
+  return data;
 }

@@ -11,8 +11,9 @@ import {DefaultStyle} from '../../utils/DefaultStyle';
 import SingleSelectChips from '../../components/SingleSelectChips';
 import Top10Merchants from './Top10Merchants';
 import {THEME_COLOR} from '../../constants/Colour';
+import { useIsFocused } from '@react-navigation/native';
 
-const MonthlyTransactionReport = () => {
+const MonthlyTransactionReport = ({updateFlag}) => {
   const currentDate = new Date();
 
   const [chartData, setChartData] = useState([]);
@@ -20,9 +21,11 @@ const MonthlyTransactionReport = () => {
   const [month, setMonth] = useState(currentDate.getMonth() + 1);
   const [year, setYear] = useState(currentDate.getFullYear());
 
+  const isFocused = useIsFocused();
+
   useEffect(() => {
     generateSelectedMonthReport();
-  }, [month, year]);
+  }, [month, year, updateFlag, isFocused]);
 
   const prepareReportForChart = expenses => {
     const groupedExpenses = {};

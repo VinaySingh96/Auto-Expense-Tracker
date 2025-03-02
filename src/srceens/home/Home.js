@@ -1,25 +1,30 @@
 import React, {useContext, useEffect, useState} from 'react';
-import {SafeAreaView, ScrollView, Text, View} from 'react-native';
+import {SafeAreaView, ScrollView, StyleSheet, Text, View, ActivityIndicator} from 'react-native';
 import ButtonComponent from '../../components/Button';
-import {getToken, saveToken} from '../../helper/Storage';
+import {getToken, saveToken, saveValue} from '../../helper/Storage';
 import {UserContext} from '../../context/UserContext';
 import {PermissionsAndroid, Alert, Platform} from 'react-native';
 import MOCK_DATA from '../../utils/data/MOCK_DATA';
 import {
-  createTable,
+  createExpenseTable,
+  createRegexTable,
   deleteAllExpenses,
-  fetchExpensesBetweenDateRange,
+  // fetchExpensesBetweenDateRange,
   insertBulkExpenses,
   openDatabase,
 } from '../../helper/SqlHelper';
 import MonthlyTransactionReport from '../monthlyTransactionReport/MonthlyTransactionReport';
 import NotificationService from '../../services/NotificationService';
-import SmsService from '../../services/SmsReaderService';
+// import SmsService from '../../services/SmsReaderService';
+import { THEME_COLOR } from '../../constants/Colour';
+import useSmsService from '../../hooks/useSmsService';
 
 let notificationService = new NotificationService();
 
 const Home = ({navigation}) => {
-
+  const [loading, setLoading] = useState(true);
+  const [updateFlag, setUpdateFlag] = useState(false);
+  const [smsPermissionGranted, setSmsPermissionGranted] = useState(false);
   const handleMakePayment = () => {
     navigation.navigate('Payment');
   };
@@ -32,12 +37,14 @@ const Home = ({navigation}) => {
     });
   };
 
+  const { analyzeSMS, requestSMSPermission } = useSmsService();
   useEffect(() => {
     const setupDatabase = async () => {
       try {
         await openDatabase(); // Wait for the database to open
-        await createTable(); // Create the table using the opened DB instance
-        // await insertInitialExpenses(); // Insert data if needed (optional)
+        await createExpenseTable(); // Create the table using the opened DB instance
+        await createRegexTable();
+        console.log('Database setup completed successfully');
       } catch (error) {
         console.error('Database setup error:', error);
       }
@@ -45,43 +52,54 @@ const Home = ({navigation}) => {
 
     const setupPermissions = async () => {
       await requestNotificationPermission();
+      const permissionGranted = await requestSMSPermission();
+      setSmsPermissionGranted(prev => permissionGranted);
     }
 
     const scheduleMonthEndNotification = () => {
       notificationService.scheduleMonthEndReportNotification();
+      notificationService.scheduleDailyNotification();
     }
 
-    SmsService.analyseSMS();
+    const setupApp = async () => {
+      if(smsPermissionGranted){
+        setLoading(true);
+        await analyzeSMS();
+        setLoading(false);
+        setUpdateFlag(prevFlag => !prevFlag);
+      }
+    };
+
     setupDatabase(); // Call the async function
     setupPermissions();
+    setupApp();
 
     notificationService.cancelAllScheduledNotification();
     scheduleMonthEndNotification();
-  }, []);
+  }, [smsPermissionGranted]);
 
   const insertInitialExpenses = async () => {
     await insertBulkExpenses(MOCK_DATA);
   };
   let currentMonth = 1;
-  const fetchData = async () => {
-    // const expenses = await fetchExpensesByCategory('food');
-    currentMonth++;
-    console.log(currentMonth);
-    const expenses = await fetchExpensesBetweenDateRange(
-      `2024-01-01`,
-      `2024-0${currentMonth}-30`,
-    );
-    const totalAmount = expenses.reduce((acc, expense) => {
-      acc += expense.amount;
-      return acc;
-    }, 0);
-    console.log('total expense = ', totalAmount);
-    generateData(expenses);
-    return expenses;
-  };
+  // const fetchData = async () => {
+  //   currentMonth++;
+  //   const expenses = await fetchExpensesBetweenDateRange(
+  //     `2024-01-01`,
+  //     `2024-0${currentMonth}-30`,
+  //   );
+  //   const totalAmount = expenses.reduce((acc, expense) => {
+  //     acc += expense.amount;
+  //     return acc;
+  //   }, 0);
+  //   console.log('total expense = ', totalAmount);
+  //   generateData(expenses);
+  //   return expenses;
+  // };
 
   const clearData = async () => {
     await deleteAllExpenses();
+    await saveValue('lastReadTimestamp', null);
   };
 
   const showNotification = async () => {
@@ -102,8 +120,8 @@ const Home = ({navigation}) => {
 
   return (
     <SafeAreaView>
-      {/* <ScrollView contentContainerStyle={{paddingBottom: 10}}> */}
-        <MonthlyTransactionReport />
+      <ScrollView contentContainerStyle={{paddingBottom: 10}}>
+        <MonthlyTransactionReport updateFlag={updateFlag} />
         
         {/* <ReadSMS /> */}
         {/* <Chips /> */}
@@ -122,15 +140,36 @@ const Home = ({navigation}) => {
           icon={<Icon name="camera" size={20} color="#ffffff" />}
         /> */}
         {/* <ButtonComponent label={'Fetch data'} onPress={fetchData} /> */}
-        {/* <ButtonComponent label={'Clear Data'} onPress={clearData} /> */}
-        {/* <View style={{marginTop: 10}}>
-
-        <ButtonComponent label={'Send Notification'} onPress={showNotification} />
-        <ButtonComponent label={'Schedule Notification'} onPress={scheduleNotification} />
-        </View> */}
-      {/* </ScrollView> */}
+        {/* <ButtonComponent label={'Send Notification'} onPress={showNotification} />
+        <ButtonComponent label={'Schedule Notification'} onPress={scheduleNotification} /> */}
+        
+        <View style={{marginTop: 10, marginBottom: 100}}>
+        <ButtonComponent label={'Clear Data'} onPress={clearData} />
+        </View>
+      </ScrollView>
+      {loading && (
+        <View style={styles.loaderContainer}>
+          <ActivityIndicator size="large" color="#ffffff" />
+          <Text style={styles.loadingText}>Analysing Expenses...</Text>
+        </View>
+      )}
     </SafeAreaView>
   );
 };
+const styles = StyleSheet.create({
+  loaderContainer: {
+    ...StyleSheet.absoluteFillObject, // Makes it cover the whole screen
+    backgroundColor: 'rgba(0, 0, 0, 0.3)', // Semi-transparent background
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  loadingText: {
+    marginTop: 10, // Space between loader and text
+    fontSize: 18, // Increase text size
+    fontWeight: 'bold', // Make it bold
+    color: THEME_COLOR.primary, // White text for visibility
+    textAlign: 'center',
+  },
+})
 
 export default Home;

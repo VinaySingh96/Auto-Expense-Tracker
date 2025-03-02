@@ -25,7 +25,7 @@ export const DefaultStyle = StyleSheet.create({
     textAlign: 'center'
   },
   fontBold: {
-
+    fontWeight: 'bold'
   },
   smallText: {
     fontSize: FONT_SIZES.EXTRA_SMALL,
@@ -75,7 +75,7 @@ export const DefaultStyle = StyleSheet.create({
   },
   flexRow: {
     flexDirection: 'row',
-    gap: 10
+    gap: 4
   },
   boxShadow: {
     shadowColor: '#000',
@@ -92,5 +92,18 @@ export const DefaultStyle = StyleSheet.create({
     lineHeight: 60,
     backgroundColor: THEME_COLOR.primary,
     color: THEME_COLOR.white,
-  }
+  },
+  chip: {
+    paddingHorizontal: 8,
+    paddingVertical: 2,
+    borderRadius: 20,
+    backgroundColor: '#e0e0e0',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: 2
+  },
+  chipText: {
+    color: '#333',
+    fontSize: 10,
+  },
 });

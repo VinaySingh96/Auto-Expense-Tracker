@@ -6,20 +6,28 @@ import { formatToIndianRupee } from '../../utils/helper';
 import { ExpenseCategories } from '../../constants/ExpenseCategories';
 import { DefaultStyle } from '../../utils/DefaultStyle';
 import { THEME_COLOR } from '../../constants/Colour';
+import NothingToShow from '../../components/NothingToShow';
 
 const Top10Merchants = ({ expenses }) => {
   const topMerchants = useMemo(() => {
     const merchantTotals = {};
-
-    expenses.forEach(({ merchant, amount }) => {
+  
+    expenses.forEach(({ merchant, amount, category }) => {
       if (!merchantTotals[merchant]) {
-        merchantTotals[merchant] = 0;
+        merchantTotals[merchant] = {
+          total: 0,
+          category: category === 'Unknown' ? '--' : category, // Store the category for the merchant
+        };
       }
-      merchantTotals[merchant] += amount;
+      merchantTotals[merchant].total += amount;
     });
-
+    
     return Object.entries(merchantTotals)
-      .map(([merchant, total]) => ({ merchant, total }))
+      .map(([merchant, { total, category }]) => ({
+        merchant,
+        total,
+        category, // Include the category in the result
+      }))
       .sort((a, b) => b.total - a.total)
       .slice(0, 10);
   }, [expenses]);
@@ -33,11 +41,12 @@ const Top10Merchants = ({ expenses }) => {
     }
     return 'storefront-outline'; // Default icon if no category matches
   };
-
+  // console.log(topMerchants)
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Top 10 Merchants</Text>
+      <Text style={styles.title}>Top 10 Merchants</Text> 
       {/* <ScrollView> */}
+        {!topMerchants.length && <NothingToShow icon="account-cancel-outline" />}
         {topMerchants.map((item, index) => (
           <View 
             key={item.merchant} 
@@ -51,6 +60,9 @@ const Top10Merchants = ({ expenses }) => {
               <Text style={styles.index}>{index + 1}.</Text>
               <MaterialCommunityIcons name={getCategoryIcon(item.merchant)} size={24} color={THEME_COLOR.primary} />
               <Text style={styles.merchantText}>{item.merchant}</Text>
+              <View style={DefaultStyle.chip}>
+                <Text style={DefaultStyle.chipText}>{item.category || 'NA'}</Text>
+              </View>
             </View>
             {/* Amount */}
             <View style={styles.amountContainer}>

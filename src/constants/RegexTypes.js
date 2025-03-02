@@ -1,0 +1,5 @@
+export const REGEX_TYPES= {
+  MERCHANT: 'MERCHANT',
+  DATE: 'DATE',
+  AMOUNT: 'AMOUNT'
+}

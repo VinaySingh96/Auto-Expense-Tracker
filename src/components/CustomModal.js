@@ -10,29 +10,45 @@ import {
 } from 'react-native';
 import { THEME_COLOR } from '../constants/Colour';
 
-const CustomModal = ({visible, onClose, children, title = 'Custom Modal'}) => {
+const CustomModal = ({
+  visible,
+  onClose,
+  children,
+  title = 'Custom Modal',
+  save = '',
+  onSave,
+}) => {
   return (
     <Modal transparent visible={visible} animationType="slide">
+      {/* Overlay: Close modal when clicking outside */}
       <TouchableWithoutFeedback onPress={onClose}>
         <View style={styles.modalOverlay}>
-          <View style={styles.modalContent}>
-            {/* Title Bar */}
-            <View style={styles.titleContainer}>
-              <Text style={styles.modalTitle}>{title}</Text>
-            </View>
+          {/* Modal Content: Prevent clicks inside from closing the modal */}
+          <TouchableWithoutFeedback>
+            <View style={styles.modalContent}>
+              {/* Title Bar */}
+              <View style={styles.titleContainer}>
+                <Text style={styles.modalTitle}>{title}</Text>
+              </View>
 
-            {/* Scrollable Content */}
-            <View style={styles.contentContainer}>
-              <TouchableWithoutFeedback>
+              {/* Scrollable Content */}
+              <View style={styles.contentContainer}>
                 {children}
-              </TouchableWithoutFeedback>
-            </View>
+              </View>
 
-            {/* Close Button */}
-            <TouchableOpacity style={styles.closeButton} onPress={onClose}>
-              <Text style={styles.closeButtonText}>Close</Text>
-            </TouchableOpacity>
-          </View>
+              {/* Close Button */}
+              <View style={styles.buttonContainer}>
+                <TouchableOpacity style={styles.button} onPress={onClose}>
+                  <Text style={styles.buttonText}>Close</Text>
+                </TouchableOpacity>
+                {save && (
+                  <TouchableOpacity style={styles.button} onPress={onSave}>
+                    <Text style={styles.buttonText}>{save}</Text>
+                  </TouchableOpacity>
+                )}
+              </View>
+            </View>
+          </TouchableWithoutFeedback>
         </View>
       </TouchableWithoutFeedback>
     </Modal>
@@ -51,7 +67,6 @@ const styles = StyleSheet.create({
     height: '50%',
     backgroundColor: 'white',
     borderRadius: 10,
-    // padding: 10,
     alignItems: 'center',
     overflow: 'hidden',
   },
@@ -71,19 +86,32 @@ const styles = StyleSheet.create({
   },
   contentContainer: {
     flexGrow: 1,
-    paddingBottom: 120
+    width: '100%',
+    padding: 10,
+    paddingBottom: 80, // Add padding to avoid overlap with buttons
   },
-  closeButton: {
-    width: 80,
-    padding: 8,
+  buttonContainer: {
+    position: 'absolute', // Position at the bottom
+    bottom: 0,
+    left: 0,
+    right: 0,
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    paddingHorizontal: 16,
+    paddingVertical: 10,
+    backgroundColor: 'white', // Ensure buttons are visible
+    borderTopWidth: 1,
+    borderTopColor: '#e0e0e0', // Add a border for separation
+  },
+  button: {
+    flex: 1,
     backgroundColor: THEME_COLOR.primary,
     borderRadius: 5,
     alignItems: 'center',
-    marginVertical: 14,
-    position: 'absolute',
-    bottom: 2
+    paddingVertical: 10,
+    marginHorizontal: 8,
   },
-  closeButtonText: {
+  buttonText: {
     color: 'white',
     fontWeight: 'bold',
     fontSize: 16,

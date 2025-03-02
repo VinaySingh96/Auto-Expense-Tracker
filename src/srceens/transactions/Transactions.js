@@ -7,13 +7,17 @@ import { executeQuery } from '../../helper/SqlHelper';
 import { groupExpensesOnMerchants } from '../../utils/helper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 import { THEME_COLOR } from '../../constants/Colour';
+import SearchBar from '../../components/SearchBar';
 
 const Transactions = () => {
   const [transactions, setTransactions] = useState([]);
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedExpense, setSelectedExpense] = useState(null);
 
-  // console.log(transactions)
+  const [noSearchFound, setNoSearchFound] = useState('');
+
+  const originalExpensesRef = React.useRef([]);
+
   useEffect(() => {
     fetchUnCategorizedExpenses();
   }, []);
@@ -24,6 +28,8 @@ const Transactions = () => {
     const query = `SELECT * FROM expenses WHERE category IS NULL OR category = '' OR category = 'Unknown'`;
     const unCategorizedExpenses = await executeQuery(query);
     const groupedExpenses = groupExpensesOnMerchants(unCategorizedExpenses);
+
+    originalExpensesRef.current = groupedExpenses;
     setTransactions(groupedExpenses);
   }
 
@@ -33,7 +39,6 @@ const Transactions = () => {
   };
 
   const onSelectCategory = async (category) => {
-    console.log({selectedExpense, category});
     // update all expenses with merchant name as selectedExpense.merchant with the selected category
     // TODO: table name should be coming from constants
     const updateQuery = `UPDATE expenses SET category = '${category}' WHERE merchant = '${selectedExpense.merchant}' AND category = 'Unknown'`;
@@ -41,10 +46,33 @@ const Transactions = () => {
     fetchUnCategorizedExpenses();
     setModalVisible(false);
   }
+
+  const handleSearch = query => {
+    const originalExpenses = originalExpensesRef.current;
+
+    if (!originalExpenses || originalExpenses.length === 0) {
+      console.log('No Un-categorized Expenses!');
+      return;
+    }
+
+    const filteredData = originalExpenses.filter(expense =>
+      expense.merchant.toLowerCase().includes(query.toLowerCase()),
+    );
+    if (filteredData.length === 0) {
+      setNoSearchFound(query);
+    } else {
+      setNoSearchFound('');
+    }
+    setTransactions(filteredData);
+  }
+
   return (
     <View style={styles.theme}>
       <View>
         <Text style={DefaultStyle.headerTitle}>Un-Categorized Expenses</Text>
+        <View style={DefaultStyle.itemsCenter}>
+          <SearchBar placeholder="Search Merchant" onSearch={handleSearch} />
+        </View>
       </View>
       <View style={[DefaultStyle.container, {paddingVertical: 0}]}>
         {transactions.length > 0 ? (

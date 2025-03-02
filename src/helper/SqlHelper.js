@@ -17,8 +17,7 @@ export const openDatabase = async () => {
   }
 };
 
-export const createTable = async () => {
-  // console.log('creating table', db)
+export const createExpenseTable = async () => {
   try {
     if (db) {
       await db.transaction(tx => {
@@ -66,7 +65,7 @@ export const insertExpense = async (expenseDetail) => {
       'INSERT INTO expenses (merchant, amount, date, category, sub_category) VALUES (?, ?, ?, ?, ?)',
       [merchant, amount, date, category, sub_category],  // Removed `id`
       (tx, resultSet) => {
-        console.log('Inserted Expense with ID: ', resultSet.insertId); // Correct way to get inserted ID
+        // console.log('Inserted Expense with ID: ', resultSet.insertId); // Correct way to get inserted ID
       },
       error => {
         console.error('Error inserting data', error);
@@ -96,7 +95,7 @@ export const fetchAllExpenses = async () => {
     );
   });
 
-  return expenses
+  return expenses;
 };
 
 export const fetchExpensesByCategory = async (category) => {
@@ -134,6 +133,7 @@ export const fetchExpensesByMerchant = async (merchant) => {
 export const fetchExpensesBetweenDateRange = async (startDate, endDate) => {
   let expenses = [];
   await openDatabase();
+  await createExpenseTable();
   await db.transaction(tx => {
     tx.executeSql(
       `SELECT * FROM expenses WHERE date BETWEEN '${startDate}' AND '${endDate}'`,
@@ -151,12 +151,35 @@ export const fetchExpensesBetweenDateRange = async (startDate, endDate) => {
 export const deleteAllExpenses = async () => {
   try {
     await db.transaction(async (tx) => {
+      console.log('Deleting')
       await tx.executeSql('DELETE FROM expenses;', []);
+      await deleteTable(transactionRegexesDB);
+      // await tx.executeSql(`DROP TABLE IF EXISTS ${transactionRegexesDB};`, []);
+      // await tx.executeSql(`DELETE FROM ${transactionRegexesDB};`, []);
       console.log('All expense data deleted');
     });
   } catch (error) {
     console.error('Error deleting data:', error);
   }
+};
+
+const deleteTable = (tableName) => {
+  return new Promise((resolve, reject) => {
+    db.transaction((tx) => {
+      tx.executeSql(
+        `DROP TABLE IF EXISTS ${tableName};`,
+        [],
+        (_, result) => {
+          console.log(`Table "${tableName}" deleted successfully.`);
+          resolve(result);
+        },
+        (_, error) => {
+          console.error(`Error deleting table "${tableName}":`, error);
+          reject(error);
+        },
+      );
+    });
+  });
 };
 
 // Execute a query
@@ -178,3 +201,85 @@ export const executeQuery = (query) => {
     });
   });
 };
+
+const transactionRegexesDB = 'transactionRegexes';
+
+export const createRegexTable = async () => {
+  try {
+    if (db) {
+      await db.transaction(tx => {
+        tx.executeSql(
+          `CREATE TABLE IF NOT EXISTS ${transactionRegexesDB} (` +
+            'id INTEGER PRIMARY KEY AUTOINCREMENT, ' +
+            'type VARCHAR(20) COLLATE NOCASE, ' +
+            'regexes TEXT);',
+          [],
+          () => {
+            console.log('Regex table created')
+          },
+          error => {
+            console.error('Error creating table:', error);
+          },
+        );
+      });
+    }
+  } catch (error) {
+    console.error('Error executing SQL transaction', error);
+  }
+}
+
+export const fetchRegexes = async (type) => {
+  let regexData;
+  await db.transaction(tx => {
+    tx.executeSql(
+      `SELECT * FROM ${transactionRegexesDB} WHERE type = '${type}'`,
+      [],
+      (tx, resultSet) => {
+        regexData = resultSet.rows.raw();
+      },
+      (error) => {
+        console.error('Error fetching data:', error);
+        return [];
+      }
+    );
+  });
+  
+  if(!regexData.length) {
+    return null;
+  }
+  
+  return JSON.parse(regexData[0].regexes);
+}
+
+export const insertRegexes = async (regexes, type) => {
+  const serializedRegexes = JSON.stringify(regexes);
+  await db.transaction(tx => {
+    tx.executeSql(
+      `INSERT INTO ${transactionRegexesDB} (type, regexes) VALUES (?, ?)`,
+      [type, serializedRegexes],
+      (tx, resultSet) => {
+        console.log('Inserted Regex with ID: ', resultSet.insertId); // Correct way to get inserted ID
+      },
+      error => {
+        console.error('Error inserting data', error);
+      }
+    );
+  });
+}
+
+export const updateRegexes = async (regexes, type) => {
+  console.log({regexes, type});
+  const serializedRegexes = JSON.stringify(regexes);
+  await db.transaction((tx) => {
+    tx.executeSql(
+      `UPDATE ${transactionRegexesDB} SET regexes = ? WHERE type = ?;`,
+      [serializedRegexes, type],
+      (_, result) => {
+        console.log('Update successful:', result);
+      },
+      (_, error) => {
+        console.error('Error updating expense:', error);
+      },
+    );
+  });
+}

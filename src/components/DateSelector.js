@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import {
   View,
   Text,
@@ -6,6 +6,8 @@ import {
   StyleSheet,
   ScrollView,
   TouchableWithoutFeedback,
+  Animated,
+  Easing
 } from 'react-native';
 import CustomModal from './CustomModal';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -43,6 +45,19 @@ const DateSelector = ({
   const [selectedDay, setSelectedDay] = useState(currentDate.getDate());
   const [modalVisible, setModalVisible] = useState(false);
 
+  const slideMonthAnim = useRef(new Animated.Value(0)).current;
+  const slideYearAnim = useRef(new Animated.Value(0)).current;
+
+  const animateMonthSlide = (animationContext, direction, width = 150) => {
+    animationContext.setValue(direction === 'left' ? width : -width);
+    Animated.timing(animationContext, {
+      toValue: 0,
+      duration: 300,
+      easing: Easing.out(Easing.ease),
+      useNativeDriver: true,
+    }).start();
+  }
+
   useEffect(() => {
     const daysInMonth = new Date(
       selectedYear,
@@ -63,13 +78,14 @@ const DateSelector = ({
   }, [selectedMonthIndex, selectedYear, selectedDay, includeDay, onDateChange]);
 
   const handlePrevious = () => {
+    animateMonthSlide(slideMonthAnim, 'right');
     setSelectedMonthIndex(prevIndex => {
       const newIndex = prevIndex === 0 ? 11 : prevIndex - 1;
       if (newIndex === 11) setSelectedYear(prevYear => prevYear - 1);
       return newIndex;
     });
   };
-
+  
   const handleNext = () => {
     if (isNextDisabled()) return;
     setSelectedMonthIndex(prevIndex => {
@@ -77,6 +93,7 @@ const DateSelector = ({
       if (newIndex === 0) setSelectedYear(prevYear => prevYear + 1);
       return newIndex;
     });
+    animateMonthSlide(slideMonthAnim, 'left');
   };
 
   const handleMonthPress = index => {
@@ -97,11 +114,13 @@ const DateSelector = ({
   const handlePrevYearPress = () => {
     const newYear = selectedYear - 1;
     setSelectedYear(newYear);
+    animateMonthSlide(slideYearAnim, 'right');
   };
 
   const handleNextYearPress = () => {
     if (selectedYear === new Date().getFullYear()) return;
     setSelectedYear(prev => prev + 1);
+    animateMonthSlide(slideYearAnim, 'left');
   };
 
   const isNextDisabled = () => {
@@ -131,10 +150,16 @@ const DateSelector = ({
         onPress={() => setModalVisible(true)}
         style={styles.monthButton}>
         {!showArrows && <Icon name="calendar-edit" size={24} />}
-        <Text style={styles.monthText}>
-          {includeDay ? `${selectedDay} ` : ''}
-          {months[selectedMonthIndex]} {selectedYear}
-        </Text>
+        <Animated.View
+          style={{
+            transform: [{ translateX: slideMonthAnim}]
+          }}
+        >
+          <Text style={styles.monthText}>
+            {includeDay ? `${selectedDay} ` : ''}
+            {months[selectedMonthIndex]} {selectedYear}
+          </Text>
+        </Animated.View>
         <Icon name="menu-down" size={20} />
       </TouchableOpacity>
 
@@ -158,7 +183,13 @@ const DateSelector = ({
             <TouchableOpacity onPress={handlePrevYearPress}>
               <Icon name="chevron-left" size={36} />
             </TouchableOpacity>
-            <Text style={styles.year}>{selectedYear}</Text>
+            <Animated.View
+              style={{
+                transform: [{ translateX: slideYearAnim}]
+              }}
+            >
+              <Text style={styles.year}>{selectedYear}</Text>
+            </Animated.View>
             <TouchableOpacity onPress={handleNextYearPress}>
               <Icon
                 name="chevron-right"
@@ -259,7 +290,7 @@ const styles = StyleSheet.create({
     width: '100%',
     // marginTop: 12,
     paddingHorizontal: 12,
-    marginBottom: 90,
+    marginBottom: 150,
   },
   yearSelect: {
     flexDirection: 'row',

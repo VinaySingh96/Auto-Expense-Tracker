@@ -6,6 +6,7 @@ import { formatToIndianRupee } from '../../utils/helper';
 import Accordion from '../../components/Accordion';
 import { THEME_COLOR } from '../../constants/Colour';
 import { DefaultStyle } from '../../utils/DefaultStyle';
+import NothingToShow from '../../components/NothingToShow';
 
 const DonutChart = ({ data }) => {
   const [chartData, setChartData] = useState([]);
@@ -79,6 +80,7 @@ const DonutChart = ({ data }) => {
       {/* Legend */}
       <View style={styles.legendContainerWrapper}>
         <Accordion title="Expenditure Details">
+          {!legendData.length && <NothingToShow iconSize={30} icon="magnify-close" message='No Expense found' />}
           <View style={styles.legendContainer}>
             {legendData.map((item, index) => (
               <View key={index} style={styles.legendItem}>

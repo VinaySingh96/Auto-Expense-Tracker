@@ -33,10 +33,14 @@ const AddAnExpense = () => {
     setFormData('amount', parseFloat(amount));
   };
 
+  const handleMerchantChange = (merchant) => {
+    setFormData('merchant', merchant);
+  };
+
   const onSelectPaymentMode = (mode) => {
     setFormData('paymentMode', mode.key);
     // TODO: Need to take input from user
-    setFormData('merchant', 'Unknown');
+    // setFormData('merchant', 'Unknown');
   };
   
   const onSelectCategory = (category) => {
@@ -103,6 +107,21 @@ const AddAnExpense = () => {
               placeholderTextColor={THEME_COLOR.textSecondary}
               value={expenseForm.amount}
               onChangeText={handleAmountChange}
+            />
+          </View>
+        </View>
+
+        {/* Amount */}
+        <View style={styles.formGroup}>
+          <Text style={styles.label}>Merchant</Text>
+          <View style={styles.amountContainer}>
+            <Icon name='shopping-outline' size={20} style={{marginRight: 8}} />
+            <TextInput
+              style={styles.input}
+              placeholder="Enter Merchant"
+              placeholderTextColor={THEME_COLOR.textSecondary}
+              value={expenseForm.merchant}
+              onChangeText={handleMerchantChange}
             />
           </View>
         </View>
@@ -194,7 +213,7 @@ const styles = StyleSheet.create({
     verticalAlign: 'middle',
     fontWeight: '500',
     marginRight: 10,
-    marginLeft: 10
+    marginLeft: 5
   },
   input: {
     flex: 1,

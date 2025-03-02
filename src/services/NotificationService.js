@@ -6,7 +6,6 @@ class NotificationService {
     if(NotificationService.instance) {
       return NotificationService.instance;
     }
-    console.log('Notification service created')
     NotificationService.instance = this;
   }
 
@@ -96,30 +95,29 @@ class NotificationService {
   };
 
   localNotification = (title, message, id) => {
-    console.log('Sending notification service')
     PushNotification.localNotification({
-      ...(id && { id }),
+      // ...(id && { id }),
       channelId: "default-channel-id",
       title: title,
       message: message,
       playSound: true,
       soundName: "default",
       // bigPicture: 'https://camo.githubusercontent.com/ba9ebb799048604d02db2e963b66eaf1c6607fae4b5eceee399df6e320a86839/68747470733a2f2f706e672e706e67747265652e636f6d2f706e672d766563746f722f32303233313231352f6f75726c617267652f706e67747265652d757365722d69636f6e2d77656172696e672d676c61737365732d706e672d696d6167655f31313336363333302e706e67', // Remote Image URL
-      bigPicture: require('../assets/logo.jpg'), // Local Image
+      bigPicture: require('../assets/logo.jpeg'), // Local Image
       largeIcon: "ic_launcher", // Default App Icon (stored in android/app/src/main/res)
       smallIcon: "ic_notification", // Default Small Icon
     });
   };
 
-  scheduleNotification = (title, message, date, id) => {
+  scheduleNotification = (title, message, date, otherProp) => {
     PushNotification.localNotificationSchedule({
-      ...(id && { id }),
       channelId: "default-channel-id",
       title: title,
       message: message,
       date: date,
       // date: new Date(Date.now() + 10 * 1000), // Fire after 10 seconds
       allowWhileIdle: true, // Ensures it works even in Doze mode (Android)
+      ...{otherProp}
     });
     console.log(`Notification scheduled for : ${title} on ${date}`)
   }
@@ -135,6 +133,25 @@ class NotificationService {
     const date = getEndOfMonthDate();
     const id = 'expense_summary';
     this.scheduleNotification(title, message, date, id);
+  }
+
+  scheduleDailyNotification() {
+    const now = new Date();
+    const notificationTime = new Date();
+
+    notificationTime.setHours(20, 0, 0, 0); // Set to 8:00 PM (24-hour format)
+
+    // If it's already past 8 PM today, schedule for tomorrow
+    if (now > notificationTime) {
+      notificationTime.setDate(notificationTime.getDate() + 1);
+    }
+    const title = 'Daily Expense Report';
+    const message = `See todays expense`;
+
+    let otherProp = {
+      repeatType: "day"
+    }
+    this.scheduleNotification(title, message, notificationTime, otherProp);
   }
 }
 

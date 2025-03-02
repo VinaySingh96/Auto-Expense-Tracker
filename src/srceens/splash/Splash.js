@@ -1,12 +1,13 @@
 import React, {useContext, useEffect} from 'react';
-import {View, Image, StyleSheet, Animated} from 'react-native';
+import {View, Image, StyleSheet, Animated, useWindowDimensions} from 'react-native';
 import {DimensionContext} from '../../context/DimensionContext';
 import {Easing} from 'react-native-reanimated';
 
 const Splash = ({onFinish}) => {
   const scaleAnim = new Animated.Value(1); // Initial scale value
   const opacityAnim = new Animated.Value(1); // Opacity animation for fade-out
-  const {width, height} = useContext(DimensionContext);
+  // const {width, height} = useContext(DimensionContext);
+  const {height, width} = useWindowDimensions();
 
   const styles = StyleSheet.create({
     splashContainer: {
@@ -45,7 +46,7 @@ const Splash = ({onFinish}) => {
   return (
     <View style={styles.splashContainer}>
       <Animated.Image
-        source={require('../../assets/logo.jpg')} // Replace with your image path
+        source={require('../../assets/splash.jpg')} // Replace with your image path
         style={[
           styles.image,
           {

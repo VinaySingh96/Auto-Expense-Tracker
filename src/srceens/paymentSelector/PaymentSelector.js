@@ -46,7 +46,7 @@ const PaymentSelector = ({value, onSelect}) => {
         title="Select Payment Mode"
         visible={modalVisible}
         onClose={() => setModalVisible(false)}>
-        <ScrollView>
+        <ScrollView contentContainerStyle={{paddingBottom: 100}}>
           {PaymentModesArray.map(mode => (
             <TouchableOpacity
               key={mode.key}
