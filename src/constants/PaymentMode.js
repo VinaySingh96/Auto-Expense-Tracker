@@ -27,3 +27,5 @@ export const PaymentModesArray = Object.entries(PaymentMode).map(([key, value]) 
   label: value,
   icon: PaymentModeIcons[key],
 }));
+
+export const ignoreKeywords = ['CDSL', 'will be refunded', 'will get refunded'];

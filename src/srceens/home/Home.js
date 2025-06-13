@@ -120,7 +120,7 @@ const Home = ({navigation}) => {
 
   return (
     <SafeAreaView>
-      <ScrollView contentContainerStyle={{paddingBottom: 10}}>
+      {/* <ScrollView contentContainerStyle={{paddingBottom: 10}}> */}
         <MonthlyTransactionReport updateFlag={updateFlag} />
         
         {/* <ReadSMS /> */}
@@ -143,10 +143,10 @@ const Home = ({navigation}) => {
         {/* <ButtonComponent label={'Send Notification'} onPress={showNotification} />
         <ButtonComponent label={'Schedule Notification'} onPress={scheduleNotification} /> */}
         
-        <View style={{marginTop: 10, marginBottom: 100}}>
+        {/* <View style={{marginTop: 10, marginBottom: 100}}>
         <ButtonComponent label={'Clear Data'} onPress={clearData} />
         </View>
-      </ScrollView>
+      </ScrollView> */}
       {loading && (
         <View style={styles.loaderContainer}>
           <ActivityIndicator size="large" color="#ffffff" />

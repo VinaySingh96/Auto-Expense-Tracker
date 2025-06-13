@@ -1,0 +1,7986 @@
+[
+  {
+    "id": 3,
+    "merchant": "Naturals",
+    "amount": 42.73,
+    "date": "2024-04-04",
+    "category": "Investments",
+    "sub_category": "Fuel"
+  },
+  {
+    "id": 4,
+    "merchant": "Max Bupa",
+    "amount": 94.93,
+    "date": "2023-09-26",
+    "category": "",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 5,
+    "merchant": "Blinkit",
+    "amount": 50.91,
+    "date": "2024-06-28",
+    "category": "Entertainment",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 6,
+    "merchant": "Doctor Consultations",
+    "amount": 38.06,
+    "date": "2024-10-01",
+    "category": "Utilities",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 7,
+    "merchant": "Petrol",
+    "amount": 7.55,
+    "date": "2024-08-21",
+    "category": "Transportation",
+    "sub_category": "Gas Services"
+  },
+  {
+    "id": 8,
+    "merchant": "Hathway",
+    "amount": 17.51,
+    "date": "2024-07-09",
+    "category": "Investments",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 9,
+    "merchant": "Zomato",
+    "amount": 17.98,
+    "date": "2023-04-28",
+    "category": "Personal Care",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 10,
+    "merchant": "Zomato",
+    "amount": 55.25,
+    "date": "2023-08-19",
+    "category": "Food Services",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 11,
+    "merchant": "Myntra",
+    "amount": 55.27,
+    "date": "2024-10-07",
+    "category": "Insurance",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 12,
+    "merchant": "Disney+ Hotstar",
+    "amount": 88.55,
+    "date": "2024-01-17",
+    "category": "Education",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 13,
+    "merchant": "Vodafone Idea",
+    "amount": 54.81,
+    "date": "2023-08-17",
+    "category": "Entertainment",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 14,
+    "merchant": "ACT Fibernet",
+    "amount": 3.93,
+    "date": "2023-07-04",
+    "category": "Utilities",
+    "sub_category": "Festive Shopping"
+  },
+  {
+    "id": 15,
+    "merchant": "Restaurants",
+    "amount": 33.79,
+    "date": "2024-04-23",
+    "category": "Insurance",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 16,
+    "merchant": "Street Food",
+    "amount": 43.78,
+    "date": "2023-07-04",
+    "category": "Investments",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 17,
+    "merchant": "Jio",
+    "amount": 80.01,
+    "date": "2023-05-29",
+    "category": "Transportation",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 18,
+    "merchant": "Advocates",
+    "amount": 9.63,
+    "date": "2025-01-06",
+    "category": "Groceries",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 19,
+    "merchant": "Advocates",
+    "amount": 99.63,
+    "date": "2024-09-01",
+    "category": "Telecommunications",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 20,
+    "merchant": "Big Bazaar",
+    "amount": 88.03,
+    "date": "2024-10-17",
+    "category": "Groceries",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 21,
+    "merchant": "BSNL",
+    "amount": 7.79,
+    "date": "2023-04-12",
+    "category": "",
+    "sub_category": "Donations"
+  },
+  {
+    "id": 22,
+    "merchant": "Big Bazaar",
+    "amount": 69.36,
+    "date": "2024-08-06",
+    "category": "Utilities",
+    "sub_category": "Retail Stores"
+  },
+  {
+    "id": 23,
+    "merchant": "Max Bupa",
+    "amount": 9.42,
+    "date": "2023-08-15",
+    "category": "Food Services",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 24,
+    "merchant": "Swiggy",
+    "amount": 10.54,
+    "date": "2024-03-12",
+    "category": "Transportation",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 25,
+    "merchant": "Blinkit",
+    "amount": 30.58,
+    "date": "2024-05-07",
+    "category": "Housing",
+    "sub_category": "Airfare"
+  },
+  {
+    "id": 26,
+    "merchant": "INOX",
+    "amount": 10.2,
+    "date": "2024-05-20",
+    "category": "Utilities",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 27,
+    "merchant": "Schools",
+    "amount": 16.93,
+    "date": "2023-07-01",
+    "category": "Professional Services",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 28,
+    "merchant": "BigBasket",
+    "amount": 60.08,
+    "date": "2024-04-25",
+    "category": "",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 29,
+    "merchant": "Railways",
+    "amount": 25.65,
+    "date": "2023-07-11",
+    "category": "Insurance",
+    "sub_category": "Water Bill"
+  },
+  {
+    "id": 30,
+    "merchant": "HiCare",
+    "amount": 49.17,
+    "date": "2023-02-09",
+    "category": "Entertainment",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 31,
+    "merchant": "Hospital Bills",
+    "amount": 45.92,
+    "date": "2024-09-21",
+    "category": "Insurance",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 32,
+    "merchant": "Naturals",
+    "amount": 88.71,
+    "date": "2024-12-16",
+    "category": "Shopping",
+    "sub_category": null
+  },
+  {
+    "id": 33,
+    "merchant": "Fruit Vendors",
+    "amount": 55.97,
+    "date": "2024-08-11",
+    "category": "Food Services",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 34,
+    "merchant": "NetMeds",
+    "amount": 89.65,
+    "date": "2023-07-29",
+    "category": "Professional Services",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 35,
+    "merchant": "SBI Mutual Fund",
+    "amount": 48.11,
+    "date": "2023-02-20",
+    "category": "Professional Services",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 36,
+    "merchant": "Blinkit",
+    "amount": 10.92,
+    "date": "2023-03-07",
+    "category": "Shopping",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 37,
+    "merchant": "CoinDCX",
+    "amount": 22.89,
+    "date": "2024-03-09",
+    "category": "Groceries",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 38,
+    "merchant": "SBI",
+    "amount": 18.48,
+    "date": "2024-12-05",
+    "category": "Personal Care",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 39,
+    "merchant": "Schools",
+    "amount": 90.34,
+    "date": "2023-10-13",
+    "category": "",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 40,
+    "merchant": "Upstox",
+    "amount": 40.04,
+    "date": "2024-02-17",
+    "category": "Investments",
+    "sub_category": "Water Bill"
+  },
+  {
+    "id": 41,
+    "merchant": "Airtel",
+    "amount": 86.84,
+    "date": "2023-07-05",
+    "category": "Professional Services",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 42,
+    "merchant": "Juice Centers",
+    "amount": 16.88,
+    "date": "2023-09-29",
+    "category": "Investments",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 43,
+    "merchant": "Vegetable Markets",
+    "amount": 57.6,
+    "date": "2023-09-15",
+    "category": "Groceries",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 44,
+    "merchant": "BigBasket",
+    "amount": 94.71,
+    "date": "2024-03-17",
+    "category": "Telecommunications",
+    "sub_category": "Donations"
+  },
+  {
+    "id": 45,
+    "merchant": "Amazon Pantry",
+    "amount": 56.56,
+    "date": "2024-08-26",
+    "category": "Food Services",
+    "sub_category": "Holiday Packages"
+  },
+  {
+    "id": 46,
+    "merchant": "NGOs",
+    "amount": 87.7,
+    "date": "2023-05-21",
+    "category": "Telecommunications",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 47,
+    "merchant": "State Power Utilities",
+    "amount": 2.99,
+    "date": "2023-11-03",
+    "category": "Telecommunications",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 48,
+    "merchant": "Bharat Gas",
+    "amount": 41.73,
+    "date": "2024-05-06",
+    "category": "Groceries",
+    "sub_category": "Life Insurance"
+  },
+  {
+    "id": 49,
+    "merchant": "Netflix",
+    "amount": 53.52,
+    "date": "2023-03-19",
+    "category": "Groceries",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 50,
+    "merchant": "NGOs",
+    "amount": 10.33,
+    "date": "2023-11-24",
+    "category": "Groceries",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 51,
+    "merchant": "Urban Company",
+    "amount": 21.54,
+    "date": "2024-01-17",
+    "category": "Investments",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 52,
+    "merchant": "Airtel",
+    "amount": 77.05,
+    "date": "2023-09-11",
+    "category": "",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 53,
+    "merchant": "Steam",
+    "amount": 99.63,
+    "date": "2023-04-22",
+    "category": "Education",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 54,
+    "merchant": "Thomas Cook",
+    "amount": 24.64,
+    "date": "2024-01-20",
+    "category": "Health",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 55,
+    "merchant": "Upstox",
+    "amount": 87.71,
+    "date": "2024-11-16",
+    "category": "Transportation",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 56,
+    "merchant": "Railways",
+    "amount": 8.26,
+    "date": "2024-05-18",
+    "category": "Health",
+    "sub_category": "Tuition Fees"
+  },
+  {
+    "id": 57,
+    "merchant": "Ola",
+    "amount": 86.92,
+    "date": "2023-07-25",
+    "category": "Food Services",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 58,
+    "merchant": "Cafes",
+    "amount": 66.54,
+    "date": "2023-11-17",
+    "category": "Shopping",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 59,
+    "merchant": "Zomato",
+    "amount": 71.09,
+    "date": "2024-05-02",
+    "category": "Investments",
+    "sub_category": "Fuel"
+  },
+  {
+    "id": 60,
+    "merchant": "Fruit Vendors",
+    "amount": 90.47,
+    "date": "2023-03-25",
+    "category": "Personal Care",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 61,
+    "merchant": "Hospital Bills",
+    "amount": 32.77,
+    "date": "2023-03-14",
+    "category": "Investments",
+    "sub_category": "Festive Shopping"
+  },
+  {
+    "id": 62,
+    "merchant": "Dish TV",
+    "amount": 13.41,
+    "date": "2024-05-19",
+    "category": "Groceries",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 63,
+    "merchant": "Doctor Consultations",
+    "amount": 3.15,
+    "date": "2024-05-13",
+    "category": "Groceries",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 64,
+    "merchant": "Airtel DTH",
+    "amount": 23.21,
+    "date": "2023-10-18",
+    "category": "Housing",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 65,
+    "merchant": "Snacks Shops",
+    "amount": 36.44,
+    "date": "2024-07-17",
+    "category": "Groceries",
+    "sub_category": "Life Insurance"
+  },
+  {
+    "id": 66,
+    "merchant": "Kalyan Jewelers",
+    "amount": 21.35,
+    "date": "2024-03-24",
+    "category": "Health",
+    "sub_category": "Retail Stores"
+  },
+  {
+    "id": 67,
+    "merchant": "CoinSwitch",
+    "amount": 93.99,
+    "date": "2024-11-16",
+    "category": "Entertainment",
+    "sub_category": "Hotels"
+  },
+  {
+    "id": 68,
+    "merchant": "SOTC",
+    "amount": 99.87,
+    "date": "2024-09-24",
+    "category": "Insurance",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 69,
+    "merchant": "Hathway",
+    "amount": 15.2,
+    "date": "2023-02-23",
+    "category": "Transportation",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 70,
+    "merchant": "Gym Memberships",
+    "amount": 2.8,
+    "date": "2024-08-19",
+    "category": "Transportation",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 71,
+    "merchant": "Temples",
+    "amount": 58.36,
+    "date": "2024-11-29",
+    "category": "Food Services",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 72,
+    "merchant": "MakeMyTrip",
+    "amount": 71.92,
+    "date": "2025-01-04",
+    "category": "Education",
+    "sub_category": "Public Transport"
+  },
+  {
+    "id": 73,
+    "merchant": "Ola",
+    "amount": 19.71,
+    "date": "2024-10-10",
+    "category": "Shopping",
+    "sub_category": ""
+  },
+  {
+    "id": 74,
+    "merchant": "Air India",
+    "amount": 30.18,
+    "date": "2023-07-10",
+    "category": "Groceries",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 75,
+    "merchant": "BSNL",
+    "amount": 44.68,
+    "date": "2024-02-28",
+    "category": "Housing",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 76,
+    "merchant": "NGOs",
+    "amount": 46.44,
+    "date": "2024-06-05",
+    "category": "Transportation",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 77,
+    "merchant": "Big Bazaar",
+    "amount": 41.04,
+    "date": "2024-06-09",
+    "category": "Groceries",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 78,
+    "merchant": "Hathway",
+    "amount": 85.99,
+    "date": "2023-08-16",
+    "category": "Professional Services",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 79,
+    "merchant": "FASTag",
+    "amount": 52.1,
+    "date": "2025-01-02",
+    "category": "Utilities",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 80,
+    "merchant": "Star Health",
+    "amount": 23.49,
+    "date": "2025-01-15",
+    "category": "Groceries",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 81,
+    "merchant": "Cafes",
+    "amount": 20.38,
+    "date": "2024-02-13",
+    "category": "Groceries",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 82,
+    "merchant": "Universities",
+    "amount": 31.31,
+    "date": "2024-09-16",
+    "category": "Utilities",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 83,
+    "merchant": "ACT Fibernet",
+    "amount": 99.18,
+    "date": "2023-10-10",
+    "category": "Professional Services",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 84,
+    "merchant": "Upstox",
+    "amount": 72.16,
+    "date": "2024-04-01",
+    "category": "Investments",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 85,
+    "merchant": "Advocates",
+    "amount": 99.83,
+    "date": "2024-03-08",
+    "category": "Shopping",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 86,
+    "merchant": "Goibibo",
+    "amount": 43.96,
+    "date": "2024-03-27",
+    "category": "Insurance",
+    "sub_category": "Public Transport"
+  },
+  {
+    "id": 87,
+    "merchant": "Hathway",
+    "amount": 43.94,
+    "date": "2024-09-27",
+    "category": "Education",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 88,
+    "merchant": "Schools",
+    "amount": 77.3,
+    "date": "2023-04-25",
+    "category": "Professional Services",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 89,
+    "merchant": "Airtel",
+    "amount": 40.53,
+    "date": "2023-11-12",
+    "category": "Groceries",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 90,
+    "merchant": "Local Theaters",
+    "amount": 1.95,
+    "date": "2024-01-11",
+    "category": "Shopping",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 91,
+    "merchant": "ICICI Prudential",
+    "amount": 17.86,
+    "date": "2024-07-08",
+    "category": "Housing",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 92,
+    "merchant": "Stationery Shops",
+    "amount": 77.31,
+    "date": "2023-07-08",
+    "category": "Telecommunications",
+    "sub_category": "Plumbing and Repairs"
+  },
+  {
+    "id": 93,
+    "merchant": "Hathway",
+    "amount": 94.88,
+    "date": "2023-06-24",
+    "category": "Groceries",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 94,
+    "merchant": "Notaries",
+    "amount": 16.93,
+    "date": "2024-08-29",
+    "category": "Health",
+    "sub_category": null
+  },
+  {
+    "id": 95,
+    "merchant": "DMart",
+    "amount": 45.02,
+    "date": "2024-02-11",
+    "category": "Education",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 96,
+    "merchant": "Restaurants",
+    "amount": 14.64,
+    "date": "2023-07-28",
+    "category": "Groceries",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 97,
+    "merchant": "Nykaa",
+    "amount": 39.31,
+    "date": "2023-06-28",
+    "category": "Groceries",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 98,
+    "merchant": "Air India",
+    "amount": 44.95,
+    "date": "2023-09-08",
+    "category": "Food Services",
+    "sub_category": "Festive Shopping"
+  },
+  {
+    "id": 99,
+    "merchant": "Colleges",
+    "amount": 91.85,
+    "date": "2024-06-22",
+    "category": "Travel",
+    "sub_category": "Plumbing and Repairs"
+  },
+  {
+    "id": 100,
+    "merchant": "Swiggy",
+    "amount": 36.47,
+    "date": "2023-11-16",
+    "category": "Shopping",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 101,
+    "merchant": "Indane",
+    "amount": 13.65,
+    "date": "2023-07-16",
+    "category": "Utilities",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 102,
+    "merchant": "INOX",
+    "amount": 96.89,
+    "date": "2024-05-16",
+    "category": "Shopping",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 103,
+    "merchant": "SOTC",
+    "amount": 82.51,
+    "date": "2024-04-25",
+    "category": "Groceries",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 104,
+    "merchant": "Society Charges",
+    "amount": 28.18,
+    "date": "2024-02-22",
+    "category": "Transportation",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 105,
+    "merchant": "Flipkart",
+    "amount": 89.12,
+    "date": "2024-02-25",
+    "category": "Investments",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 106,
+    "merchant": "Malabar Gold",
+    "amount": 82.4,
+    "date": "2023-07-31",
+    "category": "Investments",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 107,
+    "merchant": "Uber Eats",
+    "amount": 55.46,
+    "date": "2024-10-08",
+    "category": "Education",
+    "sub_category": "Water Bill"
+  },
+  {
+    "id": 108,
+    "merchant": "Bharat Gas",
+    "amount": 1.26,
+    "date": "2023-05-30",
+    "category": "Telecommunications",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 109,
+    "merchant": "Uber Eats",
+    "amount": 27.81,
+    "date": "2023-05-04",
+    "category": "Health",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 110,
+    "merchant": "Purplle",
+    "amount": 76.82,
+    "date": "2024-03-23",
+    "category": "Groceries",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 111,
+    "merchant": "Railways",
+    "amount": 28.73,
+    "date": "2023-11-12",
+    "category": "Charity",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 112,
+    "merchant": "Air India",
+    "amount": 59.62,
+    "date": "2023-11-30",
+    "category": "Charity",
+    "sub_category": "Maintenance"
+  },
+  {
+    "id": 113,
+    "merchant": "Unacademy",
+    "amount": 10.29,
+    "date": "2023-08-14",
+    "category": "Professional Services",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 114,
+    "merchant": "Purplle",
+    "amount": 56.98,
+    "date": "2024-10-13",
+    "category": "Groceries",
+    "sub_category": "Plumbing and Repairs"
+  },
+  {
+    "id": 115,
+    "merchant": "State Buses",
+    "amount": 61.81,
+    "date": "2024-02-01",
+    "category": "Food Services",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 116,
+    "merchant": "Tax Consultants",
+    "amount": 91.16,
+    "date": "2023-12-04",
+    "category": "Investments",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 117,
+    "merchant": "BigBasket",
+    "amount": 75.61,
+    "date": "2024-09-30",
+    "category": "Shopping",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 118,
+    "merchant": "Parking Fees",
+    "amount": 24.8,
+    "date": "2024-11-10",
+    "category": "Groceries",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 119,
+    "merchant": "Amazon Prime",
+    "amount": 72.45,
+    "date": "2023-10-11",
+    "category": "Housing",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 120,
+    "merchant": "Schools",
+    "amount": 77.07,
+    "date": "2024-08-05",
+    "category": "Household",
+    "sub_category": "Tuition Fees"
+  },
+  {
+    "id": 121,
+    "merchant": "Society Charges",
+    "amount": 18.94,
+    "date": "2024-01-29",
+    "category": "Investments",
+    "sub_category": "Toll and Parking"
+  },
+  {
+    "id": 122,
+    "merchant": "Nykaa",
+    "amount": 53.28,
+    "date": "2023-05-01",
+    "category": "Food Services",
+    "sub_category": "Public Transport"
+  },
+  {
+    "id": 123,
+    "merchant": "Monthly Rent Payments",
+    "amount": 31.12,
+    "date": "2023-02-16",
+    "category": "",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 124,
+    "merchant": "Bharat Gas",
+    "amount": 12.24,
+    "date": "2024-06-28",
+    "category": "Housing",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 125,
+    "merchant": "Flipkart",
+    "amount": 43.32,
+    "date": "2024-12-08",
+    "category": "Entertainment",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 126,
+    "merchant": "Upstox",
+    "amount": 44.05,
+    "date": "2023-02-15",
+    "category": "Food Services",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 127,
+    "merchant": "Hathway",
+    "amount": 72.3,
+    "date": "2023-09-02",
+    "category": "Transportation",
+    "sub_category": "Car Insurance"
+  },
+  {
+    "id": 128,
+    "merchant": "Gifts",
+    "amount": 25.69,
+    "date": "2024-11-12",
+    "category": "Travel",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 129,
+    "merchant": "Blinkit",
+    "amount": 27.33,
+    "date": "2023-08-26",
+    "category": "Investments",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 130,
+    "merchant": "Kiranas",
+    "amount": 67.57,
+    "date": "2023-02-28",
+    "category": "",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 131,
+    "merchant": "MedPlus",
+    "amount": 77.18,
+    "date": "2023-02-20",
+    "category": "Groceries",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 132,
+    "merchant": "Star Health",
+    "amount": 63.05,
+    "date": "2024-09-07",
+    "category": "Professional Services",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 133,
+    "merchant": "Steam",
+    "amount": 37.93,
+    "date": "2023-03-09",
+    "category": "Health",
+    "sub_category": "Hotels"
+  },
+  {
+    "id": 134,
+    "merchant": "FASTag",
+    "amount": 50.75,
+    "date": "2024-01-25",
+    "category": "Professional Services",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 135,
+    "merchant": "Naturals",
+    "amount": 42.48,
+    "date": "2024-08-29",
+    "category": "Housing",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 136,
+    "merchant": "Star Health",
+    "amount": 8.64,
+    "date": "2023-06-24",
+    "category": "Groceries",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 137,
+    "merchant": "State Buses",
+    "amount": 72.77,
+    "date": "2024-06-24",
+    "category": "Transportation",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 138,
+    "merchant": "Juice Centers",
+    "amount": 66.6,
+    "date": "2024-06-22",
+    "category": "Household",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 139,
+    "merchant": "Flipkart",
+    "amount": 93.5,
+    "date": "2024-11-27",
+    "category": "Food Services",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 140,
+    "merchant": "HP Gas",
+    "amount": 55.13,
+    "date": "2024-05-24",
+    "category": "Groceries",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 141,
+    "merchant": "Metro",
+    "amount": 38.59,
+    "date": "2023-04-14",
+    "category": "Groceries",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 142,
+    "merchant": "Indane",
+    "amount": 15.86,
+    "date": "2023-12-10",
+    "category": "Professional Services",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 143,
+    "merchant": "State Buses",
+    "amount": 29.08,
+    "date": "2024-09-06",
+    "category": "Personal Care",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 144,
+    "merchant": "Unacademy",
+    "amount": 28.69,
+    "date": "2023-06-17",
+    "category": "Professional Services",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 145,
+    "merchant": "ICICI Lombard",
+    "amount": 30.05,
+    "date": "2023-05-15",
+    "category": "Telecommunications",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 146,
+    "merchant": "Bharat Gas",
+    "amount": 1.38,
+    "date": "2024-08-16",
+    "category": "Charity",
+    "sub_category": "Water Bill"
+  },
+  {
+    "id": 147,
+    "merchant": "Swiggy",
+    "amount": 71.05,
+    "date": "2023-12-29",
+    "category": "Groceries",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 148,
+    "merchant": "Tata Sky",
+    "amount": 33.73,
+    "date": "2023-07-03",
+    "category": "Charity",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 149,
+    "merchant": "Airtel",
+    "amount": 46.09,
+    "date": "2023-06-16",
+    "category": "Health",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 150,
+    "merchant": "Schools",
+    "amount": 42.98,
+    "date": "2025-01-24",
+    "category": "Groceries",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 151,
+    "merchant": "Thomas Cook",
+    "amount": 78.89,
+    "date": "2023-09-03",
+    "category": "Travel",
+    "sub_category": "Holiday Packages"
+  },
+  {
+    "id": 152,
+    "merchant": "Repair Services",
+    "amount": 64.62,
+    "date": "2024-04-22",
+    "category": "Utilities",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 153,
+    "merchant": "CoinDCX",
+    "amount": 29.25,
+    "date": "2023-04-30",
+    "category": "Food Services",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 154,
+    "merchant": "SBI",
+    "amount": 93.52,
+    "date": "2023-07-19",
+    "category": "Insurance",
+    "sub_category": "Retail Stores"
+  },
+  {
+    "id": 155,
+    "merchant": "SpiceJet",
+    "amount": 21.67,
+    "date": "2023-11-18",
+    "category": "Household",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 156,
+    "merchant": "PlayStation Store",
+    "amount": 13.47,
+    "date": "2023-06-19",
+    "category": "Shopping",
+    "sub_category": "Music"
+  },
+  {
+    "id": 157,
+    "merchant": "Pepcopp",
+    "amount": 49.79,
+    "date": "2024-09-07",
+    "category": "Groceries",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 158,
+    "merchant": "Online Fundraising",
+    "amount": 70.03,
+    "date": "2023-11-19",
+    "category": "Groceries",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 159,
+    "merchant": "Unacademy",
+    "amount": 81.34,
+    "date": "2023-03-29",
+    "category": "Investments",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 160,
+    "merchant": "SBI Mutual Fund",
+    "amount": 59.08,
+    "date": "2023-02-21",
+    "category": "Housing",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 161,
+    "merchant": "INOX",
+    "amount": 99.93,
+    "date": "2024-09-21",
+    "category": "Food Services",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 162,
+    "merchant": "Cafes",
+    "amount": 47.1,
+    "date": "2023-07-04",
+    "category": "Education",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 163,
+    "merchant": "Kiranas",
+    "amount": 79.39,
+    "date": "2024-05-13",
+    "category": "Education",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 164,
+    "merchant": "Local Theaters",
+    "amount": 93.8,
+    "date": "2024-01-26",
+    "category": "Professional Services",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 165,
+    "merchant": "Snacks Shops",
+    "amount": 46.24,
+    "date": "2023-05-29",
+    "category": "Shopping",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 166,
+    "merchant": "Cafes",
+    "amount": 17.89,
+    "date": "2024-11-29",
+    "category": "Food Services",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 167,
+    "merchant": "Apple Music",
+    "amount": 76.4,
+    "date": "2023-09-13",
+    "category": "Household",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 168,
+    "merchant": "IRCTC",
+    "amount": 55.94,
+    "date": "2023-11-10",
+    "category": "Groceries",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 169,
+    "merchant": "HP Gas",
+    "amount": 49.01,
+    "date": "2024-04-26",
+    "category": "Groceries",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 170,
+    "merchant": "Disney+ Hotstar",
+    "amount": 16.85,
+    "date": "2024-10-31",
+    "category": "Charity",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 171,
+    "merchant": "Kiranas",
+    "amount": 98.43,
+    "date": "2023-07-31",
+    "category": "Travel",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 172,
+    "merchant": "HiCare",
+    "amount": 26.68,
+    "date": "2023-04-22",
+    "category": "Groceries",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 173,
+    "merchant": "CoinDCX",
+    "amount": 40.35,
+    "date": "2024-04-11",
+    "category": "Transportation",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 174,
+    "merchant": "Jio",
+    "amount": 68.68,
+    "date": "2024-09-24",
+    "category": "Groceries",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 175,
+    "merchant": "Flipkart",
+    "amount": 67.38,
+    "date": "2023-05-12",
+    "category": "Groceries",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 176,
+    "merchant": "ICICI Bank",
+    "amount": 73.79,
+    "date": "2024-09-25",
+    "category": "Transportation",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 177,
+    "merchant": "Swiggy",
+    "amount": 3.07,
+    "date": "2024-08-11",
+    "category": "Entertainment",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 178,
+    "merchant": "Stationery Shops",
+    "amount": 36.9,
+    "date": "2024-11-11",
+    "category": "Charity",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 179,
+    "merchant": "Local Services",
+    "amount": 88.67,
+    "date": "2023-12-05",
+    "category": "Groceries",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 180,
+    "merchant": "Kalyan Jewelers",
+    "amount": 3.22,
+    "date": "2024-11-02",
+    "category": "",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 181,
+    "merchant": "Amazon",
+    "amount": 36.66,
+    "date": "2024-10-14",
+    "category": "",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 182,
+    "merchant": "Bookstores",
+    "amount": 91.65,
+    "date": "2024-02-23",
+    "category": "Travel",
+    "sub_category": ""
+  },
+  {
+    "id": 183,
+    "merchant": "BigBasket",
+    "amount": 28.95,
+    "date": "2024-10-07",
+    "category": "Utilities",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 184,
+    "merchant": "Gaana",
+    "amount": 71.46,
+    "date": "2024-10-27",
+    "category": "Groceries",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 185,
+    "merchant": "ICICI Bank",
+    "amount": 18.65,
+    "date": "2025-01-25",
+    "category": "Insurance",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 186,
+    "merchant": "Cafes",
+    "amount": 81.67,
+    "date": "2023-08-06",
+    "category": "Food Services",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 187,
+    "merchant": "Tata AIG",
+    "amount": 53.84,
+    "date": "2024-06-22",
+    "category": "Travel",
+    "sub_category": null
+  },
+  {
+    "id": 188,
+    "merchant": "Fruit Vendors",
+    "amount": 32.32,
+    "date": "2024-03-19",
+    "category": "Groceries",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 189,
+    "merchant": "Myntra",
+    "amount": 51.46,
+    "date": "2024-05-04",
+    "category": "Professional Services",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 190,
+    "merchant": "Hathway",
+    "amount": 14.96,
+    "date": "2024-11-06",
+    "category": "Food Services",
+    "sub_category": "Donations"
+  },
+  {
+    "id": 191,
+    "merchant": "Chartered Accountants",
+    "amount": 46.94,
+    "date": "2024-07-15",
+    "category": "",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 192,
+    "merchant": "Disney+ Hotstar",
+    "amount": 54.46,
+    "date": "2023-03-15",
+    "category": "Food Services",
+    "sub_category": "Plumbing and Repairs"
+  },
+  {
+    "id": 193,
+    "merchant": "Spotify",
+    "amount": 95.38,
+    "date": "2023-05-27",
+    "category": "Entertainment",
+    "sub_category": "Plumbing and Repairs"
+  },
+  {
+    "id": 194,
+    "merchant": "DMart",
+    "amount": 56.75,
+    "date": "2023-04-26",
+    "category": "Food Services",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 195,
+    "merchant": "Flipkart",
+    "amount": 82.86,
+    "date": "2023-02-25",
+    "category": "Entertainment",
+    "sub_category": "Tuition Fees"
+  },
+  {
+    "id": 196,
+    "merchant": "Blinkit",
+    "amount": 1.44,
+    "date": "2024-03-22",
+    "category": "",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 197,
+    "merchant": "Coursera",
+    "amount": 13.66,
+    "date": "2024-12-04",
+    "category": "Groceries",
+    "sub_category": null
+  },
+  {
+    "id": 198,
+    "merchant": "Diesel",
+    "amount": 27.99,
+    "date": "2024-03-04",
+    "category": "Personal Care",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 199,
+    "merchant": "Naturals",
+    "amount": 51.69,
+    "date": "2024-12-21",
+    "category": "Household",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 200,
+    "merchant": "CoinSwitch",
+    "amount": 85.26,
+    "date": "2023-05-02",
+    "category": "Professional Services",
+    "sub_category": "Public Transport"
+  },
+  {
+    "id": 201,
+    "merchant": "INOX",
+    "amount": 97.05,
+    "date": "2023-11-09",
+    "category": "Groceries",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 202,
+    "merchant": "Xbox Store",
+    "amount": 77.43,
+    "date": "2023-04-01",
+    "category": "Shopping",
+    "sub_category": "Toll and Parking"
+  },
+  {
+    "id": 203,
+    "merchant": "Amazon",
+    "amount": 17.48,
+    "date": "2024-08-06",
+    "category": "Shopping",
+    "sub_category": "Holiday Packages"
+  },
+  {
+    "id": 204,
+    "merchant": "Indane",
+    "amount": 50.82,
+    "date": "2023-02-12",
+    "category": "Household",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 205,
+    "merchant": "LIC",
+    "amount": 74.58,
+    "date": "2024-11-28",
+    "category": "Shopping",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 206,
+    "merchant": "INOX",
+    "amount": 66.61,
+    "date": "2024-10-31",
+    "category": "Transportation",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 207,
+    "merchant": "HDFC Bank",
+    "amount": 36.24,
+    "date": "2025-01-05",
+    "category": "Charity",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 208,
+    "merchant": "Repair Services",
+    "amount": 82.63,
+    "date": "2024-11-01",
+    "category": "Shopping",
+    "sub_category": "Water Bill"
+  },
+  {
+    "id": 209,
+    "merchant": "CoinDCX",
+    "amount": 84.46,
+    "date": "2023-04-25",
+    "category": "Household",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 210,
+    "merchant": "Myntra",
+    "amount": 51.13,
+    "date": "2024-05-03",
+    "category": "Food Services",
+    "sub_category": "Festive Shopping"
+  },
+  {
+    "id": 211,
+    "merchant": "Gaana",
+    "amount": 62.65,
+    "date": "2023-12-01",
+    "category": "Food Services",
+    "sub_category": "Gas Services"
+  },
+  {
+    "id": 212,
+    "merchant": "Restaurants",
+    "amount": 78.64,
+    "date": "2023-04-01",
+    "category": "Food Services",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 213,
+    "merchant": "HDFC Bank",
+    "amount": 39.18,
+    "date": "2024-12-20",
+    "category": "Travel",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 214,
+    "merchant": "Goibibo",
+    "amount": 98.37,
+    "date": "2023-09-12",
+    "category": "Travel",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 215,
+    "merchant": "Snacks Shops",
+    "amount": 85.53,
+    "date": "2024-04-11",
+    "category": "Groceries",
+    "sub_category": "Retail Stores"
+  },
+  {
+    "id": 216,
+    "merchant": "PlayStation Store",
+    "amount": 69.31,
+    "date": "2023-08-27",
+    "category": "Investments",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 217,
+    "merchant": "Lakme Salon",
+    "amount": 14.52,
+    "date": "2024-09-17",
+    "category": "Professional Services",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 218,
+    "merchant": "Ola",
+    "amount": 13.72,
+    "date": "2023-11-15",
+    "category": "Education",
+    "sub_category": null
+  },
+  {
+    "id": 219,
+    "merchant": "Doctor Consultations",
+    "amount": 39.34,
+    "date": "2025-01-19",
+    "category": "Charity",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 220,
+    "merchant": "Hathway",
+    "amount": 79.26,
+    "date": "2024-11-24",
+    "category": "Groceries",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 221,
+    "merchant": "DMart",
+    "amount": 42.46,
+    "date": "2024-08-16",
+    "category": "Health",
+    "sub_category": "Music"
+  },
+  {
+    "id": 222,
+    "merchant": "Vodafone Idea",
+    "amount": 72.51,
+    "date": "2024-08-31",
+    "category": "Food Services",
+    "sub_category": "Music"
+  },
+  {
+    "id": 223,
+    "merchant": "Decorations",
+    "amount": 51.33,
+    "date": "2023-06-26",
+    "category": "Food Services",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 224,
+    "merchant": "Gifts",
+    "amount": 63.94,
+    "date": "2024-12-24",
+    "category": "Food Services",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 225,
+    "merchant": "ACT Fibernet",
+    "amount": 27.67,
+    "date": "2024-08-24",
+    "category": "Charity",
+    "sub_category": ""
+  },
+  {
+    "id": 226,
+    "merchant": "Gifts",
+    "amount": 77.11,
+    "date": "2024-10-06",
+    "category": "Insurance",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 227,
+    "merchant": "Local Theaters",
+    "amount": 75.72,
+    "date": "2024-08-20",
+    "category": "Health",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 228,
+    "merchant": "IRCTC",
+    "amount": 80.85,
+    "date": "2024-09-26",
+    "category": "Groceries",
+    "sub_category": "Gas Services"
+  },
+  {
+    "id": 229,
+    "merchant": "Doctor Consultations",
+    "amount": 90.39,
+    "date": "2023-07-05",
+    "category": "Personal Care",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 230,
+    "merchant": "Airtel",
+    "amount": 43.91,
+    "date": "2023-04-17",
+    "category": "",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 231,
+    "merchant": "ACT Fibernet",
+    "amount": 1.5,
+    "date": "2023-03-27",
+    "category": "Insurance",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 232,
+    "merchant": "Dish TV",
+    "amount": 79.61,
+    "date": "2023-09-14",
+    "category": "Food Services",
+    "sub_category": "Retail Stores"
+  },
+  {
+    "id": 233,
+    "merchant": "Diesel",
+    "amount": 31.86,
+    "date": "2023-10-13",
+    "category": "Charity",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 234,
+    "merchant": "Juice Centers",
+    "amount": 68.75,
+    "date": "2024-10-06",
+    "category": "Groceries",
+    "sub_category": null
+  },
+  {
+    "id": 235,
+    "merchant": "Steam",
+    "amount": 34.27,
+    "date": "2024-10-08",
+    "category": "Utilities",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 236,
+    "merchant": "Universities",
+    "amount": 52.29,
+    "date": "2024-06-20",
+    "category": "Insurance",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 237,
+    "merchant": "Airtel",
+    "amount": 94.13,
+    "date": "2023-12-22",
+    "category": "Education",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 238,
+    "merchant": "HDFC Life",
+    "amount": 89.98,
+    "date": "2024-09-23",
+    "category": "Charity",
+    "sub_category": "Music"
+  },
+  {
+    "id": 239,
+    "merchant": "Indane",
+    "amount": 10.76,
+    "date": "2023-04-10",
+    "category": "Housing",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 240,
+    "merchant": "Naturals",
+    "amount": 62.1,
+    "date": "2024-12-16",
+    "category": "Utilities",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 241,
+    "merchant": "Bharat Gas",
+    "amount": 58.45,
+    "date": "2024-04-20",
+    "category": "Shopping",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 242,
+    "merchant": "Chartered Accountants",
+    "amount": 34.72,
+    "date": "2023-08-24",
+    "category": "Groceries",
+    "sub_category": "Festive Shopping"
+  },
+  {
+    "id": 243,
+    "merchant": "Temples",
+    "amount": 14.94,
+    "date": "2024-08-11",
+    "category": "Food Services",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 244,
+    "merchant": "Reliance Fresh",
+    "amount": 28.31,
+    "date": "2024-12-31",
+    "category": "Charity",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 245,
+    "merchant": "PVR",
+    "amount": 93.9,
+    "date": "2023-04-21",
+    "category": "Transportation",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 246,
+    "merchant": "Indane",
+    "amount": 74.96,
+    "date": "2023-08-04",
+    "category": "Insurance",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 247,
+    "merchant": "Fruit Vendors",
+    "amount": 85.32,
+    "date": "2023-05-23",
+    "category": "Professional Services",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 248,
+    "merchant": "State Buses",
+    "amount": 27.63,
+    "date": "2024-11-06",
+    "category": "Investments",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 249,
+    "merchant": "Rapido",
+    "amount": 27.04,
+    "date": "2024-11-23",
+    "category": "Groceries",
+    "sub_category": null
+  },
+  {
+    "id": 250,
+    "merchant": "Ola",
+    "amount": 4.43,
+    "date": "2023-04-05",
+    "category": "Housing",
+    "sub_category": "Public Transport"
+  },
+  {
+    "id": 251,
+    "merchant": "SpiceJet",
+    "amount": 15.33,
+    "date": "2023-12-03",
+    "category": "Investments",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 252,
+    "merchant": "Vodafone Idea",
+    "amount": 53.68,
+    "date": "2024-05-11",
+    "category": "Personal Care",
+    "sub_category": "Festive Shopping"
+  },
+  {
+    "id": 253,
+    "merchant": "Chartered Accountants",
+    "amount": 33.15,
+    "date": "2024-07-31",
+    "category": "Utilities",
+    "sub_category": "Airfare"
+  },
+  {
+    "id": 254,
+    "merchant": "Blinkit",
+    "amount": 92.29,
+    "date": "2024-08-31",
+    "category": "Investments",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 255,
+    "merchant": "IndiGo",
+    "amount": 86.45,
+    "date": "2024-07-05",
+    "category": "Utilities",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 256,
+    "merchant": "Steam",
+    "amount": 1.46,
+    "date": "2025-01-14",
+    "category": "Groceries",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 257,
+    "merchant": "WazirX",
+    "amount": 8.89,
+    "date": "2023-02-01",
+    "category": "Travel",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 258,
+    "merchant": "Bookstores",
+    "amount": 18.15,
+    "date": "2023-07-24",
+    "category": "Shopping",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 259,
+    "merchant": "Municipal Corporation",
+    "amount": 83.19,
+    "date": "2024-04-22",
+    "category": "Entertainment",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 260,
+    "merchant": "Local Services",
+    "amount": 20.3,
+    "date": "2024-11-19",
+    "category": "Travel",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 261,
+    "merchant": "Religare",
+    "amount": 96.31,
+    "date": "2023-09-29",
+    "category": "Education",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 262,
+    "merchant": "SBI",
+    "amount": 71.77,
+    "date": "2023-11-05",
+    "category": "Travel",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 263,
+    "merchant": "Yoga Classes",
+    "amount": 36.31,
+    "date": "2023-10-01",
+    "category": "Household",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 264,
+    "merchant": "Amazon Pantry",
+    "amount": 27.57,
+    "date": "2024-12-26",
+    "category": "Professional Services",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 265,
+    "merchant": "Gym Memberships",
+    "amount": 12.4,
+    "date": "2023-02-04",
+    "category": "Entertainment",
+    "sub_category": "Plumbing and Repairs"
+  },
+  {
+    "id": 266,
+    "merchant": "Bookstores",
+    "amount": 67.31,
+    "date": "2024-07-05",
+    "category": "Travel",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 267,
+    "merchant": "Chartered Accountants",
+    "amount": 85.85,
+    "date": "2024-10-10",
+    "category": "Food Services",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 268,
+    "merchant": "Bookstores",
+    "amount": 77.68,
+    "date": "2023-04-24",
+    "category": "Investments",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 269,
+    "merchant": "Schools",
+    "amount": 87.25,
+    "date": "2023-11-11",
+    "category": "Education",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 270,
+    "merchant": "Disney+ Hotstar",
+    "amount": 70.79,
+    "date": "2024-09-09",
+    "category": "",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 271,
+    "merchant": "Spotify",
+    "amount": 19.49,
+    "date": "2023-03-19",
+    "category": "Household",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 272,
+    "merchant": "Disney+ Hotstar",
+    "amount": 4.14,
+    "date": "2024-12-29",
+    "category": "Groceries",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 273,
+    "merchant": "Amazon",
+    "amount": 18.55,
+    "date": "2024-03-09",
+    "category": "Entertainment",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 274,
+    "merchant": "Zomato",
+    "amount": 74.91,
+    "date": "2024-02-04",
+    "category": "Shopping",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 275,
+    "merchant": "Flipkart",
+    "amount": 12.03,
+    "date": "2023-03-22",
+    "category": "Food Services",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 276,
+    "merchant": "Airtel DTH",
+    "amount": 23.97,
+    "date": "2024-04-27",
+    "category": "Personal Care",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 277,
+    "merchant": "Doctor Consultations",
+    "amount": 39.72,
+    "date": "2024-07-12",
+    "category": "Food Services",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 278,
+    "merchant": "IRCTC",
+    "amount": 75.01,
+    "date": "2023-07-31",
+    "category": "Shopping",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 279,
+    "merchant": "Lifestyle",
+    "amount": 88.06,
+    "date": "2023-08-26",
+    "category": "Insurance",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 280,
+    "merchant": "Airtel",
+    "amount": 8.54,
+    "date": "2023-09-14",
+    "category": "Investments",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 281,
+    "merchant": "Xbox Store",
+    "amount": 50.27,
+    "date": "2024-05-22",
+    "category": "Telecommunications",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 282,
+    "merchant": "Vegetable Markets",
+    "amount": 41.7,
+    "date": "2024-05-19",
+    "category": "Food Services",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 283,
+    "merchant": "OYO",
+    "amount": 47.6,
+    "date": "2024-06-26",
+    "category": "Personal Care",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 284,
+    "merchant": "Hospital Bills",
+    "amount": 97.9,
+    "date": "2023-03-31",
+    "category": "Investments",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 285,
+    "merchant": "Restaurants",
+    "amount": 9.88,
+    "date": "2024-01-13",
+    "category": "Charity",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 286,
+    "merchant": "Croma",
+    "amount": 97.88,
+    "date": "2024-02-24",
+    "category": "Groceries",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 287,
+    "merchant": "Naturals",
+    "amount": 79.28,
+    "date": "2023-11-27",
+    "category": "Utilities",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 288,
+    "merchant": "Thomas Cook",
+    "amount": 26.32,
+    "date": "2023-05-18",
+    "category": "Food Services",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 289,
+    "merchant": "Yatra",
+    "amount": 66.94,
+    "date": "2024-08-27",
+    "category": "Insurance",
+    "sub_category": null
+  },
+  {
+    "id": 290,
+    "merchant": "HDFC Bank",
+    "amount": 96.07,
+    "date": "2023-02-05",
+    "category": "Transportation",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 291,
+    "merchant": "Railways",
+    "amount": 46.12,
+    "date": "2023-12-15",
+    "category": "Personal Care",
+    "sub_category": ""
+  },
+  {
+    "id": 292,
+    "merchant": "Local Agencies",
+    "amount": 78.69,
+    "date": "2024-12-11",
+    "category": "Shopping",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 293,
+    "merchant": "Hathway",
+    "amount": 58.93,
+    "date": "2023-11-24",
+    "category": "Health",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 294,
+    "merchant": "Urban Company",
+    "amount": 8.54,
+    "date": "2024-09-08",
+    "category": "Food Services",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 295,
+    "merchant": "Zerodha",
+    "amount": 66.64,
+    "date": "2023-07-04",
+    "category": "Shopping",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 296,
+    "merchant": "Gifts",
+    "amount": 90.58,
+    "date": "2024-01-30",
+    "category": "Entertainment",
+    "sub_category": "Water Bill"
+  },
+  {
+    "id": 297,
+    "merchant": "MakeMyTrip",
+    "amount": 28.5,
+    "date": "2023-10-03",
+    "category": "Charity",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 298,
+    "merchant": "SOTC",
+    "amount": 71.08,
+    "date": "2024-08-18",
+    "category": "Charity",
+    "sub_category": "Airfare"
+  },
+  {
+    "id": 299,
+    "merchant": "Groww",
+    "amount": 95.12,
+    "date": "2024-03-15",
+    "category": "Groceries",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 300,
+    "merchant": "Disney+ Hotstar",
+    "amount": 52.37,
+    "date": "2023-12-16",
+    "category": "Housing",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 301,
+    "merchant": "FASTag",
+    "amount": 77.19,
+    "date": "2023-06-14",
+    "category": "Groceries",
+    "sub_category": "Life Insurance"
+  },
+  {
+    "id": 302,
+    "merchant": "Kiranas",
+    "amount": 5.77,
+    "date": "2024-02-29",
+    "category": "Investments",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 303,
+    "merchant": "Online Fundraising",
+    "amount": 39.72,
+    "date": "2025-01-29",
+    "category": "Groceries",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 304,
+    "merchant": "Restaurants",
+    "amount": 91.48,
+    "date": "2024-10-18",
+    "category": "Investments",
+    "sub_category": "Fuel"
+  },
+  {
+    "id": 305,
+    "merchant": "Bharat Gas",
+    "amount": 23.07,
+    "date": "2024-06-26",
+    "category": "Food Services",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 306,
+    "merchant": "Naturals",
+    "amount": 56.3,
+    "date": "2024-05-09",
+    "category": "Charity",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 307,
+    "merchant": "",
+    "amount": 27.93,
+    "date": "2024-12-16",
+    "category": "Personal Care",
+    "sub_category": null
+  },
+  {
+    "id": 308,
+    "merchant": "Apple Music",
+    "amount": 8.78,
+    "date": "2023-07-07",
+    "category": "Personal Care",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 309,
+    "merchant": "Stationery Shops",
+    "amount": 95.59,
+    "date": "2024-09-08",
+    "category": "",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 310,
+    "merchant": "Amazon",
+    "amount": 7.95,
+    "date": "2024-08-17",
+    "category": "Charity",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 311,
+    "merchant": "IRCTC",
+    "amount": 19.33,
+    "date": "2023-03-12",
+    "category": "Food Services",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 312,
+    "merchant": "Amazon Pantry",
+    "amount": 83.83,
+    "date": "2024-03-18",
+    "category": "Professional Services",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 313,
+    "merchant": "Kalyan Jewelers",
+    "amount": 58.78,
+    "date": "2023-07-02",
+    "category": "Personal Care",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 314,
+    "merchant": "BigBasket",
+    "amount": 15.24,
+    "date": "2024-07-31",
+    "category": "Charity",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 315,
+    "merchant": "Airtel",
+    "amount": 2.68,
+    "date": "2023-10-26",
+    "category": "Household",
+    "sub_category": "Water Bill"
+  },
+  {
+    "id": 316,
+    "merchant": "Snacks Shops",
+    "amount": 17.59,
+    "date": "2024-08-15",
+    "category": "Transportation",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 317,
+    "merchant": "Zomato",
+    "amount": 32.24,
+    "date": "2024-03-11",
+    "category": "Investments",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 318,
+    "merchant": "Pepcopp",
+    "amount": 19.96,
+    "date": "2023-09-23",
+    "category": "Insurance",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 319,
+    "merchant": "Metro",
+    "amount": 82.72,
+    "date": "2024-05-08",
+    "category": "Insurance",
+    "sub_category": "Public Transport"
+  },
+  {
+    "id": 320,
+    "merchant": "Pepcopp",
+    "amount": 59.23,
+    "date": "2024-08-16",
+    "category": "Personal Care",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 321,
+    "merchant": "Doctor Consultations",
+    "amount": 81.88,
+    "date": "2023-06-10",
+    "category": "Investments",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 322,
+    "merchant": "ICICI Prudential",
+    "amount": 31.76,
+    "date": "2024-05-06",
+    "category": "Entertainment",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 323,
+    "merchant": "AJIO",
+    "amount": 38.71,
+    "date": "2023-08-16",
+    "category": "Investments",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 324,
+    "merchant": "Yoga Classes",
+    "amount": 35.26,
+    "date": "2023-04-21",
+    "category": "Shopping",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 325,
+    "merchant": "MedPlus",
+    "amount": 58.15,
+    "date": "2023-03-26",
+    "category": "Insurance",
+    "sub_category": "Festive Shopping"
+  },
+  {
+    "id": 326,
+    "merchant": "Zerodha",
+    "amount": 44.76,
+    "date": "2025-01-03",
+    "category": "",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 327,
+    "merchant": "INOX",
+    "amount": 15.47,
+    "date": "2024-06-25",
+    "category": "Charity",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 328,
+    "merchant": "Naturals",
+    "amount": 66.05,
+    "date": "2025-01-11",
+    "category": "Travel",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 329,
+    "merchant": "AJIO",
+    "amount": 48.69,
+    "date": "2024-02-26",
+    "category": "Food Services",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 330,
+    "merchant": "NGOs",
+    "amount": 57.26,
+    "date": "2024-08-19",
+    "category": "Personal Care",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 331,
+    "merchant": "Online Fundraising",
+    "amount": 83.84,
+    "date": "2023-08-31",
+    "category": "Household",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 332,
+    "merchant": "PlayStation Store",
+    "amount": 39.7,
+    "date": "2024-08-24",
+    "category": "Food Services",
+    "sub_category": "Airfare"
+  },
+  {
+    "id": 333,
+    "merchant": "DMart",
+    "amount": 8.17,
+    "date": "2024-05-04",
+    "category": "Charity",
+    "sub_category": "Music"
+  },
+  {
+    "id": 334,
+    "merchant": "MedPlus",
+    "amount": 43.27,
+    "date": "2024-09-02",
+    "category": "Investments",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 335,
+    "merchant": "Metro",
+    "amount": 57.27,
+    "date": "2024-09-01",
+    "category": "",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 336,
+    "merchant": "Naturals",
+    "amount": 85.35,
+    "date": "2024-05-28",
+    "category": "Groceries",
+    "sub_category": "Tuition Fees"
+  },
+  {
+    "id": 337,
+    "merchant": "State Buses",
+    "amount": 37.69,
+    "date": "2024-11-22",
+    "category": "",
+    "sub_category": "Toll and Parking"
+  },
+  {
+    "id": 338,
+    "merchant": "Rapido",
+    "amount": 85.64,
+    "date": "2024-12-08",
+    "category": "Shopping",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 339,
+    "merchant": "SBI Mutual Fund",
+    "amount": 40.72,
+    "date": "2024-08-17",
+    "category": "Investments",
+    "sub_category": "Donations"
+  },
+  {
+    "id": 340,
+    "merchant": "Schools",
+    "amount": 31.53,
+    "date": "2023-09-06",
+    "category": "Shopping",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 341,
+    "merchant": "Local Agencies",
+    "amount": 7.01,
+    "date": "2023-08-27",
+    "category": "Shopping",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 342,
+    "merchant": "Myntra",
+    "amount": 26.73,
+    "date": "2024-09-18",
+    "category": "Education",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 343,
+    "merchant": "Tata Sky",
+    "amount": 73.63,
+    "date": "2023-03-15",
+    "category": "Groceries",
+    "sub_category": ""
+  },
+  {
+    "id": 344,
+    "merchant": "INOX",
+    "amount": 61.57,
+    "date": "2024-02-22",
+    "category": "Travel",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 345,
+    "merchant": "HiCare",
+    "amount": 90.83,
+    "date": "2024-06-05",
+    "category": "Groceries",
+    "sub_category": "Toll and Parking"
+  },
+  {
+    "id": 346,
+    "merchant": "Star Health",
+    "amount": 83.01,
+    "date": "2024-02-04",
+    "category": "Entertainment",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 347,
+    "merchant": "INOX",
+    "amount": 23.02,
+    "date": "2023-09-27",
+    "category": "Food Services",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 348,
+    "merchant": "Universities",
+    "amount": 52.57,
+    "date": "2023-11-10",
+    "category": "Food Services",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 349,
+    "merchant": "Tax Consultants",
+    "amount": 81.55,
+    "date": "2024-12-06",
+    "category": "Food Services",
+    "sub_category": "Public Transport"
+  },
+  {
+    "id": 350,
+    "merchant": "Jio",
+    "amount": 74.98,
+    "date": "2024-08-04",
+    "category": "Groceries",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 351,
+    "merchant": "Purplle",
+    "amount": 74.19,
+    "date": "2024-03-24",
+    "category": "Entertainment",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 352,
+    "merchant": "CNG",
+    "amount": 31.33,
+    "date": "2023-04-13",
+    "category": "Groceries",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 353,
+    "merchant": "Vodafone Idea",
+    "amount": 79.77,
+    "date": "2023-04-08",
+    "category": "Groceries",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 354,
+    "merchant": "Upstox",
+    "amount": 28.46,
+    "date": "2025-01-17",
+    "category": "Personal Care",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 355,
+    "merchant": "Max Bupa",
+    "amount": 28.96,
+    "date": "2023-06-30",
+    "category": "Education",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 356,
+    "merchant": "Dish TV",
+    "amount": 28.28,
+    "date": "2024-03-13",
+    "category": "Shopping",
+    "sub_category": "Airfare"
+  },
+  {
+    "id": 357,
+    "merchant": "Star Health",
+    "amount": 27.42,
+    "date": "2023-12-22",
+    "category": "Investments",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 358,
+    "merchant": "DMart",
+    "amount": 15.98,
+    "date": "2023-10-01",
+    "category": "Education",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 359,
+    "merchant": "Kiranas",
+    "amount": 5.9,
+    "date": "2024-05-04",
+    "category": "Insurance",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 360,
+    "merchant": "Local Theaters",
+    "amount": 75.26,
+    "date": "2024-09-26",
+    "category": "Professional Services",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 361,
+    "merchant": "Zomato",
+    "amount": 93.42,
+    "date": "2023-12-02",
+    "category": "Personal Care",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 362,
+    "merchant": "Doctor Consultations",
+    "amount": 76.66,
+    "date": "2025-01-25",
+    "category": "Utilities",
+    "sub_category": null
+  },
+  {
+    "id": 363,
+    "merchant": "SOTC",
+    "amount": 50.54,
+    "date": "2023-10-11",
+    "category": "Personal Care",
+    "sub_category": "Public Transport"
+  },
+  {
+    "id": 364,
+    "merchant": "HiCare",
+    "amount": 14.75,
+    "date": "2023-03-04",
+    "category": "Health",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 365,
+    "merchant": "Apollo Pharmacy",
+    "amount": 62,
+    "date": "2024-05-29",
+    "category": "Groceries",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 366,
+    "merchant": "CNG",
+    "amount": 89.24,
+    "date": "2024-10-15",
+    "category": "Utilities",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 367,
+    "merchant": "Local Services",
+    "amount": 53.16,
+    "date": "2024-01-09",
+    "category": "Groceries",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 368,
+    "merchant": "BSNL",
+    "amount": 36.97,
+    "date": "2023-08-30",
+    "category": "Charity",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 369,
+    "merchant": "OYO",
+    "amount": 15.17,
+    "date": "2023-12-03",
+    "category": "Education",
+    "sub_category": "Airfare"
+  },
+  {
+    "id": 370,
+    "merchant": "",
+    "amount": 26.69,
+    "date": "2024-03-22",
+    "category": "Transportation",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 371,
+    "merchant": "Zomato",
+    "amount": 77.25,
+    "date": "2023-10-04",
+    "category": "Food Services",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 372,
+    "merchant": "IndiGo",
+    "amount": 8.87,
+    "date": "2024-05-18",
+    "category": "Food Services",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 373,
+    "merchant": "Naturals",
+    "amount": 49.32,
+    "date": "2023-06-24",
+    "category": "Utilities",
+    "sub_category": null
+  },
+  {
+    "id": 374,
+    "merchant": "BSNL",
+    "amount": 56.73,
+    "date": "2023-04-28",
+    "category": "Professional Services",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 375,
+    "merchant": "Apollo Pharmacy",
+    "amount": 75.28,
+    "date": "2024-07-07",
+    "category": "Education",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 376,
+    "merchant": "Spotify",
+    "amount": 40.59,
+    "date": "2023-12-16",
+    "category": "Household",
+    "sub_category": "Toll and Parking"
+  },
+  {
+    "id": 377,
+    "merchant": "Monthly Rent Payments",
+    "amount": 71.38,
+    "date": "2024-10-21",
+    "category": "Professional Services",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 378,
+    "merchant": "Urban Company",
+    "amount": 11.97,
+    "date": "2023-09-26",
+    "category": "Groceries",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 379,
+    "merchant": "Amazon",
+    "amount": 67.86,
+    "date": "2024-04-30",
+    "category": "Charity",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 380,
+    "merchant": "Apollo Pharmacy",
+    "amount": 60.94,
+    "date": "2023-07-08",
+    "category": "Travel",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 381,
+    "merchant": "BigBasket",
+    "amount": 1.02,
+    "date": "2023-07-22",
+    "category": "Groceries",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 382,
+    "merchant": "HDFC Mutual Fund",
+    "amount": 41.2,
+    "date": "2024-08-06",
+    "category": "Food Services",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 383,
+    "merchant": "Doctor Consultations",
+    "amount": 60.11,
+    "date": "2024-02-19",
+    "category": "Utilities",
+    "sub_category": "Retail Stores"
+  },
+  {
+    "id": 384,
+    "merchant": "Vegetable Markets",
+    "amount": 80.12,
+    "date": "2024-04-04",
+    "category": "Groceries",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 385,
+    "merchant": "Swiggy",
+    "amount": 91.06,
+    "date": "2025-01-09",
+    "category": "",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 386,
+    "merchant": "Airtel DTH",
+    "amount": 34.19,
+    "date": "2023-03-11",
+    "category": "Charity",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 387,
+    "merchant": "Restaurants",
+    "amount": 3,
+    "date": "2023-07-19",
+    "category": "Education",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 388,
+    "merchant": "BSNL",
+    "amount": 46.81,
+    "date": "2024-02-08",
+    "category": "Professional Services",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 389,
+    "merchant": "Flipkart",
+    "amount": 19.75,
+    "date": "2024-12-23",
+    "category": "Personal Care",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 390,
+    "merchant": "CoinDCX",
+    "amount": 44.2,
+    "date": "2024-11-09",
+    "category": "Groceries",
+    "sub_category": "Fuel"
+  },
+  {
+    "id": 391,
+    "merchant": "HDFC Life",
+    "amount": 7.57,
+    "date": "2024-05-10",
+    "category": "Groceries",
+    "sub_category": null
+  },
+  {
+    "id": 392,
+    "merchant": "CNG",
+    "amount": 52.52,
+    "date": "2023-12-25",
+    "category": "",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 393,
+    "merchant": "Doctor Consultations",
+    "amount": 93.98,
+    "date": "2025-01-07",
+    "category": "Shopping",
+    "sub_category": null
+  },
+  {
+    "id": 394,
+    "merchant": "HDFC Life",
+    "amount": 39.93,
+    "date": "2024-08-29",
+    "category": "Housing",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 395,
+    "merchant": "Metro",
+    "amount": 60.56,
+    "date": "2024-03-06",
+    "category": "Utilities",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 396,
+    "merchant": "Rapido",
+    "amount": 64.39,
+    "date": "2023-10-07",
+    "category": "Groceries",
+    "sub_category": "Festive Shopping"
+  },
+  {
+    "id": 397,
+    "merchant": "Cafes",
+    "amount": 43.14,
+    "date": "2024-10-28",
+    "category": "Entertainment",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 398,
+    "merchant": "Yoga Classes",
+    "amount": 28.83,
+    "date": "2023-03-31",
+    "category": "Education",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 399,
+    "merchant": "Fruit Vendors",
+    "amount": 18.01,
+    "date": "2023-10-25",
+    "category": "Health",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 400,
+    "merchant": "SpiceJet",
+    "amount": 83.26,
+    "date": "2023-09-23",
+    "category": "Charity",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 401,
+    "merchant": "CoinSwitch",
+    "amount": 45.69,
+    "date": "2024-02-02",
+    "category": "Food Services",
+    "sub_category": "Festive Shopping"
+  },
+  {
+    "id": 402,
+    "merchant": "Spotify",
+    "amount": 59.26,
+    "date": "2024-04-07",
+    "category": "Household",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 403,
+    "merchant": "Coursera",
+    "amount": 57.52,
+    "date": "2024-05-03",
+    "category": "Groceries",
+    "sub_category": "Life Insurance"
+  },
+  {
+    "id": 404,
+    "merchant": "Steam",
+    "amount": 19.43,
+    "date": "2024-04-02",
+    "category": "Travel",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 405,
+    "merchant": "Flipkart",
+    "amount": 93.07,
+    "date": "2025-01-20",
+    "category": "Shopping",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 406,
+    "merchant": "Gym Memberships",
+    "amount": 61.02,
+    "date": "2024-06-18",
+    "category": "Investments",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 407,
+    "merchant": "DMart",
+    "amount": 29.26,
+    "date": "2024-09-27",
+    "category": "Household",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 408,
+    "merchant": "Netflix",
+    "amount": 90.22,
+    "date": "2024-01-28",
+    "category": "Utilities",
+    "sub_category": "Life Insurance"
+  },
+  {
+    "id": 409,
+    "merchant": "Zerodha",
+    "amount": 10.82,
+    "date": "2024-11-19",
+    "category": "Investments",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 410,
+    "merchant": "Online Fundraising",
+    "amount": 77.05,
+    "date": "2024-02-25",
+    "category": "Education",
+    "sub_category": "Fuel"
+  },
+  {
+    "id": 411,
+    "merchant": "Cafes",
+    "amount": 19.58,
+    "date": "2023-06-09",
+    "category": "Food Services",
+    "sub_category": "Car Insurance"
+  },
+  {
+    "id": 412,
+    "merchant": "WazirX",
+    "amount": 46.37,
+    "date": "2023-04-06",
+    "category": "Professional Services",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 413,
+    "merchant": "Lakme Salon",
+    "amount": 31.63,
+    "date": "2023-05-27",
+    "category": "Personal Care",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 414,
+    "merchant": "Railways",
+    "amount": 1.44,
+    "date": "2023-03-14",
+    "category": "Travel",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 415,
+    "merchant": "Dish TV",
+    "amount": 43.74,
+    "date": "2023-03-22",
+    "category": "Telecommunications",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 416,
+    "merchant": "Yatra",
+    "amount": 80.79,
+    "date": "2023-09-04",
+    "category": "Education",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 417,
+    "merchant": "Netflix",
+    "amount": 24.93,
+    "date": "2024-12-16",
+    "category": "Transportation",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 418,
+    "merchant": "Metro",
+    "amount": 93.77,
+    "date": "2024-07-10",
+    "category": "Groceries",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 419,
+    "merchant": "Purplle",
+    "amount": 53.66,
+    "date": "2024-04-17",
+    "category": "Investments",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 420,
+    "merchant": "Amazon Prime",
+    "amount": 76.7,
+    "date": "2024-07-24",
+    "category": "Housing",
+    "sub_category": "Hotels"
+  },
+  {
+    "id": 421,
+    "merchant": "HDFC Bank",
+    "amount": 34.94,
+    "date": "2024-05-17",
+    "category": "Housing",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 422,
+    "merchant": "Airtel",
+    "amount": 41.98,
+    "date": "2024-02-06",
+    "category": "Transportation",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 423,
+    "merchant": "Unacademy",
+    "amount": 16.4,
+    "date": "2024-09-04",
+    "category": "Travel",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 424,
+    "merchant": "HDFC Bank",
+    "amount": 18,
+    "date": "2024-07-15",
+    "category": "Food Services",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 425,
+    "merchant": "Lifestyle",
+    "amount": 11.66,
+    "date": "2024-11-23",
+    "category": "Food Services",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 426,
+    "merchant": "Parking Fees",
+    "amount": 13.63,
+    "date": "2023-09-04",
+    "category": "Household",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 427,
+    "merchant": "Max Bupa",
+    "amount": 38.03,
+    "date": "2024-09-22",
+    "category": "Groceries",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 428,
+    "merchant": "Hathway",
+    "amount": 92.63,
+    "date": "2025-01-02",
+    "category": "Investments",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 429,
+    "merchant": "Stationery Shops",
+    "amount": 12.38,
+    "date": "2024-05-08",
+    "category": "Telecommunications",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 430,
+    "merchant": "Zomato",
+    "amount": 36.67,
+    "date": "2023-06-05",
+    "category": "Personal Care",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 431,
+    "merchant": "Yoga Classes",
+    "amount": 71.47,
+    "date": "2023-03-19",
+    "category": "Food Services",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 432,
+    "merchant": "Yatra",
+    "amount": 73.39,
+    "date": "2024-07-16",
+    "category": "Personal Care",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 433,
+    "merchant": "Society Charges",
+    "amount": 20.78,
+    "date": "2024-10-14",
+    "category": "Travel",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 434,
+    "merchant": "Rapido",
+    "amount": 81.14,
+    "date": "2024-01-16",
+    "category": "Professional Services",
+    "sub_category": "Music"
+  },
+  {
+    "id": 435,
+    "merchant": "LIC",
+    "amount": 10.66,
+    "date": "2023-03-31",
+    "category": "Entertainment",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 436,
+    "merchant": "Local Theaters",
+    "amount": 60.26,
+    "date": "2023-08-28",
+    "category": "Personal Care",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 437,
+    "merchant": "State Power Utilities",
+    "amount": 30.23,
+    "date": "2024-05-15",
+    "category": "Groceries",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 438,
+    "merchant": "CoinSwitch",
+    "amount": 74.61,
+    "date": "2023-04-14",
+    "category": "Shopping",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 439,
+    "merchant": "Repair Services",
+    "amount": 12.95,
+    "date": "2024-01-05",
+    "category": "Groceries",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 440,
+    "merchant": "HDFC Bank",
+    "amount": 28.68,
+    "date": "2024-07-24",
+    "category": "Food Services",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 441,
+    "merchant": "INOX",
+    "amount": 22.24,
+    "date": "2023-09-06",
+    "category": "Groceries",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 442,
+    "merchant": "Coursera",
+    "amount": 44.2,
+    "date": "2024-09-11",
+    "category": "Food Services",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 443,
+    "merchant": "Amazon",
+    "amount": 19.29,
+    "date": "2023-08-16",
+    "category": "Food Services",
+    "sub_category": "Maintenance"
+  },
+  {
+    "id": 444,
+    "merchant": "MakeMyTrip",
+    "amount": 54.48,
+    "date": "2023-02-04",
+    "category": "Food Services",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 445,
+    "merchant": "OYO",
+    "amount": 11.57,
+    "date": "2023-08-14",
+    "category": "Charity",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 446,
+    "merchant": "State Power Utilities",
+    "amount": 56.93,
+    "date": "2024-08-06",
+    "category": "Insurance",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 447,
+    "merchant": "Hathway",
+    "amount": 87.29,
+    "date": "2023-02-26",
+    "category": "Groceries",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 448,
+    "merchant": "Goibibo",
+    "amount": 90.53,
+    "date": "2023-11-22",
+    "category": "Household",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 449,
+    "merchant": "ICICI Bank",
+    "amount": 44.48,
+    "date": "2023-05-09",
+    "category": "Investments",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 450,
+    "merchant": "Goibibo",
+    "amount": 50.79,
+    "date": "2024-08-07",
+    "category": "Insurance",
+    "sub_category": null
+  },
+  {
+    "id": 451,
+    "merchant": "IRCTC",
+    "amount": 13.15,
+    "date": "2023-09-15",
+    "category": "Transportation",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 452,
+    "merchant": "Apple Music",
+    "amount": 19.34,
+    "date": "2024-06-02",
+    "category": "Food Services",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 453,
+    "merchant": "Swiggy",
+    "amount": 65.68,
+    "date": "2023-04-03",
+    "category": "Groceries",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 454,
+    "merchant": "Lifestyle",
+    "amount": 15.38,
+    "date": "2024-05-01",
+    "category": "Personal Care",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 455,
+    "merchant": "Big Bazaar",
+    "amount": 65.51,
+    "date": "2023-12-08",
+    "category": "Personal Care",
+    "sub_category": "Tuition Fees"
+  },
+  {
+    "id": 456,
+    "merchant": "Metro",
+    "amount": 54.97,
+    "date": "2024-04-08",
+    "category": "Groceries",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 457,
+    "merchant": "State Power Utilities",
+    "amount": 18.5,
+    "date": "2024-07-08",
+    "category": "Insurance",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 458,
+    "merchant": "Coursera",
+    "amount": 74.83,
+    "date": "2024-03-11",
+    "category": "Travel",
+    "sub_category": "Fuel"
+  },
+  {
+    "id": 459,
+    "merchant": "DMart",
+    "amount": 71.87,
+    "date": "2024-01-26",
+    "category": "Utilities",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 460,
+    "merchant": "Zomato",
+    "amount": 4.82,
+    "date": "2024-09-03",
+    "category": "Food Services",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 461,
+    "merchant": "Cafes",
+    "amount": 35.44,
+    "date": "2023-09-29",
+    "category": "Utilities",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 462,
+    "merchant": "BSNL",
+    "amount": 32.01,
+    "date": "2023-05-08",
+    "category": "",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 463,
+    "merchant": "Bharat Gas",
+    "amount": 28.76,
+    "date": "2023-03-09",
+    "category": "Groceries",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 464,
+    "merchant": "Groww",
+    "amount": 56.26,
+    "date": "2023-07-08",
+    "category": "Food Services",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 465,
+    "merchant": "Amazon",
+    "amount": 35.52,
+    "date": "2024-12-15",
+    "category": "Travel",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 466,
+    "merchant": "BSNL",
+    "amount": 60.91,
+    "date": "2023-08-23",
+    "category": "Education",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 467,
+    "merchant": "Kiranas",
+    "amount": 96.47,
+    "date": "2024-06-28",
+    "category": "Education",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 468,
+    "merchant": "Restaurants",
+    "amount": 85.93,
+    "date": "2024-01-12",
+    "category": "Housing",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 469,
+    "merchant": "MedPlus",
+    "amount": 18.66,
+    "date": "2024-07-27",
+    "category": "Shopping",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 470,
+    "merchant": "Zomato",
+    "amount": 17.27,
+    "date": "2024-06-05",
+    "category": "Insurance",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 471,
+    "merchant": "Dish TV",
+    "amount": 76.98,
+    "date": "2025-01-26",
+    "category": "Groceries",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 472,
+    "merchant": "Urban Company",
+    "amount": 24.15,
+    "date": "2024-10-09",
+    "category": "Charity",
+    "sub_category": "Fuel"
+  },
+  {
+    "id": 473,
+    "merchant": "Xbox Store",
+    "amount": 95.58,
+    "date": "2023-05-03",
+    "category": "Transportation",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 474,
+    "merchant": "SBI Mutual Fund",
+    "amount": 17.81,
+    "date": "2024-07-22",
+    "category": "Insurance",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 475,
+    "merchant": "Reliance Fresh",
+    "amount": 13.82,
+    "date": "2024-02-22",
+    "category": "Groceries",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 476,
+    "merchant": "ICICI Prudential",
+    "amount": 20.78,
+    "date": "2024-07-18",
+    "category": "Transportation",
+    "sub_category": "Fuel"
+  },
+  {
+    "id": 477,
+    "merchant": "Vegetable Markets",
+    "amount": 41.86,
+    "date": "2023-07-06",
+    "category": "Travel",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 478,
+    "merchant": "Lakme Salon",
+    "amount": 69.3,
+    "date": "2024-05-23",
+    "category": "Education",
+    "sub_category": "Gas Services"
+  },
+  {
+    "id": 479,
+    "merchant": "DMart",
+    "amount": 26.06,
+    "date": "2024-02-23",
+    "category": "Telecommunications",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 480,
+    "merchant": "Street Food",
+    "amount": 28.79,
+    "date": "2023-07-30",
+    "category": "Education",
+    "sub_category": "Plumbing and Repairs"
+  },
+  {
+    "id": 481,
+    "merchant": "Diesel",
+    "amount": 16.62,
+    "date": "2024-11-06",
+    "category": "Shopping",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 482,
+    "merchant": "Fruit Vendors",
+    "amount": 35.58,
+    "date": "2024-11-01",
+    "category": "Housing",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 483,
+    "merchant": "Nykaa",
+    "amount": 50.83,
+    "date": "2023-07-24",
+    "category": "Household",
+    "sub_category": "Retail Stores"
+  },
+  {
+    "id": 484,
+    "merchant": "Spotify",
+    "amount": 50.99,
+    "date": "2023-09-25",
+    "category": "Telecommunications",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 485,
+    "merchant": "Uber",
+    "amount": 54.44,
+    "date": "2024-08-09",
+    "category": "Investments",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 486,
+    "merchant": "BSNL",
+    "amount": 74.05,
+    "date": "2023-07-28",
+    "category": "Household",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 487,
+    "merchant": "Uber",
+    "amount": 17.68,
+    "date": "2023-06-23",
+    "category": "Education",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 488,
+    "merchant": "Repair Services",
+    "amount": 74.06,
+    "date": "2023-12-30",
+    "category": "Investments",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 489,
+    "merchant": "HDFC Mutual Fund",
+    "amount": 54.15,
+    "date": "2024-05-30",
+    "category": "Charity",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 490,
+    "merchant": "Myntra",
+    "amount": 42.69,
+    "date": "2023-05-04",
+    "category": "Groceries",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 491,
+    "merchant": "Yoga Classes",
+    "amount": 77.8,
+    "date": "2024-06-25",
+    "category": "Charity",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 492,
+    "merchant": "INOX",
+    "amount": 15.64,
+    "date": "2024-07-22",
+    "category": "Food Services",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 493,
+    "merchant": "Local Services",
+    "amount": 31.47,
+    "date": "2023-07-04",
+    "category": "Insurance",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 494,
+    "merchant": "MedPlus",
+    "amount": 50.39,
+    "date": "2024-09-01",
+    "category": "Personal Care",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 495,
+    "merchant": "Goibibo",
+    "amount": 84.13,
+    "date": "2024-04-14",
+    "category": "Professional Services",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 496,
+    "merchant": "AJIO",
+    "amount": 13.02,
+    "date": "2024-03-28",
+    "category": "Health",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 497,
+    "merchant": "Star Health",
+    "amount": 96.17,
+    "date": "2024-12-08",
+    "category": "Personal Care",
+    "sub_category": null
+  },
+  {
+    "id": 498,
+    "merchant": "Airtel",
+    "amount": 72.68,
+    "date": "2023-11-06",
+    "category": "Personal Care",
+    "sub_category": null
+  },
+  {
+    "id": 499,
+    "merchant": "Groww",
+    "amount": 43.35,
+    "date": "2023-11-30",
+    "category": "Investments",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 500,
+    "merchant": "Apollo Pharmacy",
+    "amount": 28.33,
+    "date": "2024-03-28",
+    "category": "Groceries",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 501,
+    "merchant": "BigBasket",
+    "amount": 73.3,
+    "date": "2023-05-23",
+    "category": "Entertainment",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 502,
+    "merchant": "Air India",
+    "amount": 30.29,
+    "date": "2023-02-20",
+    "category": "Personal Care",
+    "sub_category": "Gas Services"
+  },
+  {
+    "id": 503,
+    "merchant": "Malabar Gold",
+    "amount": 61.86,
+    "date": "2024-12-09",
+    "category": "Household",
+    "sub_category": "Life Insurance"
+  },
+  {
+    "id": 504,
+    "merchant": "Pepcopp",
+    "amount": 57.32,
+    "date": "2023-03-05",
+    "category": "Groceries",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 505,
+    "merchant": "Airtel",
+    "amount": 79.61,
+    "date": "2024-03-28",
+    "category": "Entertainment",
+    "sub_category": "Fuel"
+  },
+  {
+    "id": 506,
+    "merchant": "BSNL",
+    "amount": 59.44,
+    "date": "2023-12-04",
+    "category": "Shopping",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 507,
+    "merchant": "BSNL",
+    "amount": 32.8,
+    "date": "2023-05-23",
+    "category": "Professional Services",
+    "sub_category": "Gas Services"
+  },
+  {
+    "id": 508,
+    "merchant": "Amazon Pantry",
+    "amount": 58.99,
+    "date": "2024-09-27",
+    "category": "Personal Care",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 509,
+    "merchant": "DMart",
+    "amount": 8.64,
+    "date": "2023-04-14",
+    "category": "Household",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 510,
+    "merchant": "Disney+ Hotstar",
+    "amount": 42.76,
+    "date": "2024-07-02",
+    "category": "Groceries",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 511,
+    "merchant": "Netflix",
+    "amount": 84.35,
+    "date": "2023-05-25",
+    "category": "Shopping",
+    "sub_category": ""
+  },
+  {
+    "id": 512,
+    "merchant": "Nykaa",
+    "amount": 98.51,
+    "date": "2023-09-25",
+    "category": "Charity",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 513,
+    "merchant": "Zomato",
+    "amount": 21.63,
+    "date": "2024-09-15",
+    "category": "Food Services",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 514,
+    "merchant": "Cafes",
+    "amount": 62.3,
+    "date": "2024-06-23",
+    "category": "Charity",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 515,
+    "merchant": "Indane",
+    "amount": 43.38,
+    "date": "2023-11-03",
+    "category": "Groceries",
+    "sub_category": "Water Bill"
+  },
+  {
+    "id": 516,
+    "merchant": "Naturals",
+    "amount": 54.75,
+    "date": "2023-12-22",
+    "category": "Telecommunications",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 517,
+    "merchant": "Gaana",
+    "amount": 43.69,
+    "date": "2024-05-03",
+    "category": "Entertainment",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 518,
+    "merchant": "Online Fundraising",
+    "amount": 95.34,
+    "date": "2023-11-23",
+    "category": "",
+    "sub_category": "Retail Stores"
+  },
+  {
+    "id": 519,
+    "merchant": "Myntra",
+    "amount": 22.02,
+    "date": "2024-01-26",
+    "category": "",
+    "sub_category": "Airfare"
+  },
+  {
+    "id": 520,
+    "merchant": "Fruit Vendors",
+    "amount": 63.92,
+    "date": "2024-06-03",
+    "category": "Charity",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 521,
+    "merchant": "Parking Fees",
+    "amount": 47.72,
+    "date": "2024-04-24",
+    "category": "Utilities",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 522,
+    "merchant": "Big Bazaar",
+    "amount": 34.03,
+    "date": "2025-01-16",
+    "category": "Groceries",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 523,
+    "merchant": "MedPlus",
+    "amount": 38.7,
+    "date": "2024-11-13",
+    "category": "Telecommunications",
+    "sub_category": "Maintenance"
+  },
+  {
+    "id": 524,
+    "merchant": "Jio",
+    "amount": 44.36,
+    "date": "2024-05-30",
+    "category": "Investments",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 525,
+    "merchant": "Local Agencies",
+    "amount": 66,
+    "date": "2024-08-28",
+    "category": "Utilities",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 526,
+    "merchant": "HDFC Life",
+    "amount": 58.93,
+    "date": "2025-01-13",
+    "category": "Investments",
+    "sub_category": "Plumbing and Repairs"
+  },
+  {
+    "id": 527,
+    "merchant": "Dish TV",
+    "amount": 61.57,
+    "date": "2024-12-04",
+    "category": "Shopping",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 528,
+    "merchant": "HDFC Bank",
+    "amount": 3.85,
+    "date": "2023-02-12",
+    "category": "Transportation",
+    "sub_category": "Airfare"
+  },
+  {
+    "id": 529,
+    "merchant": "Airtel",
+    "amount": 61.28,
+    "date": "2023-06-14",
+    "category": "Groceries",
+    "sub_category": "Festive Shopping"
+  },
+  {
+    "id": 530,
+    "merchant": "Colleges",
+    "amount": 95.6,
+    "date": "2024-10-20",
+    "category": "Groceries",
+    "sub_category": "Retail Stores"
+  },
+  {
+    "id": 531,
+    "merchant": "Lakme Salon",
+    "amount": 81.35,
+    "date": "2023-11-01",
+    "category": "Investments",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 532,
+    "merchant": "Amazon Pantry",
+    "amount": 28.52,
+    "date": "2024-11-04",
+    "category": "Education",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 533,
+    "merchant": "PlayStation Store",
+    "amount": 98.27,
+    "date": "2024-10-07",
+    "category": "Shopping",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 534,
+    "merchant": "Local Services",
+    "amount": 67.25,
+    "date": "2024-04-13",
+    "category": "Transportation",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 535,
+    "merchant": "Yoga Classes",
+    "amount": 3.7,
+    "date": "2023-07-27",
+    "category": "Health",
+    "sub_category": "Festive Shopping"
+  },
+  {
+    "id": 536,
+    "merchant": "Groww",
+    "amount": 80.43,
+    "date": "2024-03-03",
+    "category": "Food Services",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 537,
+    "merchant": "Stationery Shops",
+    "amount": 85.34,
+    "date": "2024-07-23",
+    "category": "Groceries",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 538,
+    "merchant": "Snacks Shops",
+    "amount": 79.11,
+    "date": "2023-11-22",
+    "category": "Travel",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 539,
+    "merchant": "Kalyan Jewelers",
+    "amount": 63.88,
+    "date": "2024-05-21",
+    "category": "Investments",
+    "sub_category": "Car Insurance"
+  },
+  {
+    "id": 540,
+    "merchant": "Urban Company",
+    "amount": 82.06,
+    "date": "2023-10-13",
+    "category": "Transportation",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 541,
+    "merchant": "PVR",
+    "amount": 89.09,
+    "date": "2025-01-26",
+    "category": "Insurance",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 542,
+    "merchant": "Decorations",
+    "amount": 20.81,
+    "date": "2023-10-11",
+    "category": "Groceries",
+    "sub_category": "Life Insurance"
+  },
+  {
+    "id": 543,
+    "merchant": "Byjus",
+    "amount": 88.8,
+    "date": "2024-04-09",
+    "category": "Housing",
+    "sub_category": null
+  },
+  {
+    "id": 544,
+    "merchant": "Reliance Fresh",
+    "amount": 61.94,
+    "date": "2024-07-26",
+    "category": "Investments",
+    "sub_category": "Maintenance"
+  },
+  {
+    "id": 545,
+    "merchant": "Malabar Gold",
+    "amount": 68.66,
+    "date": "2023-02-22",
+    "category": "Telecommunications",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 546,
+    "merchant": "Gaana",
+    "amount": 22.82,
+    "date": "2023-10-05",
+    "category": "Telecommunications",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 547,
+    "merchant": "Municipal Corporation",
+    "amount": 67.37,
+    "date": "2023-08-06",
+    "category": "Groceries",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 548,
+    "merchant": "Kiranas",
+    "amount": 36.95,
+    "date": "2024-10-07",
+    "category": "Professional Services",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 549,
+    "merchant": "Municipal Corporation",
+    "amount": 99.71,
+    "date": "2023-10-07",
+    "category": "Investments",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 550,
+    "merchant": "AJIO",
+    "amount": 36.84,
+    "date": "2025-01-01",
+    "category": "Groceries",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 551,
+    "merchant": "Bharat Gas",
+    "amount": 95.76,
+    "date": "2024-06-10",
+    "category": "Personal Care",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 552,
+    "merchant": "PlayStation Store",
+    "amount": 6.99,
+    "date": "2024-12-04",
+    "category": "Groceries",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 553,
+    "merchant": "Tata AIG",
+    "amount": 23.99,
+    "date": "2024-03-29",
+    "category": "Telecommunications",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 554,
+    "merchant": "Swiggy",
+    "amount": 95.74,
+    "date": "2023-03-01",
+    "category": "Groceries",
+    "sub_category": "Maintenance"
+  },
+  {
+    "id": 555,
+    "merchant": "Tata Sky",
+    "amount": 52.06,
+    "date": "2023-12-10",
+    "category": "Insurance",
+    "sub_category": null
+  },
+  {
+    "id": 556,
+    "merchant": "MakeMyTrip",
+    "amount": 64.72,
+    "date": "2023-12-04",
+    "category": "Housing",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 557,
+    "merchant": "PVR",
+    "amount": 46.43,
+    "date": "2023-04-13",
+    "category": "Groceries",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 558,
+    "merchant": "Gym Memberships",
+    "amount": 74.8,
+    "date": "2024-02-25",
+    "category": "Investments",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 559,
+    "merchant": "Schools",
+    "amount": 80.4,
+    "date": "2024-06-19",
+    "category": "Travel",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 560,
+    "merchant": "BSNL",
+    "amount": 7.39,
+    "date": "2023-09-04",
+    "category": "Charity",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 561,
+    "merchant": "HDFC Bank",
+    "amount": 1.93,
+    "date": "2023-05-28",
+    "category": "Entertainment",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 562,
+    "merchant": "ICICI Prudential",
+    "amount": 83.29,
+    "date": "2023-12-27",
+    "category": "Food Services",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 563,
+    "merchant": "Swiggy",
+    "amount": 69.74,
+    "date": "2023-10-09",
+    "category": "Travel",
+    "sub_category": "Festive Shopping"
+  },
+  {
+    "id": 564,
+    "merchant": "Colleges",
+    "amount": 20.53,
+    "date": "2024-10-09",
+    "category": "Groceries",
+    "sub_category": "Donations"
+  },
+  {
+    "id": 565,
+    "merchant": "Colleges",
+    "amount": 60.23,
+    "date": "2024-03-16",
+    "category": "Shopping",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 566,
+    "merchant": "DMart",
+    "amount": 29.29,
+    "date": "2023-06-06",
+    "category": "Travel",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 567,
+    "merchant": "PVR",
+    "amount": 74.75,
+    "date": "2024-07-04",
+    "category": "Food Services",
+    "sub_category": "Maintenance"
+  },
+  {
+    "id": 568,
+    "merchant": "Star Health",
+    "amount": 49.51,
+    "date": "2023-12-27",
+    "category": "Charity",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 569,
+    "merchant": "Restaurants",
+    "amount": 9.8,
+    "date": "2024-03-06",
+    "category": "Personal Care",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 570,
+    "merchant": "Kalyan Jewelers",
+    "amount": 88.24,
+    "date": "2024-10-29",
+    "category": "Personal Care",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 571,
+    "merchant": "INOX",
+    "amount": 37.2,
+    "date": "2023-05-07",
+    "category": "Groceries",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 572,
+    "merchant": "AJIO",
+    "amount": 57.76,
+    "date": "2023-05-09",
+    "category": "Household",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 573,
+    "merchant": "Indane",
+    "amount": 49.72,
+    "date": "2024-03-03",
+    "category": "Food Services",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 574,
+    "merchant": "Swiggy",
+    "amount": 9.27,
+    "date": "2023-12-16",
+    "category": "Shopping",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 575,
+    "merchant": "IRCTC",
+    "amount": 84.17,
+    "date": "2024-11-20",
+    "category": "Housing",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 576,
+    "merchant": "Thomas Cook",
+    "amount": 25.54,
+    "date": "2023-03-07",
+    "category": "Investments",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 577,
+    "merchant": "WazirX",
+    "amount": 71,
+    "date": "2023-10-18",
+    "category": "Groceries",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 578,
+    "merchant": "Diesel",
+    "amount": 39.9,
+    "date": "2023-02-18",
+    "category": "Groceries",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 579,
+    "merchant": "HDFC Life",
+    "amount": 94.03,
+    "date": "2024-03-11",
+    "category": "Groceries",
+    "sub_category": ""
+  },
+  {
+    "id": 580,
+    "merchant": "Zomato",
+    "amount": 27.5,
+    "date": "2024-09-03",
+    "category": "Investments",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 581,
+    "merchant": "NGOs",
+    "amount": 22.27,
+    "date": "2024-10-02",
+    "category": "Telecommunications",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 582,
+    "merchant": "ICICI Lombard",
+    "amount": 4.32,
+    "date": "2024-10-01",
+    "category": "Telecommunications",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 583,
+    "merchant": "Tanishq",
+    "amount": 37.11,
+    "date": "2023-04-27",
+    "category": "Investments",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 584,
+    "merchant": "Star Health",
+    "amount": 69.94,
+    "date": "2023-12-05",
+    "category": "Shopping",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 585,
+    "merchant": "Amazon",
+    "amount": 45.57,
+    "date": "2023-09-25",
+    "category": "Food Services",
+    "sub_category": "Toll and Parking"
+  },
+  {
+    "id": 586,
+    "merchant": "Big Bazaar",
+    "amount": 95.16,
+    "date": "2023-08-23",
+    "category": "Shopping",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 587,
+    "merchant": "Steam",
+    "amount": 2.41,
+    "date": "2023-11-13",
+    "category": "Education",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 588,
+    "merchant": "Malabar Gold",
+    "amount": 74.85,
+    "date": "2024-04-05",
+    "category": "Professional Services",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 589,
+    "merchant": "Yatra",
+    "amount": 96.37,
+    "date": "2024-11-21",
+    "category": "Personal Care",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 590,
+    "merchant": "CoinDCX",
+    "amount": 11.55,
+    "date": "2023-10-20",
+    "category": "Groceries",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 591,
+    "merchant": "Gym Memberships",
+    "amount": 56.46,
+    "date": "2023-06-25",
+    "category": "Groceries",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 592,
+    "merchant": "Petrol",
+    "amount": 92.65,
+    "date": "2023-10-15",
+    "category": "Investments",
+    "sub_category": "Festive Shopping"
+  },
+  {
+    "id": 593,
+    "merchant": "Swiggy",
+    "amount": 65.26,
+    "date": "2024-05-08",
+    "category": "Education",
+    "sub_category": "Tuition Fees"
+  },
+  {
+    "id": 594,
+    "merchant": "ICICI Bank",
+    "amount": 67.29,
+    "date": "2024-07-21",
+    "category": "Utilities",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 595,
+    "merchant": "Malabar Gold",
+    "amount": 84.75,
+    "date": "2024-09-30",
+    "category": "Professional Services",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 596,
+    "merchant": "Amazon",
+    "amount": 90.41,
+    "date": "2024-07-26",
+    "category": "Groceries",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 597,
+    "merchant": "FASTag",
+    "amount": 31.57,
+    "date": "2023-03-15",
+    "category": "Entertainment",
+    "sub_category": "Maintenance"
+  },
+  {
+    "id": 598,
+    "merchant": "Steam",
+    "amount": 73.15,
+    "date": "2023-03-26",
+    "category": "",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 599,
+    "merchant": "Apollo Pharmacy",
+    "amount": 88.75,
+    "date": "2024-11-19",
+    "category": "Telecommunications",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 600,
+    "merchant": "Croma",
+    "amount": 52.52,
+    "date": "2023-09-20",
+    "category": "Charity",
+    "sub_category": "Car Insurance"
+  },
+  {
+    "id": 601,
+    "merchant": "Swiggy",
+    "amount": 47.93,
+    "date": "2024-03-29",
+    "category": "Food Services",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 602,
+    "merchant": "Blinkit",
+    "amount": 85.65,
+    "date": "2023-06-14",
+    "category": "Education",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 603,
+    "merchant": "Vodafone Idea",
+    "amount": 77.21,
+    "date": "2024-08-25",
+    "category": "Entertainment",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 604,
+    "merchant": "Repair Services",
+    "amount": 54.33,
+    "date": "2024-01-14",
+    "category": "Professional Services",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 605,
+    "merchant": "Amazon Prime",
+    "amount": 59.15,
+    "date": "2023-05-28",
+    "category": "Personal Care",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 606,
+    "merchant": "Amazon Pantry",
+    "amount": 86.26,
+    "date": "2024-07-18",
+    "category": "Education",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 607,
+    "merchant": "Bookstores",
+    "amount": 57.32,
+    "date": "2023-04-18",
+    "category": "Groceries",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 608,
+    "merchant": "PlayStation Store",
+    "amount": 39.48,
+    "date": "2024-03-24",
+    "category": "Personal Care",
+    "sub_category": null
+  },
+  {
+    "id": 609,
+    "merchant": "Religare",
+    "amount": 8.69,
+    "date": "2024-12-06",
+    "category": "Groceries",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 610,
+    "merchant": "Airtel",
+    "amount": 19.46,
+    "date": "2024-02-14",
+    "category": "Utilities",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 611,
+    "merchant": "BSNL",
+    "amount": 97.09,
+    "date": "2024-10-12",
+    "category": "Shopping",
+    "sub_category": "Donations"
+  },
+  {
+    "id": 612,
+    "merchant": "ICICI Lombard",
+    "amount": 78.97,
+    "date": "2025-01-03",
+    "category": "Groceries",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 613,
+    "merchant": "Gaana",
+    "amount": 81.37,
+    "date": "2025-01-27",
+    "category": "Personal Care",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 614,
+    "merchant": "Cafes",
+    "amount": 36.36,
+    "date": "2024-11-14",
+    "category": "",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 615,
+    "merchant": "SOTC",
+    "amount": 17.32,
+    "date": "2023-08-15",
+    "category": "Personal Care",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 616,
+    "merchant": "Bharat Gas",
+    "amount": 2.43,
+    "date": "2023-08-23",
+    "category": "Utilities",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 617,
+    "merchant": "Local Services",
+    "amount": 20.34,
+    "date": "2024-06-17",
+    "category": "Investments",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 618,
+    "merchant": "Vegetable Markets",
+    "amount": 57.95,
+    "date": "2024-03-24",
+    "category": "Food Services",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 619,
+    "merchant": "Malabar Gold",
+    "amount": 70.48,
+    "date": "2024-09-15",
+    "category": "Food Services",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 620,
+    "merchant": "HDFC Mutual Fund",
+    "amount": 66.65,
+    "date": "2024-04-20",
+    "category": "Groceries",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 621,
+    "merchant": "Byjus",
+    "amount": 37.14,
+    "date": "2024-02-29",
+    "category": "Shopping",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 622,
+    "merchant": "Zomato",
+    "amount": 20.6,
+    "date": "2024-11-18",
+    "category": "Food Services",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 623,
+    "merchant": "Juice Centers",
+    "amount": 21.45,
+    "date": "2023-08-02",
+    "category": "Food Services",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 624,
+    "merchant": "Upstox",
+    "amount": 9.09,
+    "date": "2023-02-17",
+    "category": "Entertainment",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 625,
+    "merchant": "Petrol",
+    "amount": 93.92,
+    "date": "2023-10-03",
+    "category": "Charity",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 626,
+    "merchant": "Thomas Cook",
+    "amount": 52.4,
+    "date": "2024-12-08",
+    "category": "Insurance",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 627,
+    "merchant": "Doctor Consultations",
+    "amount": 44.44,
+    "date": "2023-05-28",
+    "category": "Travel",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 628,
+    "merchant": "Universities",
+    "amount": 95.31,
+    "date": "2023-07-24",
+    "category": "Professional Services",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 629,
+    "merchant": "Purplle",
+    "amount": 76.1,
+    "date": "2023-08-24",
+    "category": "Food Services",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 630,
+    "merchant": "Local Services",
+    "amount": 52.25,
+    "date": "2024-10-28",
+    "category": "Insurance",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 631,
+    "merchant": "Snacks Shops",
+    "amount": 4.42,
+    "date": "2023-12-03",
+    "category": "Investments",
+    "sub_category": "Holiday Packages"
+  },
+  {
+    "id": 632,
+    "merchant": "Nykaa",
+    "amount": 92.06,
+    "date": "2024-10-21",
+    "category": "Entertainment",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 633,
+    "merchant": "Purplle",
+    "amount": 67.28,
+    "date": "2024-11-29",
+    "category": "Personal Care",
+    "sub_category": "Fuel"
+  },
+  {
+    "id": 634,
+    "merchant": "NGOs",
+    "amount": 67.05,
+    "date": "2024-12-12",
+    "category": "Shopping",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 635,
+    "merchant": "Cafes",
+    "amount": 65.82,
+    "date": "2023-04-23",
+    "category": "Investments",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 636,
+    "merchant": "Upstox",
+    "amount": 39.38,
+    "date": "2023-09-19",
+    "category": "Shopping",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 637,
+    "merchant": "Amazon",
+    "amount": 40.37,
+    "date": "2023-09-04",
+    "category": "Telecommunications",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 638,
+    "merchant": "Kiranas",
+    "amount": 33.57,
+    "date": "2024-08-14",
+    "category": "Groceries",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 639,
+    "merchant": "Petrol",
+    "amount": 64.72,
+    "date": "2024-04-26",
+    "category": "Shopping",
+    "sub_category": "Holiday Packages"
+  },
+  {
+    "id": 640,
+    "merchant": "Reliance Fresh",
+    "amount": 92.78,
+    "date": "2024-05-27",
+    "category": "Personal Care",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 641,
+    "merchant": "Gym Memberships",
+    "amount": 68.38,
+    "date": "2023-08-24",
+    "category": "Food Services",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 642,
+    "merchant": "Bharat Gas",
+    "amount": 45.45,
+    "date": "2025-01-03",
+    "category": "Groceries",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 643,
+    "merchant": "ICICI Prudential",
+    "amount": 41.04,
+    "date": "2023-04-19",
+    "category": "Groceries",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 644,
+    "merchant": "Amazon",
+    "amount": 20.86,
+    "date": "2024-03-20",
+    "category": "Housing",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 645,
+    "merchant": "Hospital Bills",
+    "amount": 70.26,
+    "date": "2023-12-19",
+    "category": "Investments",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 646,
+    "merchant": "Restaurants",
+    "amount": 71.83,
+    "date": "2023-04-23",
+    "category": "Telecommunications",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 647,
+    "merchant": "BSNL",
+    "amount": 31.15,
+    "date": "2023-04-22",
+    "category": "Shopping",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 648,
+    "merchant": "WazirX",
+    "amount": 11.34,
+    "date": "2023-12-01",
+    "category": "Groceries",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 649,
+    "merchant": "Reliance Fresh",
+    "amount": 53.69,
+    "date": "2023-10-05",
+    "category": "Investments",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 650,
+    "merchant": "Airtel",
+    "amount": 36.45,
+    "date": "2024-01-18",
+    "category": "Travel",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 651,
+    "merchant": "Gaana",
+    "amount": 37.27,
+    "date": "2024-06-23",
+    "category": "Housing",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 652,
+    "merchant": "Doctor Consultations",
+    "amount": 81.48,
+    "date": "2023-12-13",
+    "category": "Personal Care",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 653,
+    "merchant": "Steam",
+    "amount": 66.58,
+    "date": "2024-10-19",
+    "category": "Household",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 654,
+    "merchant": "Religare",
+    "amount": 22.46,
+    "date": "2024-12-25",
+    "category": "Shopping",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 655,
+    "merchant": "Flipkart",
+    "amount": 47.62,
+    "date": "2024-03-03",
+    "category": "Food Services",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 656,
+    "merchant": "Bajaj Allianz",
+    "amount": 99.87,
+    "date": "2025-01-27",
+    "category": "Personal Care",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 657,
+    "merchant": "Rapido",
+    "amount": 49.32,
+    "date": "2023-06-21",
+    "category": "",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 658,
+    "merchant": "ICICI Lombard",
+    "amount": 19.37,
+    "date": "2025-01-02",
+    "category": "Health",
+    "sub_category": "Tuition Fees"
+  },
+  {
+    "id": 659,
+    "merchant": "Universities",
+    "amount": 99.53,
+    "date": "2024-04-19",
+    "category": "Food Services",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 660,
+    "merchant": "PVR",
+    "amount": 71.17,
+    "date": "2024-06-24",
+    "category": "Groceries",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 661,
+    "merchant": "WazirX",
+    "amount": 74.3,
+    "date": "2025-01-31",
+    "category": "Telecommunications",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 662,
+    "merchant": "Coursera",
+    "amount": 88.68,
+    "date": "2024-05-30",
+    "category": "Entertainment",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 663,
+    "merchant": "Malabar Gold",
+    "amount": 71.53,
+    "date": "2024-09-01",
+    "category": "Education",
+    "sub_category": "Donations"
+  },
+  {
+    "id": 664,
+    "merchant": "Amazon",
+    "amount": 99.82,
+    "date": "2023-06-20",
+    "category": "Entertainment",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 665,
+    "merchant": "SBI",
+    "amount": 62.23,
+    "date": "2024-08-25",
+    "category": "Telecommunications",
+    "sub_category": "Hotels"
+  },
+  {
+    "id": 666,
+    "merchant": "Online Fundraising",
+    "amount": 91.27,
+    "date": "2024-03-24",
+    "category": "Housing",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 667,
+    "merchant": "Apple Music",
+    "amount": 48.64,
+    "date": "2023-05-11",
+    "category": "Food Services",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 668,
+    "merchant": "Pepcopp",
+    "amount": 45.54,
+    "date": "2024-05-28",
+    "category": "Entertainment",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 669,
+    "merchant": "Tata AIG",
+    "amount": 34.1,
+    "date": "2024-12-06",
+    "category": "Housing",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 670,
+    "merchant": "Cafes",
+    "amount": 13.06,
+    "date": "2024-10-20",
+    "category": "Groceries",
+    "sub_category": "Music"
+  },
+  {
+    "id": 671,
+    "merchant": "Big Bazaar",
+    "amount": 12.53,
+    "date": "2023-02-14",
+    "category": "Food Services",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 672,
+    "merchant": "Apple Music",
+    "amount": 71.27,
+    "date": "2024-03-15",
+    "category": "Groceries",
+    "sub_category": "Retail Stores"
+  },
+  {
+    "id": 673,
+    "merchant": "Municipal Corporation",
+    "amount": 69.96,
+    "date": "2023-03-26",
+    "category": "Housing",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 674,
+    "merchant": "Max Bupa",
+    "amount": 63.66,
+    "date": "2023-03-03",
+    "category": "Groceries",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 675,
+    "merchant": "Universities",
+    "amount": 40.73,
+    "date": "2024-06-15",
+    "category": "Investments",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 676,
+    "merchant": "Cafes",
+    "amount": 56.19,
+    "date": "2023-07-21",
+    "category": "Shopping",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 677,
+    "merchant": "Apple Music",
+    "amount": 33.01,
+    "date": "2023-07-27",
+    "category": "Shopping",
+    "sub_category": "Car Insurance"
+  },
+  {
+    "id": 678,
+    "merchant": "Big Bazaar",
+    "amount": 78.57,
+    "date": "2024-09-14",
+    "category": "Groceries",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 679,
+    "merchant": "Restaurants",
+    "amount": 72.28,
+    "date": "2023-07-30",
+    "category": "Education",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 680,
+    "merchant": "Zerodha",
+    "amount": 96.46,
+    "date": "2023-12-06",
+    "category": "Groceries",
+    "sub_category": "Music"
+  },
+  {
+    "id": 681,
+    "merchant": "Yatra",
+    "amount": 94.95,
+    "date": "2023-08-25",
+    "category": "Utilities",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 682,
+    "merchant": "Spotify",
+    "amount": 71.11,
+    "date": "2023-10-19",
+    "category": "Travel",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 683,
+    "merchant": "Tata Sky",
+    "amount": 63.35,
+    "date": "2024-08-24",
+    "category": "Investments",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 684,
+    "merchant": "Flipkart",
+    "amount": 10.15,
+    "date": "2024-09-28",
+    "category": "Housing",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 685,
+    "merchant": "Amazon Prime",
+    "amount": 97.63,
+    "date": "2024-01-22",
+    "category": "Entertainment",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 686,
+    "merchant": "Malabar Gold",
+    "amount": 37.96,
+    "date": "2024-06-27",
+    "category": "Groceries",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 687,
+    "merchant": "NGOs",
+    "amount": 65.68,
+    "date": "2024-01-09",
+    "category": "Household",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 688,
+    "merchant": "SBI",
+    "amount": 61.19,
+    "date": "2023-12-12",
+    "category": "Utilities",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 689,
+    "merchant": "Yoga Classes",
+    "amount": 3.35,
+    "date": "2024-01-22",
+    "category": "Investments",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 690,
+    "merchant": "Restaurants",
+    "amount": 5.58,
+    "date": "2023-06-01",
+    "category": "Household",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 691,
+    "merchant": "Gym Memberships",
+    "amount": 44.71,
+    "date": "2024-01-20",
+    "category": "Health",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 692,
+    "merchant": "Vodafone Idea",
+    "amount": 23.73,
+    "date": "2024-02-17",
+    "category": "Household",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 693,
+    "merchant": "Unacademy",
+    "amount": 66.83,
+    "date": "2024-08-29",
+    "category": "Personal Care",
+    "sub_category": "Holiday Packages"
+  },
+  {
+    "id": 694,
+    "merchant": "Lifestyle",
+    "amount": 93.04,
+    "date": "2023-12-08",
+    "category": "Transportation",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 695,
+    "merchant": "Coursera",
+    "amount": 25.9,
+    "date": "2024-02-05",
+    "category": "Household",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 696,
+    "merchant": "Amazon Prime",
+    "amount": 23.91,
+    "date": "2024-01-20",
+    "category": "Education",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 697,
+    "merchant": "ICICI Bank",
+    "amount": 56.04,
+    "date": "2023-07-08",
+    "category": "Groceries",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 698,
+    "merchant": "Urban Company",
+    "amount": 45.93,
+    "date": "2024-08-25",
+    "category": "Food Services",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 699,
+    "merchant": "Gym Memberships",
+    "amount": 64.43,
+    "date": "2023-10-22",
+    "category": "Telecommunications",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 700,
+    "merchant": "HP Gas",
+    "amount": 95.63,
+    "date": "2024-05-07",
+    "category": "Food Services",
+    "sub_category": "Public Transport"
+  },
+  {
+    "id": 701,
+    "merchant": "Diesel",
+    "amount": 31.45,
+    "date": "2024-05-03",
+    "category": "Insurance",
+    "sub_category": "Fuel"
+  },
+  {
+    "id": 702,
+    "merchant": "Max Bupa",
+    "amount": 61.47,
+    "date": "2024-01-02",
+    "category": "Housing",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 703,
+    "merchant": "Coursera",
+    "amount": 40.56,
+    "date": "2023-09-22",
+    "category": "Transportation",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 704,
+    "merchant": "Reliance Fresh",
+    "amount": 54.59,
+    "date": "2025-01-05",
+    "category": "Food Services",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 705,
+    "merchant": "Notaries",
+    "amount": 90.91,
+    "date": "2023-10-03",
+    "category": "Travel",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 706,
+    "merchant": "INOX",
+    "amount": 87.18,
+    "date": "2024-02-21",
+    "category": "Personal Care",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 707,
+    "merchant": "Amazon Prime",
+    "amount": 86.77,
+    "date": "2023-03-23",
+    "category": "Food Services",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 708,
+    "merchant": "IndiGo",
+    "amount": 42.05,
+    "date": "2023-02-20",
+    "category": "Utilities",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 709,
+    "merchant": "ACT Fibernet",
+    "amount": 62.66,
+    "date": "2024-06-02",
+    "category": "Personal Care",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 710,
+    "merchant": "Myntra",
+    "amount": 47.7,
+    "date": "2024-06-30",
+    "category": "Professional Services",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 711,
+    "merchant": "CoinDCX",
+    "amount": 95.21,
+    "date": "2023-04-27",
+    "category": "Groceries",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 712,
+    "merchant": "Railways",
+    "amount": 86.5,
+    "date": "2024-03-08",
+    "category": "Insurance",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 713,
+    "merchant": "Thomas Cook",
+    "amount": 22.66,
+    "date": "2024-09-23",
+    "category": "Food Services",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 714,
+    "merchant": "Uber Eats",
+    "amount": 16.13,
+    "date": "2023-07-18",
+    "category": "Travel",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 715,
+    "merchant": "Max Bupa",
+    "amount": 54.82,
+    "date": "2024-07-03",
+    "category": "Investments",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 716,
+    "merchant": "Max Bupa",
+    "amount": 50.74,
+    "date": "2024-01-20",
+    "category": "Transportation",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 717,
+    "merchant": "ICICI Prudential",
+    "amount": 88.52,
+    "date": "2025-01-18",
+    "category": "Transportation",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 718,
+    "merchant": "Yatra",
+    "amount": 8.73,
+    "date": "2023-04-14",
+    "category": "Entertainment",
+    "sub_category": "Plumbing and Repairs"
+  },
+  {
+    "id": 719,
+    "merchant": "Malabar Gold",
+    "amount": 98.68,
+    "date": "2023-07-03",
+    "category": "Groceries",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 720,
+    "merchant": "Tata AIG",
+    "amount": 14.07,
+    "date": "2024-02-17",
+    "category": "Telecommunications",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 721,
+    "merchant": "",
+    "amount": 94.96,
+    "date": "2024-05-06",
+    "category": "Groceries",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 722,
+    "merchant": "Lifestyle",
+    "amount": 32.45,
+    "date": "2024-10-12",
+    "category": "Food Services",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 723,
+    "merchant": "IRCTC",
+    "amount": 22.36,
+    "date": "2023-09-01",
+    "category": "Entertainment",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 724,
+    "merchant": "SBI",
+    "amount": 98.47,
+    "date": "2024-06-26",
+    "category": "Personal Care",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 725,
+    "merchant": "Amazon",
+    "amount": 3.13,
+    "date": "2025-01-24",
+    "category": "",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 726,
+    "merchant": "Bookstores",
+    "amount": 27.1,
+    "date": "2024-02-21",
+    "category": "Groceries",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 727,
+    "merchant": "Online Fundraising",
+    "amount": 66.27,
+    "date": "2024-12-12",
+    "category": "Investments",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 728,
+    "merchant": "PVR",
+    "amount": 45.5,
+    "date": "2024-07-06",
+    "category": "Utilities",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 729,
+    "merchant": "Netflix",
+    "amount": 24.93,
+    "date": "2024-10-04",
+    "category": "Personal Care",
+    "sub_category": "Public Transport"
+  },
+  {
+    "id": 730,
+    "merchant": "Netflix",
+    "amount": 66.15,
+    "date": "2023-10-22",
+    "category": "Food Services",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 731,
+    "merchant": "Blinkit",
+    "amount": 42.48,
+    "date": "2024-06-05",
+    "category": "Charity",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 732,
+    "merchant": "Universities",
+    "amount": 27.85,
+    "date": "2023-06-22",
+    "category": "Food Services",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 733,
+    "merchant": "Rapido",
+    "amount": 75.31,
+    "date": "2024-08-15",
+    "category": "Food Services",
+    "sub_category": "Airfare"
+  },
+  {
+    "id": 734,
+    "merchant": "Society Charges",
+    "amount": 52.6,
+    "date": "2025-01-03",
+    "category": "Transportation",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 735,
+    "merchant": "SBI Mutual Fund",
+    "amount": 60.72,
+    "date": "2024-02-05",
+    "category": "",
+    "sub_category": null
+  },
+  {
+    "id": 736,
+    "merchant": "Croma",
+    "amount": 13.4,
+    "date": "2024-05-23",
+    "category": "Investments",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 737,
+    "merchant": "Rapido",
+    "amount": 82.6,
+    "date": "2023-09-09",
+    "category": "Professional Services",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 738,
+    "merchant": "Nykaa",
+    "amount": 41.51,
+    "date": "2024-02-19",
+    "category": "Utilities",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 739,
+    "merchant": "INOX",
+    "amount": 12.9,
+    "date": "2024-11-12",
+    "category": "Education",
+    "sub_category": "Maintenance"
+  },
+  {
+    "id": 740,
+    "merchant": "SBI Mutual Fund",
+    "amount": 84.03,
+    "date": "2024-12-31",
+    "category": "Personal Care",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 741,
+    "merchant": "Ola",
+    "amount": 39.89,
+    "date": "2024-10-03",
+    "category": "Groceries",
+    "sub_category": null
+  },
+  {
+    "id": 742,
+    "merchant": "FASTag",
+    "amount": 66.6,
+    "date": "2023-04-05",
+    "category": "Groceries",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 743,
+    "merchant": "Netflix",
+    "amount": 6.58,
+    "date": "2024-07-22",
+    "category": "",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 744,
+    "merchant": "Tata AIG",
+    "amount": 72.99,
+    "date": "2023-11-14",
+    "category": "Investments",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 745,
+    "merchant": "Juice Centers",
+    "amount": 33.25,
+    "date": "2023-05-10",
+    "category": "Groceries",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 746,
+    "merchant": "Decorations",
+    "amount": 54.07,
+    "date": "2024-01-03",
+    "category": "Groceries",
+    "sub_category": "Toll and Parking"
+  },
+  {
+    "id": 747,
+    "merchant": "Disney+ Hotstar",
+    "amount": 19.67,
+    "date": "2023-07-26",
+    "category": "Food Services",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 748,
+    "merchant": "Apple Music",
+    "amount": 41.95,
+    "date": "2023-10-02",
+    "category": "Entertainment",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 749,
+    "merchant": "Temples",
+    "amount": 49.92,
+    "date": "2023-09-27",
+    "category": "Utilities",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 750,
+    "merchant": "CNG",
+    "amount": 76.42,
+    "date": "2023-02-13",
+    "category": "Charity",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 751,
+    "merchant": "Gifts",
+    "amount": 11.97,
+    "date": "2023-11-07",
+    "category": "Telecommunications",
+    "sub_category": "Toll and Parking"
+  },
+  {
+    "id": 752,
+    "merchant": "Tata Sky",
+    "amount": 84.83,
+    "date": "2024-02-06",
+    "category": "Household",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 753,
+    "merchant": "",
+    "amount": 60.01,
+    "date": "2024-03-09",
+    "category": "Shopping",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 754,
+    "merchant": "Kiranas",
+    "amount": 64.18,
+    "date": "2023-04-16",
+    "category": "Investments",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 755,
+    "merchant": "Apple Music",
+    "amount": 23.82,
+    "date": "2024-09-17",
+    "category": "Insurance",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 756,
+    "merchant": "Naturals",
+    "amount": 63.51,
+    "date": "2024-10-23",
+    "category": "Utilities",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 757,
+    "merchant": "Petrol",
+    "amount": 6.51,
+    "date": "2024-02-17",
+    "category": "Food Services",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 758,
+    "merchant": "HP Gas",
+    "amount": 82.78,
+    "date": "2023-12-29",
+    "category": "Shopping",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 759,
+    "merchant": "SBI Mutual Fund",
+    "amount": 8.44,
+    "date": "2023-08-05",
+    "category": "",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 760,
+    "merchant": "SpiceJet",
+    "amount": 83.48,
+    "date": "2023-06-21",
+    "category": "Investments",
+    "sub_category": "Life Insurance"
+  },
+  {
+    "id": 761,
+    "merchant": "Croma",
+    "amount": 78.66,
+    "date": "2024-12-05",
+    "category": "Investments",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 762,
+    "merchant": "Amazon",
+    "amount": 37.69,
+    "date": "2023-07-30",
+    "category": "Personal Care",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 763,
+    "merchant": "Big Bazaar",
+    "amount": 28.39,
+    "date": "2025-01-07",
+    "category": "Utilities",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 764,
+    "merchant": "Kalyan Jewelers",
+    "amount": 3.2,
+    "date": "2023-04-30",
+    "category": "Personal Care",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 765,
+    "merchant": "HDFC Bank",
+    "amount": 77.27,
+    "date": "2024-06-30",
+    "category": "Groceries",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 766,
+    "merchant": "Dish TV",
+    "amount": 7.54,
+    "date": "2023-03-27",
+    "category": "Travel",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 767,
+    "merchant": "WazirX",
+    "amount": 4.32,
+    "date": "2023-12-15",
+    "category": "Groceries",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 768,
+    "merchant": "Zomato",
+    "amount": 62.88,
+    "date": "2024-06-28",
+    "category": "Investments",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 769,
+    "merchant": "HP Gas",
+    "amount": 64.51,
+    "date": "2024-04-10",
+    "category": "Charity",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 770,
+    "merchant": "Disney+ Hotstar",
+    "amount": 41.29,
+    "date": "2024-02-29",
+    "category": "Groceries",
+    "sub_category": ""
+  },
+  {
+    "id": 771,
+    "merchant": "Local Services",
+    "amount": 67.88,
+    "date": "2023-05-28",
+    "category": "",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 772,
+    "merchant": "Rapido",
+    "amount": 64.53,
+    "date": "2023-10-31",
+    "category": "Household",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 773,
+    "merchant": "Coursera",
+    "amount": 70.44,
+    "date": "2024-03-06",
+    "category": "Groceries",
+    "sub_category": null
+  },
+  {
+    "id": 774,
+    "merchant": "Uber Eats",
+    "amount": 45.41,
+    "date": "2023-10-08",
+    "category": "Shopping",
+    "sub_category": "Toll and Parking"
+  },
+  {
+    "id": 775,
+    "merchant": "Vodafone Idea",
+    "amount": 62.44,
+    "date": "2023-06-04",
+    "category": "Travel",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 776,
+    "merchant": "Yoga Classes",
+    "amount": 62.02,
+    "date": "2023-11-06",
+    "category": "Groceries",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 777,
+    "merchant": "CoinDCX",
+    "amount": 76.72,
+    "date": "2024-08-26",
+    "category": "Food Services",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 778,
+    "merchant": "Nykaa",
+    "amount": 31.49,
+    "date": "2023-08-21",
+    "category": "Charity",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 779,
+    "merchant": "Tata AIG",
+    "amount": 5,
+    "date": "2024-03-28",
+    "category": "Food Services",
+    "sub_category": "Holiday Packages"
+  },
+  {
+    "id": 780,
+    "merchant": "BigBasket",
+    "amount": 80.63,
+    "date": "2024-01-03",
+    "category": "Health",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 781,
+    "merchant": "Tanishq",
+    "amount": 65.95,
+    "date": "2024-06-14",
+    "category": "Investments",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 782,
+    "merchant": "Naturals",
+    "amount": 92.19,
+    "date": "2024-11-19",
+    "category": "Telecommunications",
+    "sub_category": "Mobile Recharge"
+  },
+  {
+    "id": 783,
+    "merchant": "HiCare",
+    "amount": 53.97,
+    "date": "2024-12-28",
+    "category": "Travel",
+    "sub_category": "Holiday Packages"
+  },
+  {
+    "id": 784,
+    "merchant": "SBI Mutual Fund",
+    "amount": 17.5,
+    "date": "2025-01-13",
+    "category": "Food Services",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 785,
+    "merchant": "State Buses",
+    "amount": 74.99,
+    "date": "2024-04-18",
+    "category": "",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 786,
+    "merchant": "",
+    "amount": 51.35,
+    "date": "2024-05-19",
+    "category": "Shopping",
+    "sub_category": "Car Insurance"
+  },
+  {
+    "id": 787,
+    "merchant": "Amazon Pantry",
+    "amount": 92.8,
+    "date": "2024-10-16",
+    "category": "Shopping",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 788,
+    "merchant": "Nykaa",
+    "amount": 15.1,
+    "date": "2024-03-17",
+    "category": "Transportation",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 789,
+    "merchant": "HP Gas",
+    "amount": 27.62,
+    "date": "2023-03-02",
+    "category": "Transportation",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 790,
+    "merchant": "CNG",
+    "amount": 52.56,
+    "date": "2024-02-27",
+    "category": "Charity",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 791,
+    "merchant": "Local Services",
+    "amount": 56.96,
+    "date": "2024-02-03",
+    "category": "Insurance",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 792,
+    "merchant": "Hospital Bills",
+    "amount": 45.96,
+    "date": "2023-05-04",
+    "category": "Charity",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 793,
+    "merchant": "CoinDCX",
+    "amount": 76.57,
+    "date": "2024-08-08",
+    "category": "Shopping",
+    "sub_category": "Toll and Parking"
+  },
+  {
+    "id": 794,
+    "merchant": "BigBasket",
+    "amount": 42.35,
+    "date": "2024-07-06",
+    "category": "Personal Care",
+    "sub_category": "Plumbing and Repairs"
+  },
+  {
+    "id": 795,
+    "merchant": "HP Gas",
+    "amount": 30.12,
+    "date": "2023-02-11",
+    "category": "Groceries",
+    "sub_category": null
+  },
+  {
+    "id": 796,
+    "merchant": "Air India",
+    "amount": 4.17,
+    "date": "2024-01-25",
+    "category": "Investments",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 797,
+    "merchant": "Hospital Bills",
+    "amount": 51.15,
+    "date": "2023-06-23",
+    "category": "Groceries",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 798,
+    "merchant": "OYO",
+    "amount": 98.97,
+    "date": "2023-10-05",
+    "category": "Personal Care",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 799,
+    "merchant": "NGOs",
+    "amount": 61.64,
+    "date": "2024-10-21",
+    "category": "Food Services",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 800,
+    "merchant": "Jio",
+    "amount": 20.74,
+    "date": "2023-05-20",
+    "category": "Personal Care",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 801,
+    "merchant": "WazirX",
+    "amount": 52.92,
+    "date": "2024-12-06",
+    "category": "Groceries",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 802,
+    "merchant": "BSNL",
+    "amount": 54.47,
+    "date": "2023-04-24",
+    "category": "Insurance",
+    "sub_category": "Clothing"
+  },
+  {
+    "id": 803,
+    "merchant": "Hospital Bills",
+    "amount": 49.73,
+    "date": "2023-04-04",
+    "category": "Personal Care",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 804,
+    "merchant": "Schools",
+    "amount": 12.07,
+    "date": "2024-06-16",
+    "category": "Groceries",
+    "sub_category": "Gas Services"
+  },
+  {
+    "id": 805,
+    "merchant": "Amazon",
+    "amount": 27.72,
+    "date": "2024-06-23",
+    "category": "Household",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 806,
+    "merchant": "Society Charges",
+    "amount": 40.46,
+    "date": "2024-10-01",
+    "category": "Utilities",
+    "sub_category": "Music"
+  },
+  {
+    "id": 807,
+    "merchant": "Vodafone Idea",
+    "amount": 32.45,
+    "date": "2024-04-02",
+    "category": "Housing",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 808,
+    "merchant": "Star Health",
+    "amount": 34.93,
+    "date": "2023-06-10",
+    "category": "Food Services",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 809,
+    "merchant": "Diesel",
+    "amount": 87.23,
+    "date": "2024-02-12",
+    "category": "Household",
+    "sub_category": "Fuel"
+  },
+  {
+    "id": 810,
+    "merchant": "Air India",
+    "amount": 31.41,
+    "date": "2023-03-16",
+    "category": "Food Services",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 811,
+    "merchant": "SBI Mutual Fund",
+    "amount": 62.71,
+    "date": "2023-12-05",
+    "category": "Insurance",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 812,
+    "merchant": "Petrol",
+    "amount": 24.57,
+    "date": "2024-07-04",
+    "category": "Food Services",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 813,
+    "merchant": "ICICI Lombard",
+    "amount": 29.85,
+    "date": "2023-12-20",
+    "category": "Groceries",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 814,
+    "merchant": "Swiggy",
+    "amount": 3.52,
+    "date": "2023-11-06",
+    "category": "Groceries",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 815,
+    "merchant": "Hathway",
+    "amount": 61.75,
+    "date": "2024-10-20",
+    "category": "Food Services",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 816,
+    "merchant": "Zomato",
+    "amount": 50.16,
+    "date": "2023-08-20",
+    "category": "Investments",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 817,
+    "merchant": "Bookstores",
+    "amount": 64.49,
+    "date": "2025-01-12",
+    "category": "Telecommunications",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 818,
+    "merchant": "Snacks Shops",
+    "amount": 32.67,
+    "date": "2024-09-08",
+    "category": "Professional Services",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 819,
+    "merchant": "Stationery Shops",
+    "amount": 68.12,
+    "date": "2024-11-01",
+    "category": "Utilities",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 820,
+    "merchant": "Amazon Pantry",
+    "amount": 22.13,
+    "date": "2023-06-17",
+    "category": "Transportation",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 821,
+    "merchant": "Apollo Pharmacy",
+    "amount": 96.77,
+    "date": "2023-06-08",
+    "category": "Shopping",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 822,
+    "merchant": "Online Fundraising",
+    "amount": 60.94,
+    "date": "2023-02-06",
+    "category": "Groceries",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 823,
+    "merchant": "ICICI Lombard",
+    "amount": 2.1,
+    "date": "2023-12-12",
+    "category": "Education",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 824,
+    "merchant": "Disney+ Hotstar",
+    "amount": 21.42,
+    "date": "2023-03-17",
+    "category": "Shopping",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 825,
+    "merchant": "Swiggy",
+    "amount": 46.82,
+    "date": "2024-10-25",
+    "category": "Housing",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 826,
+    "merchant": "Thomas Cook",
+    "amount": 7.84,
+    "date": "2023-06-24",
+    "category": "Entertainment",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 827,
+    "merchant": "State Power Utilities",
+    "amount": 9.97,
+    "date": "2024-09-14",
+    "category": "Shopping",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 828,
+    "merchant": "Lakme Salon",
+    "amount": 45.75,
+    "date": "2023-08-21",
+    "category": "Insurance",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 829,
+    "merchant": "Airtel",
+    "amount": 82.42,
+    "date": "2024-12-18",
+    "category": "Groceries",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 830,
+    "merchant": "Urban Company",
+    "amount": 46.37,
+    "date": "2024-11-05",
+    "category": "Charity",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 831,
+    "merchant": "Tanishq",
+    "amount": 95.52,
+    "date": "2024-01-13",
+    "category": "Food Services",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 832,
+    "merchant": "Naturals",
+    "amount": 60.87,
+    "date": "2024-10-15",
+    "category": "Investments",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 833,
+    "merchant": "Stationery Shops",
+    "amount": 13.27,
+    "date": "2023-11-05",
+    "category": "Personal Care",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 834,
+    "merchant": "Metro",
+    "amount": 99.02,
+    "date": "2023-11-01",
+    "category": "Shopping",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 835,
+    "merchant": "Tanishq",
+    "amount": 20.12,
+    "date": "2024-10-01",
+    "category": "Charity",
+    "sub_category": "Gas Services"
+  },
+  {
+    "id": 836,
+    "merchant": "Amazon",
+    "amount": 71.28,
+    "date": "2023-05-10",
+    "category": "Shopping",
+    "sub_category": "Tuition Fees"
+  },
+  {
+    "id": 837,
+    "merchant": "Parking Fees",
+    "amount": 68.17,
+    "date": "2023-11-11",
+    "category": "Personal Care",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 838,
+    "merchant": "Zomato",
+    "amount": 23.43,
+    "date": "2024-12-23",
+    "category": "Investments",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 839,
+    "merchant": "Disney+ Hotstar",
+    "amount": 36.81,
+    "date": "2025-01-29",
+    "category": "Utilities",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 840,
+    "merchant": "HDFC Mutual Fund",
+    "amount": 89.9,
+    "date": "2024-09-22",
+    "category": "Groceries",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 841,
+    "merchant": "Amazon Prime",
+    "amount": 29.79,
+    "date": "2024-11-20",
+    "category": "Groceries",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 842,
+    "merchant": "Restaurants",
+    "amount": 68.48,
+    "date": "2024-07-20",
+    "category": "Food Services",
+    "sub_category": "Train Tickets"
+  },
+  {
+    "id": 843,
+    "merchant": "NetMeds",
+    "amount": 97.77,
+    "date": "2024-04-27",
+    "category": "Personal Care",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 844,
+    "merchant": "Juice Centers",
+    "amount": 41.8,
+    "date": "2023-08-09",
+    "category": "Investments",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 845,
+    "merchant": "Blinkit",
+    "amount": 35.5,
+    "date": "2024-07-15",
+    "category": "Professional Services",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 846,
+    "merchant": "Croma",
+    "amount": 70.83,
+    "date": "2023-05-09",
+    "category": "Household",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 847,
+    "merchant": "Netflix",
+    "amount": 48.15,
+    "date": "2023-09-19",
+    "category": "Personal Care",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 848,
+    "merchant": "Snacks Shops",
+    "amount": 28.75,
+    "date": "2023-09-20",
+    "category": "Personal Care",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 849,
+    "merchant": "Bharat Gas",
+    "amount": 25.49,
+    "date": "2023-07-31",
+    "category": "Health",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 850,
+    "merchant": "Advocates",
+    "amount": 75.33,
+    "date": "2023-06-01",
+    "category": "Shopping",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 851,
+    "merchant": "Stationery Shops",
+    "amount": 59.56,
+    "date": "2023-04-14",
+    "category": "Food Services",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 852,
+    "merchant": "Restaurants",
+    "amount": 93.3,
+    "date": "2024-02-24",
+    "category": "Investments",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 853,
+    "merchant": "OYO",
+    "amount": 72.03,
+    "date": "2024-12-04",
+    "category": "Groceries",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 854,
+    "merchant": "Uber",
+    "amount": 23.9,
+    "date": "2024-09-27",
+    "category": "Food Services",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 855,
+    "merchant": "DMart",
+    "amount": 64.6,
+    "date": "2024-04-21",
+    "category": "Education",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 856,
+    "merchant": "Lifestyle",
+    "amount": 47.68,
+    "date": "2023-05-20",
+    "category": "Insurance",
+    "sub_category": "Cryptocurrency"
+  },
+  {
+    "id": 857,
+    "merchant": "Street Food",
+    "amount": 57.75,
+    "date": "2024-06-29",
+    "category": "Travel",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 858,
+    "merchant": "SBI Mutual Fund",
+    "amount": 40.36,
+    "date": "2024-10-13",
+    "category": "Household",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 859,
+    "merchant": "Street Food",
+    "amount": 56.91,
+    "date": "2023-12-06",
+    "category": "Groceries",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 860,
+    "merchant": "Diesel",
+    "amount": 70.54,
+    "date": "2023-07-11",
+    "category": "",
+    "sub_category": "Airfare"
+  },
+  {
+    "id": 861,
+    "merchant": "Spotify",
+    "amount": 52.65,
+    "date": "2023-07-29",
+    "category": "Food Services",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 862,
+    "merchant": "Apollo Pharmacy",
+    "amount": 48.45,
+    "date": "2023-02-21",
+    "category": "Housing",
+    "sub_category": null
+  },
+  {
+    "id": 863,
+    "merchant": "Fruit Vendors",
+    "amount": 3.84,
+    "date": "2023-11-19",
+    "category": "Groceries",
+    "sub_category": ""
+  },
+  {
+    "id": 864,
+    "merchant": "Doctor Consultations",
+    "amount": 5.47,
+    "date": "2024-03-23",
+    "category": "Food Services",
+    "sub_category": "Fuel"
+  },
+  {
+    "id": 865,
+    "merchant": "ICICI Lombard",
+    "amount": 1.04,
+    "date": "2024-09-29",
+    "category": "Education",
+    "sub_category": "Gas Services"
+  },
+  {
+    "id": 866,
+    "merchant": "Big Bazaar",
+    "amount": 30.81,
+    "date": "2023-09-15",
+    "category": "Groceries",
+    "sub_category": "Hotels"
+  },
+  {
+    "id": 867,
+    "merchant": "Schools",
+    "amount": 59.08,
+    "date": "2024-10-15",
+    "category": "Shopping",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 868,
+    "merchant": "Doctor Consultations",
+    "amount": 11.41,
+    "date": "2024-03-25",
+    "category": "Investments",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 869,
+    "merchant": "SBI Mutual Fund",
+    "amount": 29.76,
+    "date": "2023-08-12",
+    "category": "",
+    "sub_category": ""
+  },
+  {
+    "id": 870,
+    "merchant": "ACT Fibernet",
+    "amount": 47.25,
+    "date": "2024-01-16",
+    "category": "Personal Care",
+    "sub_category": null
+  },
+  {
+    "id": 871,
+    "merchant": "SpiceJet",
+    "amount": 96.45,
+    "date": "2023-07-28",
+    "category": "Personal Care",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 872,
+    "merchant": "Zerodha",
+    "amount": 89.2,
+    "date": "2023-12-04",
+    "category": "Personal Care",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 873,
+    "merchant": "NGOs",
+    "amount": 5.4,
+    "date": "2024-07-31",
+    "category": "",
+    "sub_category": "Hotels"
+  },
+  {
+    "id": 874,
+    "merchant": "State Power Utilities",
+    "amount": 17.78,
+    "date": "2024-02-10",
+    "category": "Health",
+    "sub_category": "Home Loan"
+  },
+  {
+    "id": 875,
+    "merchant": "Doctor Consultations",
+    "amount": 98.26,
+    "date": "2025-01-27",
+    "category": "Groceries",
+    "sub_category": "Life Insurance"
+  },
+  {
+    "id": 876,
+    "merchant": "BSNL",
+    "amount": 63.08,
+    "date": "2023-09-17",
+    "category": "Utilities",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 877,
+    "merchant": "Byjus",
+    "amount": 57.89,
+    "date": "2023-06-14",
+    "category": "Shopping",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 878,
+    "merchant": "Uber",
+    "amount": 31.17,
+    "date": "2023-05-04",
+    "category": "Shopping",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 879,
+    "merchant": "Rapido",
+    "amount": 93,
+    "date": "2024-04-09",
+    "category": "Charity",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 880,
+    "merchant": "Unacademy",
+    "amount": 35.42,
+    "date": "2023-08-16",
+    "category": "Charity",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 881,
+    "merchant": "Bookstores",
+    "amount": 60.78,
+    "date": "2023-12-27",
+    "category": "Food Services",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 882,
+    "merchant": "INOX",
+    "amount": 92.48,
+    "date": "2024-04-09",
+    "category": "Personal Care",
+    "sub_category": "Public Transport"
+  },
+  {
+    "id": 883,
+    "merchant": "SpiceJet",
+    "amount": 10.07,
+    "date": "2025-01-19",
+    "category": "Household",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 884,
+    "merchant": "Amazon Prime",
+    "amount": 37.3,
+    "date": "2024-02-23",
+    "category": "Food Services",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 885,
+    "merchant": "CNG",
+    "amount": 84.24,
+    "date": "2025-02-02",
+    "category": "Personal Care",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 886,
+    "merchant": "Tata Sky",
+    "amount": 51.98,
+    "date": "2024-02-22",
+    "category": "Personal Care",
+    "sub_category": "Online Learning"
+  },
+  {
+    "id": 887,
+    "merchant": "Xbox Store",
+    "amount": 23.98,
+    "date": "2023-09-07",
+    "category": "Housing",
+    "sub_category": "Maintenance"
+  },
+  {
+    "id": 888,
+    "merchant": "Online Fundraising",
+    "amount": 36.76,
+    "date": "2024-04-14",
+    "category": "Food Services",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 889,
+    "merchant": "Purplle",
+    "amount": 74.8,
+    "date": "2024-05-28",
+    "category": "Groceries",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 890,
+    "merchant": "Gaana",
+    "amount": 66.63,
+    "date": "2024-05-28",
+    "category": "Telecommunications",
+    "sub_category": "Tuition Fees"
+  },
+  {
+    "id": 891,
+    "merchant": "HiCare",
+    "amount": 86.97,
+    "date": "2023-09-28",
+    "category": "Food Services",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 892,
+    "merchant": "Pepcopp",
+    "amount": 82.25,
+    "date": "2023-11-21",
+    "category": "Groceries",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 893,
+    "merchant": "Schools",
+    "amount": 47.86,
+    "date": "2024-09-05",
+    "category": "Charity",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 894,
+    "merchant": "OYO",
+    "amount": 96.62,
+    "date": "2024-04-21",
+    "category": "Health",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 895,
+    "merchant": "PVR",
+    "amount": 89,
+    "date": "2024-04-26",
+    "category": "Shopping",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 896,
+    "merchant": "Gaana",
+    "amount": 4.73,
+    "date": "2023-06-05",
+    "category": "Groceries",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 897,
+    "merchant": "State Power Utilities",
+    "amount": 49.49,
+    "date": "2023-03-11",
+    "category": "Education",
+    "sub_category": "Jewelry"
+  },
+  {
+    "id": 898,
+    "merchant": "Bajaj Allianz",
+    "amount": 9.94,
+    "date": "2024-06-21",
+    "category": "Groceries",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 899,
+    "merchant": "Snacks Shops",
+    "amount": 1.48,
+    "date": "2023-04-26",
+    "category": "Education",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 900,
+    "merchant": "HiCare",
+    "amount": 43.91,
+    "date": "2023-10-15",
+    "category": "Investments",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 901,
+    "merchant": "Blinkit",
+    "amount": 49.72,
+    "date": "2023-08-02",
+    "category": "Groceries",
+    "sub_category": "Airfare"
+  },
+  {
+    "id": 902,
+    "merchant": "NGOs",
+    "amount": 57.36,
+    "date": "2024-09-08",
+    "category": "Travel",
+    "sub_category": ""
+  },
+  {
+    "id": 903,
+    "merchant": "Goibibo",
+    "amount": 49.54,
+    "date": "2024-09-13",
+    "category": "Shopping",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 904,
+    "merchant": "Cafes",
+    "amount": 65.53,
+    "date": "2024-09-20",
+    "category": "Telecommunications",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 905,
+    "merchant": "Groww",
+    "amount": 83.49,
+    "date": "2023-05-12",
+    "category": "Health",
+    "sub_category": "Tuition Fees"
+  },
+  {
+    "id": 906,
+    "merchant": "CoinSwitch",
+    "amount": 51.96,
+    "date": "2025-01-09",
+    "category": "Housing",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 907,
+    "merchant": "Thomas Cook",
+    "amount": 63.13,
+    "date": "2023-04-13",
+    "category": "Groceries",
+    "sub_category": "Public Transport"
+  },
+  {
+    "id": 908,
+    "merchant": "ICICI Bank",
+    "amount": 30.69,
+    "date": "2023-09-11",
+    "category": "Personal Care",
+    "sub_category": "Maintenance"
+  },
+  {
+    "id": 909,
+    "merchant": "Malabar Gold",
+    "amount": 51.44,
+    "date": "2024-11-27",
+    "category": "Food Services",
+    "sub_category": "Tuition Fees"
+  },
+  {
+    "id": 910,
+    "merchant": "Spotify",
+    "amount": 51.18,
+    "date": "2023-07-17",
+    "category": "Personal Care",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 911,
+    "merchant": "MedPlus",
+    "amount": 62.57,
+    "date": "2024-05-25",
+    "category": "Groceries",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 912,
+    "merchant": "Metro",
+    "amount": 19.51,
+    "date": "2023-02-11",
+    "category": "Groceries",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 913,
+    "merchant": "HP Gas",
+    "amount": 42.1,
+    "date": "2023-10-14",
+    "category": "Entertainment",
+    "sub_category": "Hotels"
+  },
+  {
+    "id": 914,
+    "merchant": "Swiggy",
+    "amount": 53.61,
+    "date": "2024-01-12",
+    "category": "",
+    "sub_category": "Festive Shopping"
+  },
+  {
+    "id": 915,
+    "merchant": "ICICI Bank",
+    "amount": 98.68,
+    "date": "2024-09-21",
+    "category": "Education",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 916,
+    "merchant": "Zomato",
+    "amount": 66.62,
+    "date": "2024-05-25",
+    "category": "Household",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 917,
+    "merchant": "PlayStation Store",
+    "amount": 27.96,
+    "date": "2023-10-25",
+    "category": "Groceries",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 918,
+    "merchant": "Blinkit",
+    "amount": 14.3,
+    "date": "2024-01-16",
+    "category": "Housing",
+    "sub_category": ""
+  },
+  {
+    "id": 919,
+    "merchant": "Tata AIG",
+    "amount": 25.63,
+    "date": "2024-10-29",
+    "category": "Groceries",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 920,
+    "merchant": "Decorations",
+    "amount": 64,
+    "date": "2024-07-31",
+    "category": "Investments",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 921,
+    "merchant": "Gym Memberships",
+    "amount": 51.37,
+    "date": "2023-11-26",
+    "category": "Housing",
+    "sub_category": "Fuel"
+  },
+  {
+    "id": 922,
+    "merchant": "ACT Fibernet",
+    "amount": 43.34,
+    "date": "2025-01-17",
+    "category": "Transportation",
+    "sub_category": "Local Stores"
+  },
+  {
+    "id": 923,
+    "merchant": "Bharat Gas",
+    "amount": 1.96,
+    "date": "2024-07-12",
+    "category": "",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 924,
+    "merchant": "Swiggy",
+    "amount": 39.54,
+    "date": "2024-08-12",
+    "category": "",
+    "sub_category": "Stocks"
+  },
+  {
+    "id": 925,
+    "merchant": "Gifts",
+    "amount": 44.81,
+    "date": "2023-09-06",
+    "category": "Shopping",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 926,
+    "merchant": "Monthly Rent Payments",
+    "amount": 28.67,
+    "date": "2023-12-29",
+    "category": "Personal Care",
+    "sub_category": "Water Bill"
+  },
+  {
+    "id": 927,
+    "merchant": "State Buses",
+    "amount": 43.08,
+    "date": "2024-10-02",
+    "category": "Travel",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 928,
+    "merchant": "Zomato",
+    "amount": 25.59,
+    "date": "2023-10-28",
+    "category": "Personal Care",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 929,
+    "merchant": "Tanishq",
+    "amount": 44.56,
+    "date": "2024-02-06",
+    "category": "Professional Services",
+    "sub_category": "Snacks and Beverages"
+  },
+  {
+    "id": 930,
+    "merchant": "Flipkart",
+    "amount": 31.42,
+    "date": "2024-12-18",
+    "category": "Health",
+    "sub_category": "Legal Services"
+  },
+  {
+    "id": 931,
+    "merchant": "Jio",
+    "amount": 90.9,
+    "date": "2023-12-26",
+    "category": "Groceries",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 932,
+    "merchant": "Goibibo",
+    "amount": 67.69,
+    "date": "2023-03-13",
+    "category": "Groceries",
+    "sub_category": "Life Insurance"
+  },
+  {
+    "id": 933,
+    "merchant": "Jio",
+    "amount": 83.89,
+    "date": "2024-11-04",
+    "category": "Groceries",
+    "sub_category": "Cleaning Services"
+  },
+  {
+    "id": 934,
+    "merchant": "NetMeds",
+    "amount": 74.18,
+    "date": "2023-07-03",
+    "category": "Housing",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 935,
+    "merchant": "Hathway",
+    "amount": 3.61,
+    "date": "2023-04-29",
+    "category": "Shopping",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 936,
+    "merchant": "ICICI Bank",
+    "amount": 84.66,
+    "date": "2024-04-12",
+    "category": "Charity",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 937,
+    "merchant": "OYO",
+    "amount": 25.63,
+    "date": "2023-10-12",
+    "category": "Telecommunications",
+    "sub_category": "Life Insurance"
+  },
+  {
+    "id": 938,
+    "merchant": "Swiggy",
+    "amount": 75.02,
+    "date": "2023-11-25",
+    "category": "Investments",
+    "sub_category": "Hotels"
+  },
+  {
+    "id": 939,
+    "merchant": "Railways",
+    "amount": 90.76,
+    "date": "2024-09-21",
+    "category": "Telecommunications",
+    "sub_category": "Hotels"
+  },
+  {
+    "id": 940,
+    "merchant": "Flipkart",
+    "amount": 93.77,
+    "date": "2023-02-14",
+    "category": "Groceries",
+    "sub_category": "Toll and Parking"
+  },
+  {
+    "id": 941,
+    "merchant": "Jio",
+    "amount": 32.77,
+    "date": "2023-10-19",
+    "category": "Housing",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 942,
+    "merchant": "CoinSwitch",
+    "amount": 3.09,
+    "date": "2024-02-16",
+    "category": "Entertainment",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 943,
+    "merchant": "Airtel",
+    "amount": 34.7,
+    "date": "2024-04-17",
+    "category": "Groceries",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 944,
+    "merchant": "Amazon Pantry",
+    "amount": 19.91,
+    "date": "2023-11-12",
+    "category": "Housing",
+    "sub_category": "Online Stores"
+  },
+  {
+    "id": 945,
+    "merchant": "Bookstores",
+    "amount": 70.1,
+    "date": "2023-04-26",
+    "category": "Personal Care",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 946,
+    "merchant": "Yatra",
+    "amount": 31.64,
+    "date": "2023-07-16",
+    "category": "Groceries",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 947,
+    "merchant": "Cafes",
+    "amount": 57.6,
+    "date": "2023-08-27",
+    "category": "",
+    "sub_category": "Holiday Packages"
+  },
+  {
+    "id": 948,
+    "merchant": "Decorations",
+    "amount": 19.24,
+    "date": "2023-05-27",
+    "category": "Food Services",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 949,
+    "merchant": "Notaries",
+    "amount": 71.49,
+    "date": "2024-12-14",
+    "category": "Food Services",
+    "sub_category": "Water Bill"
+  },
+  {
+    "id": 950,
+    "merchant": "HDFC Bank",
+    "amount": 93.62,
+    "date": "2024-07-16",
+    "category": "Health",
+    "sub_category": null
+  },
+  {
+    "id": 951,
+    "merchant": "Flipkart",
+    "amount": 52.81,
+    "date": "2023-11-09",
+    "category": "Household",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 952,
+    "merchant": "Railways",
+    "amount": 20.38,
+    "date": "2024-03-19",
+    "category": "Transportation",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 953,
+    "merchant": "Reliance Fresh",
+    "amount": 84.27,
+    "date": "2023-02-20",
+    "category": "Education",
+    "sub_category": "Music"
+  },
+  {
+    "id": 954,
+    "merchant": "Pepcopp",
+    "amount": 65.97,
+    "date": "2024-05-14",
+    "category": "Investments",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 955,
+    "merchant": "BigBasket",
+    "amount": 17.22,
+    "date": "2024-04-26",
+    "category": "",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 956,
+    "merchant": "Tata Sky",
+    "amount": 41.54,
+    "date": "2023-06-29",
+    "category": "Investments",
+    "sub_category": "Dining Out"
+  },
+  {
+    "id": 957,
+    "merchant": "AJIO",
+    "amount": 9.14,
+    "date": "2024-04-28",
+    "category": "Groceries",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 958,
+    "merchant": "SOTC",
+    "amount": 34.48,
+    "date": "2023-02-23",
+    "category": "Utilities",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 959,
+    "merchant": "Petrol",
+    "amount": 22.97,
+    "date": "2023-08-28",
+    "category": "Education",
+    "sub_category": "Rent"
+  },
+  {
+    "id": 960,
+    "merchant": "Bharat Gas",
+    "amount": 63.67,
+    "date": "2024-11-05",
+    "category": "Health",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 961,
+    "merchant": "Religare",
+    "amount": 41.48,
+    "date": "2023-11-05",
+    "category": "Groceries",
+    "sub_category": "Fitness"
+  },
+  {
+    "id": 962,
+    "merchant": "Tanishq",
+    "amount": 81.64,
+    "date": "2023-03-21",
+    "category": "Personal Care",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 963,
+    "merchant": "MakeMyTrip",
+    "amount": 68.46,
+    "date": "2023-09-09",
+    "category": "Travel",
+    "sub_category": "Pest Control"
+  },
+  {
+    "id": 964,
+    "merchant": "Myntra",
+    "amount": 52.52,
+    "date": "2024-03-30",
+    "category": "Investments",
+    "sub_category": "Salons and Spas"
+  },
+  {
+    "id": 965,
+    "merchant": "Kiranas",
+    "amount": 71.13,
+    "date": "2024-02-22",
+    "category": "Charity",
+    "sub_category": "Online Food Delivery"
+  },
+  {
+    "id": 966,
+    "merchant": "Advocates",
+    "amount": 70.82,
+    "date": "2023-08-28",
+    "category": "Shopping",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 967,
+    "merchant": "OYO",
+    "amount": 34.5,
+    "date": "2023-03-23",
+    "category": "Groceries",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 968,
+    "merchant": "CoinSwitch",
+    "amount": 62.22,
+    "date": "2025-01-02",
+    "category": "Investments",
+    "sub_category": null
+  },
+  {
+    "id": 969,
+    "merchant": "Amazon Pantry",
+    "amount": 75.58,
+    "date": "2024-12-29",
+    "category": "Travel",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 970,
+    "merchant": "Tax Consultants",
+    "amount": 30.09,
+    "date": "2024-01-12",
+    "category": "Groceries",
+    "sub_category": "Medical Services"
+  },
+  {
+    "id": 971,
+    "merchant": "Amazon",
+    "amount": 87.19,
+    "date": "2023-09-19",
+    "category": "Groceries",
+    "sub_category": "Toll and Parking"
+  },
+  {
+    "id": 972,
+    "merchant": "LIC",
+    "amount": 56.35,
+    "date": "2024-10-25",
+    "category": "Utilities",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 973,
+    "merchant": "Flipkart",
+    "amount": 32.62,
+    "date": "2025-01-25",
+    "category": "Food Services",
+    "sub_category": "Public Transport"
+  },
+  {
+    "id": 974,
+    "merchant": "Bookstores",
+    "amount": 23.97,
+    "date": "2024-01-04",
+    "category": "Education",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 975,
+    "merchant": "Bajaj Allianz",
+    "amount": 38.26,
+    "date": "2023-02-25",
+    "category": "Groceries",
+    "sub_category": "Electricity Bill"
+  },
+  {
+    "id": 976,
+    "merchant": "LIC",
+    "amount": 83.29,
+    "date": "2024-10-13",
+    "category": "Travel",
+    "sub_category": "Streaming Services"
+  },
+  {
+    "id": 977,
+    "merchant": "Cafes",
+    "amount": 3.92,
+    "date": "2024-03-01",
+    "category": "Personal Care",
+    "sub_category": "Cable-DTH"
+  },
+  {
+    "id": 978,
+    "merchant": "Blinkit",
+    "amount": 43.45,
+    "date": "2024-08-27",
+    "category": "Investments",
+    "sub_category": "Life Insurance"
+  },
+  {
+    "id": 979,
+    "merchant": "State Power Utilities",
+    "amount": 26.89,
+    "date": "2024-09-07",
+    "category": "Transportation",
+    "sub_category": ""
+  },
+  {
+    "id": 980,
+    "merchant": "Reliance Fresh",
+    "amount": 63.56,
+    "date": "2023-04-05",
+    "category": "",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 981,
+    "merchant": "Dish TV",
+    "amount": 52.49,
+    "date": "2024-03-28",
+    "category": "Entertainment",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 982,
+    "merchant": "Colleges",
+    "amount": 5.69,
+    "date": "2023-10-11",
+    "category": "Health",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 983,
+    "merchant": "Myntra",
+    "amount": 20.48,
+    "date": "2023-07-22",
+    "category": "Personal Care",
+    "sub_category": "Books and Supplies"
+  },
+  {
+    "id": 984,
+    "merchant": "CoinDCX",
+    "amount": 48.42,
+    "date": "2024-07-12",
+    "category": "Personal Care",
+    "sub_category": "Beauty Products"
+  },
+  {
+    "id": 985,
+    "merchant": "Hathway",
+    "amount": 80.4,
+    "date": "2023-07-19",
+    "category": "Travel",
+    "sub_category": "Tax and Accounting"
+  },
+  {
+    "id": 986,
+    "merchant": "Tax Consultants",
+    "amount": 29.26,
+    "date": "2024-11-07",
+    "category": "Entertainment",
+    "sub_category": "Maintenance"
+  },
+  {
+    "id": 987,
+    "merchant": "CNG",
+    "amount": 97.27,
+    "date": "2024-08-11",
+    "category": "Food Services",
+    "sub_category": "Electronics"
+  },
+  {
+    "id": 988,
+    "merchant": "Yoga Classes",
+    "amount": 47.06,
+    "date": "2024-09-23",
+    "category": "Food Services",
+    "sub_category": "Life Insurance"
+  },
+  {
+    "id": 989,
+    "merchant": "Gaana",
+    "amount": 12.39,
+    "date": "2024-11-29",
+    "category": "Education",
+    "sub_category": "Plumbing and Repairs"
+  },
+  {
+    "id": 990,
+    "merchant": "HDFC Mutual Fund",
+    "amount": 7.23,
+    "date": "2024-12-15",
+    "category": "Shopping",
+    "sub_category": "Mutual Funds"
+  },
+  {
+    "id": 991,
+    "merchant": "Thomas Cook",
+    "amount": 16.79,
+    "date": "2024-03-15",
+    "category": "Food Services",
+    "sub_category": "Movies"
+  },
+  {
+    "id": 992,
+    "merchant": "Universities",
+    "amount": 21.68,
+    "date": "2024-03-29",
+    "category": "Investments",
+    "sub_category": "Health Insurance"
+  },
+  {
+    "id": 993,
+    "merchant": "Disney+ Hotstar",
+    "amount": 79.24,
+    "date": "2024-08-26",
+    "category": "Personal Care",
+    "sub_category": "Retail Stores"
+  },
+  {
+    "id": 994,
+    "merchant": "NetMeds",
+    "amount": 62.68,
+    "date": "2023-09-25",
+    "category": "Investments",
+    "sub_category": "Internet Services"
+  },
+  {
+    "id": 995,
+    "merchant": "Vodafone Idea",
+    "amount": 6.87,
+    "date": "2024-09-24",
+    "category": "Personal Care",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 996,
+    "merchant": "BSNL",
+    "amount": 34.27,
+    "date": "2024-03-03",
+    "category": "Shopping",
+    "sub_category": "Pharmacy"
+  },
+  {
+    "id": 997,
+    "merchant": "CoinDCX",
+    "amount": 78.44,
+    "date": "2023-04-05",
+    "category": "Groceries",
+    "sub_category": "Public Transport"
+  },
+  {
+    "id": 998,
+    "merchant": "Advocates",
+    "amount": 3.82,
+    "date": "2023-03-28",
+    "category": "Food Services",
+    "sub_category": "Cab Services"
+  },
+  {
+    "id": 999,
+    "merchant": "IRCTC",
+    "amount": 68.12,
+    "date": "2025-01-12",
+    "category": "Investments",
+    "sub_category": "Gaming"
+  },
+  {
+    "id": 1000,
+    "merchant": "Tata Sky",
+    "amount": 51.27,
+    "date": "2024-12-25",
+    "category": "Charity",
+    "sub_category": "Beauty Products"
+  }
+]

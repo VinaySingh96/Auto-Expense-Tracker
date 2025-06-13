@@ -1,4 +1,4 @@
-import {View, Text, StyleSheet, ScrollView, FlatList} from 'react-native';
+import {View, Text, StyleSheet, ScrollView, FlatList, ActivityIndicator} from 'react-native';
 import React, {useEffect, useState} from 'react';
 import {DefaultStyle} from '../../utils/DefaultStyle';
 import TransactionCard from '../../components/TransactionCard';
@@ -8,11 +8,13 @@ import { groupExpensesOnMerchants } from '../../utils/helper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 import { THEME_COLOR } from '../../constants/Colour';
 import SearchBar from '../../components/SearchBar';
+import Chips from '../../components/Chips';
 
 const Transactions = () => {
   const [transactions, setTransactions] = useState([]);
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedExpense, setSelectedExpense] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
 
   const [noSearchFound, setNoSearchFound] = useState('');
 
@@ -66,6 +68,28 @@ const Transactions = () => {
     setTransactions(filteredData);
   }
 
+  const chipData = ['date', 'amount'];
+  const handleSort = (types) => {
+    setIsLoading(true); // Start loading
+  
+    setTimeout(() => {
+      let sortedTransactions = [...transactions];
+  
+      types.forEach((type) => {
+        if (type === 'date') {
+          sortedTransactions.sort((a, b) => new Date(b.date) - new Date(a.date));
+        } else if (type === 'amount') {
+          sortedTransactions.sort((a, b) => b.amount - a.amount);
+        }
+      });
+  
+      setTransactions(sortedTransactions);
+      setIsLoading(false); // End loading
+    }, 0); // Allows React to update UI before sorting
+  };
+  
+  
+
   return (
     <View style={styles.theme}>
       <View>
@@ -73,28 +97,34 @@ const Transactions = () => {
         <View style={DefaultStyle.itemsCenter}>
           <SearchBar placeholder="Search Merchant" onSearch={handleSearch} />
         </View>
+        <View style={styles.sortContainer}>
+          <Text style={styles.label}>Sort by:</Text>
+          <Chips chipData={chipData} handleChipSelect={handleSort} />
+        </View>
       </View>
       <View style={[DefaultStyle.container, {paddingVertical: 0}]}>
-        {transactions.length > 0 ? (
-          <FlatList
-            data={transactions}
-            keyExtractor={item => item.id.toString()}
-            renderItem={({item}) => (
-              <TransactionCard
-                transaction={item}
-                onCategorize={handleCategorize}
-              />
-            )}
-          />
-        ) : (
-          <View style={{ marginVertical: 'auto' }}>
-            <Icon name="playlist-check" style={styles.noTransactionsIcon} />
-            <Text style={styles.noTransactions}>
-              No uncategorized transactions found.
-            </Text>
-          </View>
-        )}
-      </View>
+      {isLoading ? (
+        <ActivityIndicator size="large" color={THEME_COLOR.primary} />
+      ) : transactions.length > 0 ? (
+        <FlatList
+          data={transactions}
+          keyExtractor={item => item.id.toString()}
+          renderItem={({item}) => (
+            <TransactionCard
+              transaction={item}
+              onCategorize={handleCategorize}
+            />
+          )}
+        />
+      ) : (
+        <View style={{ marginVertical: 'auto' }}>
+          <Icon name="playlist-check" style={styles.noTransactionsIcon} />
+          <Text style={styles.noTransactions}>
+            No uncategorized transactions found.
+          </Text>
+        </View>
+      )}
+    </View>
       <CategoryModal
         visible={modalVisible}
         onClose={() => setModalVisible(false)}
@@ -112,12 +142,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    backgroundColor: '#f8f8f8'
+    backgroundColor: '#f8f8f8',
+    justifyContent: 'center', // Center content vertically
+    alignItems: 'center', // Center content horizontally
   },
   title: {
     fontSize: 18,
     fontWeight: 'bold',
-    marginBottom: 10
+    marginBottom: 10,
   },
   noTransactions: {
     fontSize: 14,
@@ -131,6 +163,18 @@ const styles = StyleSheet.create({
     marginTop: 20,
     color: THEME_COLOR.textSecondary,
   },
+  sortContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 10,
+  },
+  label: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: THEME_COLOR.textPrimary,
+    marginRight: 10,
+  },
 });
+
 
 export default Transactions;

@@ -187,7 +187,7 @@ class TransactionParser {
   }
 
   classifyTransaction = (message) => {
-    const debitRegex = /(?:paid|spent|spend|withdrawn|debit|debited|charged)/i;
+    const debitRegex = /(?:paid|spent|spend|withdrawn|debit|debited)/i;
     const creditRegex = /(?:deposit|deposited|credit|credited|refund|refunded|reversed|transfer|transferred)/i;
   
     if (debitRegex.test(message)) {

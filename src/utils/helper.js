@@ -65,6 +65,10 @@ export const groupExpensesOnMerchants = (expenses) => {
       acc[expense.merchant] = acc[expense.merchant] || { ...expense, count: 0, amount: 0 };
       acc[expense.merchant].count++;
       acc[expense.merchant].amount += expense.amount;
+
+      // Update to latest date
+      acc[expense.merchant].date = new Date(expense.date) > new Date(acc[expense.merchant].date) ? expense.date : acc[expense.merchant].date;
+
       return acc;
     }, {})
   ).sort((a, b) => b.count - a.count);;

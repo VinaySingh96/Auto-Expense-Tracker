@@ -9,6 +9,7 @@ import {useModal} from '../context/ModalContext';
 import ManualEntryModal from '../components/ManualEntryModal';
 import TransactionParserService from '../services/TransactionParserService';
 import {REGEX_TYPES} from '../constants/RegexTypes';
+import { ignoreKeywords } from '../constants/PaymentMode';
 
 const useSmsService = () => {
   const {showModal, hideModal} = useModal();
@@ -84,11 +85,16 @@ const useSmsService = () => {
   };
 
   const categorizeTransaction = async transactionMessage => {
-    const transactionType =
-      TransactionParserService.classifyTransaction(transactionMessage);
-    if (!transactionType) return;
-    let {merchant, amount, date, paymentMode} =
-      TransactionParserService.parseInfo(transactionMessage);
+    const transactionType = TransactionParserService.classifyTransaction(transactionMessage);
+    if (!transactionType || transactionType === 'CREDIT') return;
+
+    if (ignoreKeywords.some(keyword => transactionMessage.toLowerCase().includes(keyword.toLowerCase()))) {
+      return;
+    }
+
+    let {merchant, amount, date, paymentMode} = TransactionParserService.parseInfo(transactionMessage);
+
+    if(!amount) return;
 
     if (!merchant || !amount || !date) {
       const userInput = await showModal(ManualEntryModal, {

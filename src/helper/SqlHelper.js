@@ -275,7 +275,7 @@ export const updateRegexes = async (regexes, type) => {
       `UPDATE ${transactionRegexesDB} SET regexes = ? WHERE type = ?;`,
       [serializedRegexes, type],
       (_, result) => {
-        console.log('Update successful:', result);
+        // console.log('Update successful:', result);
       },
       (_, error) => {
         console.error('Error updating expense:', error);

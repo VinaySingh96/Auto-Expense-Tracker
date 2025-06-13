@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Modal,
   View,
@@ -6,7 +6,9 @@ import {
   StyleSheet,
   TouchableOpacity,
   TouchableWithoutFeedback,
-  ScrollView,
+  KeyboardAvoidingView,
+  Platform,
+  Keyboard,
 } from 'react-native';
 import { THEME_COLOR } from '../constants/Colour';
 
@@ -17,15 +19,31 @@ const CustomModal = ({
   title = 'Custom Modal',
   save = '',
   onSave,
+  modalHeight = '50%', // Default height, can be overridden
 }) => {
+  const [keyboardVisible, setKeyboardVisible] = useState(false);
+
+  useEffect(() => {
+    const showListener = Keyboard.addListener('keyboardDidShow', () => setKeyboardVisible(true));
+    const hideListener = Keyboard.addListener('keyboardDidHide', () => setKeyboardVisible(false));
+
+    return () => {
+      showListener.remove();
+      hideListener.remove();
+    };
+  }, []);
+
   return (
     <Modal transparent visible={visible} animationType="slide">
       {/* Overlay: Close modal when clicking outside */}
       <TouchableWithoutFeedback onPress={onClose}>
         <View style={styles.modalOverlay}>
-          {/* Modal Content: Prevent clicks inside from closing the modal */}
+          {/* Prevent clicks inside modal from closing it */}
           <TouchableWithoutFeedback>
-            <View style={styles.modalContent}>
+            <KeyboardAvoidingView 
+              behavior={Platform.OS === "ios" ? "padding" : "height"} 
+              style={[styles.modalContent, { height: keyboardVisible ? '70%' : modalHeight }]} // Adjust height dynamically
+            >
               {/* Title Bar */}
               <View style={styles.titleContainer}>
                 <Text style={styles.modalTitle}>{title}</Text>
@@ -36,7 +54,7 @@ const CustomModal = ({
                 {children}
               </View>
 
-              {/* Close Button */}
+              {/* Close & Save Buttons */}
               <View style={styles.buttonContainer}>
                 <TouchableOpacity style={styles.button} onPress={onClose}>
                   <Text style={styles.buttonText}>Close</Text>
@@ -47,7 +65,7 @@ const CustomModal = ({
                   </TouchableOpacity>
                 )}
               </View>
-            </View>
+            </KeyboardAvoidingView>
           </TouchableWithoutFeedback>
         </View>
       </TouchableWithoutFeedback>
@@ -64,7 +82,6 @@ const styles = StyleSheet.create({
   },
   modalContent: {
     width: '80%',
-    height: '50%',
     backgroundColor: 'white',
     borderRadius: 10,
     alignItems: 'center',
@@ -88,10 +105,9 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     width: '100%',
     padding: 10,
-    paddingBottom: 80, // Add padding to avoid overlap with buttons
   },
   buttonContainer: {
-    position: 'absolute', // Position at the bottom
+    position: 'absolute',
     bottom: 0,
     left: 0,
     right: 0,
@@ -99,9 +115,9 @@ const styles = StyleSheet.create({
     justifyContent: 'space-evenly',
     paddingHorizontal: 16,
     paddingVertical: 10,
-    backgroundColor: 'white', // Ensure buttons are visible
+    backgroundColor: 'white',
     borderTopWidth: 1,
-    borderTopColor: '#e0e0e0', // Add a border for separation
+    borderTopColor: '#e0e0e0',
   },
   button: {
     flex: 1,
